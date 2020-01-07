@@ -1,0 +1,113 @@
+Q: Welche Rolle übernimmst du im Unternehmen?
+Softwareentwicklung.
+
+Q: Du administrierst auch Server?
+Nein.
+
+Q: Welche Daten verarbeitest du bei der Softwareentwicklung? Welche Daten schaust du dir in DevOps-Tools an, die dich bei der Softwareentwicklung zu unterstützen?
+Bei einem Kundenprojekt sind es schon pbD Testdaten, aber es sind echte Daten, die als Testdaten verwendet werden.
+
+Q: Welche sind das?
+Volle Anschrift, Name und Kundenspezifische Dinge (wie IDs, Meldungen des Nutzers der Domäne etc.), daraus lassen sich auch grobe finanzielle Daten des Nutzers ableiten.
+
+Q: Wo liegen diese Daten, die du verarbeitest?
+An mehreren Orten. Vom Unternehmen gestellter Hardware (einschl. mein eigenes Arbeitsgerät) und Server (in-house) und auch beim Kunden. Sogar vom Dienstleister des Kunden, die für den Kunden die Daten woanders halten. Wir ziehen sie auch durch Internet die ganze Zeit. Auch in Mails, also auch unser Dienstleister für Mails hat diese Daten, unverschlüsselt (da unserer Kunde Mails nicht verschlüsselt).
+
+Q: Du sprichst von Daten verarbeiten. Wieso?
+Ab dem Zeitpunkt ab dem ich die Daten sehe / vorliegen habe, verarbeite ich sie. Ich verändere sie zwar nicht, aber ich kann sie mir merken, verändern oder irgendwas damit tun.
+
+Q: Wie genau kannst du die Daten denn sehen?
+Schwierige Frage. Ich verstehe die Frage nur bedingt. Ich greife auf mannigfaltige Arten auf diese Daten zu (von Mails bis Einsicht in den Sourcecode). U.U. in Kundengesprächen, bspw. beim Weekly, wenn unser Kunde mündlich Daten nennt.
+
+Q: Kommen wir nochmal zurück zu der Frage: Welche Daten schaust du dir in DevOps-Tools an, die dich bei der Softwareentwicklung zu unterstützen?
+Kundenkontaktdaten, Passwörter und Accounts, Adressen von APIs, usw. (siehe oben). In Issues stehen Daten.
+
+Q: Was steht denn noch so in Issues?
+Informationen aus Kundengesprächen, sowie gebuchte Zeiten von meinen Kollegen, Arbeitszeiten, Commits und Pushes mit Zeitstempeln. Das lässt sich auch über das GitLab in Erfahrung bringen. Also man kann schon ziemlich gut zusammenpuzzeln wann jemand ungefähr tätig war und das bis runter auf die konkrete Person, dadurch das wir Entwicklerprofile und Nicknames haben und das 1 zu 1 zuordnen können. Das gilt auch für Dritte, also Mitarbeiter von Kunden oder von deren Dienstleistern, da das auch im Git log steht.
+
+Q: Und da steht die Anfangs- und Endzeit?
+Nein, es stehen dort konkrete Zeitpunkte drin wann Commits gemacht worden sind und wann ein bestimmter Stand gepusht wurde, in Zusammenhang mit wer hat's gemacht. Im Issue Tracker steht wiederum wann hat jemand für welchen Tag, wieviele Stunden gebucht. Darüber lässt sich nicht unbedingt die Start- und Endzeit erkennen, höchstens deduziert. Das hängt auch davon ab wie gebucht wird von denjenigen. Also quasi 3/4 Timetracking.
+
+Q: Was schaust du dir dort sonst noch explizit an?
+Ich schaue in seltenen Fällen in das GitLab rein, zumindest nicht personenspezifisch. In seltensten Fällen prüfe ich wie viel jemand an Zeit getrackt hat, bspw. wenn ich mich mit jemanden abstimmen muss, weil wir ein gemeinsames Timebudget haben. Oder ich schaue nach wie viel Zeit die anderen für ein Meeting gebucht haben, wenn ich mir nicht mehr sicher bin wie lange es ging. Ich gucke auch welche Aufgaben wem zugewiesen worden sind, resp. was mir zugewiesen ist und wer die Issues beobachtet, um diese Personen ggf. zu informieren.
+
+Q: In welcher Auflösung brauchst du die Zeitstempel? Auf der GitHub Weboberfläche wird ja z.B. nach mehr als einem Tag nicht mehr die genaue Uhrzeit angezeigt, sondern “vor einem Tag”, “vor einer Woche”, etc. Stört dich das, oder brauchst du den Zeitstempel irgendwann nicht mehr so genau?
+Mouseover zeigt einem die genaue Uhrzeit. Du siehst immer die genaue Zeit. Das nutze ich sogar explizit um meine eigene Arbeitszeit nochmal nachzuvollziehen, wenn ich bspw. nicht mehr genau weiß wann ich Feierabend gemacht habe, aber ich weiß das ich den Tag mit dem Commit abgeschlossen habe.
+Ja, irgendwann brauche ich die Zeitstempel nicht mehr genau. Nämlich wenn der Monat abgeschlossen wurde und man sowieso nichts mehr an den reporteten Zeiten ändern kann.
+Aber auch da gibt es Ausnahmen, bspw. könnte ein Kunde nachträglich sagen "ihr habt nicht rechtzeitig abgeliefert" und wir können auf den genauen Zeitstempel zeigen um zu sagen "doch".
+
+Q: Gibt es irgendetwas anderes, was du dir anschaust?
+Wir haben einen instant messenger und da sind die Timestamps manchmal wichtig. Weil bestimmte Aussagen nach bestimmten Aussagen kamen und man gucken muss welche Aussage die aktuellere ist.
+
+Q: Man kann ja auch Vektoruhren nutzen.
+Dann kann man aber nicht die Timestamps in dem einen Tool (bspw. Chat Tool) mit bspw. den Timestamps aus einer Mail, oder aus einem Tool vom Kunden vergleichen und das ist mir sehr wichtig.
+
+Q: Schaust du dir auch an, wer, was gebaut hat im CI, projektspezifisch?
+Ja, weil verschiedene Leute mit versch. Rollen dort Dinge tun. Weil es mein Lead Dev, oder der SysAdmin gewesen ist und ich so weiß ob es mich viel betrifft, oder wenig. Auch wenn jemand vom Kunden etwas macht, kann es ein anderes Modul sein, oder mich betreffen. Das sind eig. alles Substitutionen für Kommunikation, die eig. auf anderen Wegen passieren muss.
+
+Q: Was schaust du dir beim Review-Tool an?
+Gar nichts, weil ich idR kein Code reviewe. Ich nutze das Tool, wenn man das so sagen kann, maximal um ältere Zustande meiner alten Arbeit anzusehen. Wenn ich 500 Iterationen einer Oberfläche habe, dann nutze ich das Tool gerne, weil das da farblich hervorgehoben wird was ich brauche.
+
+Q: Wie lange ist es für dich wichtig, dass diese Daten aufbewahrt werden?
+So lange wie ich angestellt bin, weil danach bin ich ja raus aus dem Unternehmen. Aber es muss ja auch weiterhin nachweislich bleiben was wir gemacht haben und mit welchem Pensum, bspw. ggü. eines Kunden. Allerdings muss das nicht ich tun, unter Umständen müsste also nicht ich auf so alte Daten zugreifen können, so lange ich da nicht in einer Nachweispflicht bin.
+Es kann auch mal sein das ich alte Mails aus 2015 brauche um etwas nachzuweisen. Gerade bei Projekten, die lange stillstehen.
+
+Q: Wie lange werden die Daten in den DevOps-Tools aufbewahrt?
+Meines Wissens nach so lange das Unternehmen besteht. Mir sind keine Pläne bekannt, in den DevOps-Tools, die ich nutze, dass dort Löschungen vorgenommen werden. Sondern diese werden zwecks Archivierung behalten (instant messages, Mails, Groupware, Kalender, etc.).
+
+Q: Was für Daten schaust du dir nochmal in Issues an und in welchem Detailsgrad brauchst du diese Daten?
+Der Inhalt des Issues, also Arbeitsanweisung und ggf. notwendige Informationen dafür (wie ist etwas erreichbar, Zugriffsinfos), in manchen Fällen (wenn es nicht implizit ist) was für Personen involviert sind, weil ich mich mit denen ggf. abstimmen muss. Dann die latest activity, weil ich ggf. sehen muss, ob jemand den Inhalt verändert hat, dabei auch das TimeTracking. Wenn ich bspw. nen Tag nicht da bin, muss ich schauen können, ob ich ein Catch-Up machen muss. Auch sowas wie "Needs Customer Feedback", also der Status eines Issues. Diese ganzen Informationen und auch von wann ist die letzte Änderung. Bspw. ob es schon ewig offen ist. Das ist wichtig für die allgemeine Arbeit mit den Dingern, je nachdem wie hoch mein Verantwortungsgrad in dem Projekt auch ist. Weil es durchaus Projekte gibt, da bekomme ich ein Issue, das mache ich, dann gebe ich das ab und danach ist mir alles egal. Meistens aber kümmere ich mich auch um Vollständigkeit von Informationen in Issues, bspw. wenn der eigentliche Verantwortliche nicht da sein konnte.
+
+Q: Schaust du dir auch an, wann und von wem ein Issue oder Kommentar editiert wurde?
+Ja, auf jeden Fall. Kann ja sein das sich meine Arbeitsanweisung geändert hat, oder ein Termin passiert ist, bei dem ich nicht da war und sich daraus etwas ergeben hat. Das ist ja auch wahr, wenn mir gesagt wird das sich was geändert hat, damit ich das dann finden kann.
+
+Q: Also du meinst es würde dich auch interessieren wer, wann, was editiert hat?
+Leider ja. Weil das sich etwas geändert hat, für mich, lässt sich aus dieser Kombination schließen und das überprüfe ich manchmal. Ob mein Chef zu bestimmten Zeiten etwas geändert hat, ist für mich u.U. wichtig.
+
+Q: Welche Interessen verfolgst du generell, wenn du dir Zeitstempel in den DevOps-Tools anschaust?
+Ich möchte Rückschlüsse ziehen ob es für mich Änderungen in der Arbeitsanweisung gibt und in seltenen Fällen u.U. meinen vorherigen Arbeitstag nachzuvollziehen. Teilweise auch als Grundlage für Gespräche.
+
+Q: Nachvollziehbarkeit ist ein Zweck. Kann man das hier so nennen?
+Ja, definitiv Nachvollziehbarkeit. Es ist schwierig, weil das Motiv dahinter nicht Monitoring ist, wie das HR vllt. denken würde, sondern weil ich es als Werkzeug für meine eigentliche Arbeit nutze.
+
+Q: Es gibt noch einen Zweck, Qualitätssicherung, trifft der auch zu?
+Nein. QS passiert für mich an einer anderen Stelle. Dafür gucke ich in den Ist-Zustand vom Code und in die Tests und dafür ist für mich nicht relevant durch wen bspw. etwas passiert ist. Das kommunizieren wir ja auch bei uns. Es ist idR auch nicht meine Aufgabe die Qualität zu sichern von Dingen wo ich nicht selbst dran gearbeitet habe.
+
+Q: Könntest du dir vorstellen, dass man diese Daten auch zur Leistungsbeurteilung verwenden könnte?
+Ja, kann ich. Ist mir schon halb passiert.
+Q: Erzähl mal davon.
+In meinem speziellen Fall, in meinem Unternehmen, gibt es kein traditionelles Zeittracking. Demnach werden, wenn es notwenig ist Zeit genau nachzuvollziehen, die Möglichkeiten dieser Werkzeuge genutzt, als Grundlage und dann redet man darüber. Das halte ich aber für schwierig, weil ein ganz wichtiger Aspekt vom Timetracking ist Start- und Endzeit und das einzige was wirklich nachvollziehbar ist, ist auf den Kunden gebuchte Arbeitszeit.
+
+Q: Könntest du dir sonst irgendwelche Auswertungen aus den Daten vorstellen, die du persönlich nicht machst, oder erlebt hast, aber wo du siehst, dass eine andere Firma oder ein anderer Entwickler klare Interessen haben könnte?
+Ja. Zur Leistungsbewertung gehört ja auch die Produktivität. Es gibt mannigfaltige Möglichkeiten und das schweigt sich ja auch rum. Von Menge von Code pro Zeit, oder Menge von Tätigkeiten pro Zeit, die den Grad der Involviertheit beschreiben soll, bis hin zur Effizienz der geleisteten Zeit. Bis hin zu ob ein Kunde das einfach abnimmt, oder nochmal nachgebessert werden muss. Da kann man auch viele Trugschlüsse draus ziehen.
+Wir haben das auch selbst mal getan, uns angeschaut was andere DLs getan haben und wann, für unsere interne Bewertung dieser DL, um das intern zu verwenden, ohne es weiterzusagen. So wie auch Personaler über einige MAs sprechen werden, oder Ärzte abstrahiert über Patienten.
+Ich weiß auch das mein Lead Dev nachguckt "ist schon was passiert", aber nicht explizit zur Leistungsbewertung. Ich denke aber schon das man dabei immer irgendwie bewertet, ohne das zu institutionalisieren.
+Vertrauen und Zuverlässigkeit ist wichtig, damit diese Tools funktionieren. Sie ersetzen das nicht. Ganz schlimm wird es, wenn Tools umgangen werden.
+
+Q: Schaust du dir auch Logs an?
+Git Log und Activity Log.
+Q: Auch Logs von laufender Software?
+Nicht hier. Nur vom CI Server, wenn er irgendwas gebaut hat, was nicht funktioniert hat, um zu gucken warum es nicht funktioniert hat. Es ist nicht meine Tätigkeit an prod Systemen irgendwas zu tun.
+
+Q: Schaust du dir in den Logs an, welcher User wann was gemacht hat?
+Nur in Testfällen, auf Testsystemen, welcher Testuser und so. Ein Teil meiner Aufgabe deckt ab das zu simulieren, um sicherzustellen das das funktioniert.
+
+Q: Wäre es für dich interessant das dort Benutzername und Zeitstempel steht?
+Nur da ich die Funktionalität davon sicherstellen muss (wenn das ein Feature ist).
+
+Q: Weißt du wie lange Logs in deinem Unternehmen aufbewahrt werden?
+Bis zur Abstellung des Testsystems und / oder bis zur Abstellung des Dev Tools wie bspw. YoutTrack oder so, da dort auch Projekte nur archiviert werden und nicht gelöscht.
+Ich habe erst gestern einen Merge Request gesehen der 2 Jahre alt war, von einem Projekt was wieder ausgegraben wurde, und dann durchgewunken wurde.
+
+Q: Ist es für dich relevant, wer einen Build im CI gestartet hat?
+Zwecks Nachvollziehbarkeit mitunter in manchen Fällen ja. Hängt damit zusammen das andere Personen andere Rollen haben und je nachdem wer das tut es unterschiedliche Sachen bedeutet.
+
+Q: Heißt das es würde für dich reichen die Rolle der Person zu sehen, anstatt den User, der den Build gestartet hat?
+Ja, auch wenn ich natürlich aus der kleinen Größe des Unternehmens nachvollziehen könnte wer das dann war. Es würde theoretisch auch reichen wenn auf das Issue verlinkt ist.
+
+Q: Fällt dir noch etwas anderes ein, was du dir anschaust?
+Ja. Kalender von Kollegen zwecks Organisation, weil wir da so Sachen klären wie Anwesenheiten, weil wir ja Gleitzeit (ohne Konto, auf Vertrauensbasis) und HomeOffice haben. Ich gucke mir auch den Online Status in den messengern an, wenn die Person bspw. im HomeOffice ist, damit ich weiß ob / wann ich mit einer Antwort rechnen kann.
+
+Q: Fallen dir andere Verarbeitungsinteressen und Auswertungsansätze ein, die eine andere Firma mit den genannten Daten, auch aus dem Administrationsbereich, vielleicht haben könnte?
+Ja, gerade bei Monitoring der Arbeitszeit der Mitarbeiter bei bspw. messengern. Wenn die da online sein sollen, aber da nicht online ist, dann werden vllt. Rückschlüsse gezogen. Empfangsbestätigungen von Mails sind auch so ein Ding dafür.
+Ich habe das auch erlebt in einem anderen Unternehmen als ich Azubi war. Da habe ich eine Aufgabe bekommen, habe da lange dran gesessen und das auch so getrackt, da ich nicht wusste, dass das so an den Kunden geht und das ist dann passiert und der wollte das erstmal nicht bezahlen.

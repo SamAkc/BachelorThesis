@@ -1,0 +1,133 @@
+Interviewvorlage
+
+Q: Welche Rolle übernimmst du im Unternehmen?
+Lead Developer
+
+Q: Du administrierst auch Server?
+Unfreiwilliger weise manchmal.
+
+Q: Welche Daten verarbeitest du bei der Softwareentwicklung? Welche Daten schaust du dir in DevOps-Tools an, die dich bei der Softwareentwicklung zu unterstützen?
+Kundendaten, sehr viele sensible, momentan z.B.
+Q: Welche sind das?
+Sämtliche NUTZER/KUNDEN(geändert) des KUNDEN(geändert). Im Optimalfall sehe ich davon gar nichts, aber momentan lässt es sich nicht vermeiden.
+Q: Wo liegen diese Daten die du verarbeitest?
+Bei einem dritten Dienstleister. Wegen API Integration.
+Q: Du sprichst von Daten verarbeiten. Wieso?
+Eig. verarbeite ich sie nicht. Ich sehe sie nur bei den Integrationsarbeiten.
+Die pbD Daten die ich verarbeite sind eig. nur Commits, also Git Gedöns und Issue Tracker Gedöns und somit auch internes Timetracking Gedöns. Spannend ist vllt. das ich das Timetracking von allen Leuten sehe. Womit ich auch sehe wann die Leute gearbeitet haben.
+Q: Wie genau kannst du das denn sehen?
+Es steht im Commit Log drinne und in den Issues drinne.
+Q: Und da steht die Anfangs- und Endzeit?
+Da steht nur die Endzeit und - im Falle des Timetrackings - auch wie lange gearbeitet wurde. Also da steht nur welcher Tag und wie viele Stunden, aber in den Commit Messages steht ja quasi die Endzeit und was getan wurde. Dann kann ich das korrelieren.
+Im CI Server sehe ich wann die Leute gepusht haben, auch wenn der Commit schon gar nicht mehr in Repo vorhanden ist (bspw. durch Rebases und Force-Pushes), weil bei jedem Push gebaut wird.
+
+Q: Was schaust du dir dort explizit an?
+Alles genannte. Um einen Überblick zu kriegen was so passiert. Ich lasse mir das Timetracking aggregieren, schaue mir alle Commits an und alle CI Builds, um eben Controlling durchzuführen, um den Leuten hinterherrennen.
+
+Q: In welcher Auflösung brauchst du die Zeitstempel? Auf der GitHub Weboberfläche wird ja z.B. nach mehr als einem Tag nicht mehr die genaue Uhrzeit angezeigt, sondern “vor einem Tag”, “vor einer Woche”, etc. Stört dich das, oder brauchst du den Zeitstempel irgendwann nicht mehr so genau?
+Es hilft sehr wenn sie genau sind, aber das ist auch bei GitHub kein Problem, weil man an die Information ja trotzdem rankommt. Es ist bspw. manchmal sehr nützlich, wenn man alte Merges nachvollziehen möchte. Einer der Gründe übrigens, warum ich gegen Rebases bin.
+
+Q: Gibt es irgendetwas anderes, was du dir anschaust?
+Die Anwesenheiten vor Ort und ich checke ab und zu wer im mattermost online ist. Issue Kommentare natürlich auch. Da sind mir manchmal auch die Zeiten wichtig.
+
+Q: Du schaust dir also an, wer, was gebaut hat, wahrscheinlich projektspezifisch?
+Ja.
+
+Q: Aber interessiert dich dort dann, wer das gemacht hat?
+Ja, ganz besonders.
+
+Q: Was schaust du dir beim Review-Tool an?
+Wir haben aktuell keins, aber ich mache Reviews trotzdem. Ich schaue mir an welches Ticket es betrifft, assignee, wann angefangen wurde, wann der Commit gemacht wurde, wie umfangreich er ist und dann den Code selbst ob der i.O. ist.
+
+Q: Wie lange ist es wichtig, dass diese Daten aufbewahrt werden?
+So lange das Projekt läuft. Es wird nach hinten hinaus unwahrscheinlicher das ich sie brauche. Sie sind wichtig in den ersten zwei Wochen und das nimmt dann immer mehr ab. Aber gerade Review / Commit Infos werden auch mal nach 1,5-2 Jahren wichtig, aber das passiert eben selten.
+
+Q: Wie lange werden die Daten in den DevOps-Tools aufbewahrt?
+So lange bis er mal wieder crashed. Es gibt keine bewusste Grenze wo die Daten verworfen werden. Und die Daten die in Git Repos liegen, bleiben potentiell auf ewig (dezentral).
+Es würde ja auch wenig bringen die alten Builds wegzuwerfen und die pbD Infos in den Commits dann immer noch zu haben.
+
+Q: Was für Daten schaust du dir in (GitHub) Issues an und in welchem Detailsgrad brauchst du diese Daten?
+S.o. (alles).
+
+Q: Schaust du dir auch an, wann und von wem ein Issue oder Kommentar editiert wurde?
+Ja.
+
+Q: Also du meinst es würde dich auch interessieren wer, wann, was editiert hat?
+Ja, weil häufig die Edit Funktion benutzt wird, anstatt eines neuen Kommentars, wenn bspw. was relevantes am Issue Text verändert wird und das ist eine sehr relevante Information.
+
+Q: Welche Interessen verfolgst du generell, wenn du dir Zeitstempel in den DevOps-Tools anschaust?
+Ich möchte überprüfen ob meine Kollegen gut vorankommen, oder sie vor einem Problem sitzen und das nicht erzählen. Ich möchte Blocker erkennen und Softwareentwickler kommunizieren nicht gut... genug.
+Wann Arbeit erledigt wurde ist wichtig um zu beurteilen wie gut die Qualität ist. Wenn bspw. Sonntag Nachts ein Commit reinkommt, dann schaue ich mir das nochmal genauer an.
+Um zu überprüfen ob die Leute nicht die ganze Zeit nur slacken. Also eine Arbeitskontrolle quasi, ob überhaupt gearbeitet wird.
+Entweder ich sehe Fortschritt, die Leute sind blockiert, oder sie slacken. In 2 von 3 Fällen muss ich eingreifen.
+
+Q: Nachvollziehbarkeit ist ein Zweck. Kann man das hier so nennen?
+Ja.
+
+Q: Also quasi Projektplanung für dich?
+Ja.
+
+Q: Vielleicht auch Qualitätssicherung?
+Exakt.
+
+Q: Könntest du dir vorstellen, dass man diese Daten auch zur Leistungsbeurteilung verwenden könnte?
+Absolut und ich habe das auch schon erlebt und es war nicht gut. Dazu kann ich einen Vortrag halten, wie sehr das kaputt gehen kann alles.
+
+Q: Also wird das in deinem aktuellen Unternehmen nicht gemacht?
+Doch wird, aber in sehr eingeschränktem / dezentem Maße und erst wenn es aus der Dev Abteilung weitergegeben wird. So kann man das machen, aber um diese ganze Daten beurteilen zu können, für eine Leistungsbeurteilung, braucht man unglaublich viel Kontext und diesen haben die aller wenigsten und sobald die Daten aus dem Kontext gerissen werden, ist die Beurteilung völlig destruktiv. Die Daten müssen vor solchen Leuten geschützt werden.
+In Kurzform: Ich darf eine Leistungsbeurteilung machen, mein Chef nicht (anhand dieser Daten). Denn wenn mein Chef diesen ganzen Kontext hätte, wäre er nicht mein Chef, sondern hätte meinen Job.
+
+Q: Könntest du dir sonst irgendwelche Auswertungen aus den Daten vorstellen, die du persönlich nicht machst, aber wo du siehst, dass eine andere Firma oder ein anderer Entwickler klare Interessen haben könnte?
+Ja, es können bspw. Aussagen zur Produktivität der Entwickler gemacht werden, anhand der nackten Zahlen und das die Zeit im Timetracking und in Commits genutzt wird.
+
+Q: Dann gehen wir über zu deiner nächsten Rolle: Unfreiwillige Administration. Welche Daten schaust du dir für diese Rolle an? Wie benötigst du diese Daten und in welcher Form liegen sie jetzt vor?
+Die Zugangsdaten für den Server und die private Handynummer vom eigentlichen Administrator. *lach*
+
+Q: Was für Logs schaust du dir an?
+Error Logs der Anwendungen selbst (an denen ich entwickle, oder die deployed sind). Access-Logs bei deployten Anwendungen, um mal so einen Überblick zu bekommen, aber sehr selten.
+Q: Warum Access Logs?
+Bei einer großen App, die mal live war, habe ich das genutzt um den Traffic und einen Einblick in die Userbase zu bekommen. Das einzig pbD waren IPs und die waren mir ziemlich egal.
+
+Q: Schaust du dir nie in den Logs an, welcher User wann was gemacht hat?
+Doch das habe ich mal gemacht, weil der User eine Support Anfrage gestellt hat, aber nur als Reaktion auf seine Anfrage.
+
+Q: Also für dich interessant wäre dort Benutzername und Zeitstempel?
+Ja, um den User zu identifizieren. Ich habe auch schon mal erlebt das alle Logs getagged wurden und mit diesen Tags konnte man, wenn man Zugriff auf ein weiteres System hat, die User Session identifizieren. Das war beim Debugging extrem hilfreich.
+
+Q: Weißt du wie lange wir Logs aufbewahren?
+Wir haben momentan nichts in production deployed (an entwickelten Anwendungen). Weiß ich nicht. Das ist abhängig vom Projekt. Die letzten Projekte von uns sind nicht von uns deployed, also auch nicht unsere Aufgabe.
+
+Q: Welche Tools verwendest du noch zur Administration?
+Emacs, grep, ssh, cat usw.
+Google Developer Console mit ihren Crash Reports.
+
+Q: Warum ist es für dich relevant, wer einen Build gestartet hat?
+Weil ich wissen möchte ob der Build automatisch, oder manuell gestartet wurde.
+Q: Und darum ist es wichtig wer den Build gestartet hat?
+Ja, wenn ich bspw. sehe das da 5 failed Builds sind und der nächste läuft und ich sehe das die von unserem DevOps sind, dann deduziere ich das der DevOps nur was ander Config geändert hat, aber der Code in Ordnung war.
+Q: Heißt das es würde für dich reichen die Rolle der Person zu sehen, anstatt den User, der den Build gestartet hat?
+Nein, da die Rollenverteilung in den kleinen Teams hier sehr fluide ist und ich muss wissen wer mein Ansprechpartner ist, sollte da irgendwas nicht i.O. sein. Nachvollziehbarkeit!
+
+Q: Fällt dir noch etwas anderes ein, was du dir anschaust?
+Die Commits von Projektpartnern, anderen DLs, Kunden etc.
+Ja, ich gucke mir den Chat im mattermost an.
+
+Q: Welche Datenpunkte schaust du dir dort an?
+Zeitpunkt der Nachricht, Inhalt der Nachricht und wer es geschrieben hat und welche Emojis dran kleben.
+
+Q: Ist der Detailsgrad, in dem die Daten derzeit vorliegen erforderlich? Brauchst du ihn tatsächlich?
+Ja, damit die Nachrichten in der korrekten Reihenfolge angezeigt werden können.
+Q: Das kann man ja auch mit Vector Uhren lösen.
+Ich traue den Chat Plattformentwicklern nicht zu das zu machen, die sollen gefälligst Timestamps verwenden.
+Q: Ernsthaft jetzt.
+Manchmal ist der Timestamp für mich wichtig, ist relativ selten, aber manchmal schon. Allerdings nur bei Nachrichten der letzten Wochen. Danach reicht mir die korrekten Reihenfolge und der Tag.
+
+Q: Wenn ich das richtig verstehe, kann der Zeitstempel, sobald die Diskussion länger her ist, durch den Tag und nicht mehr die Uhrzeit der Nachricht ersetzt werden?
+Ja, das wäre ein Kompromiss mit dem ich klarkommen würde, aber es ist immer noch eine Einschränkung um einen failed Build mit einer Diskussion im Chat zu korrellieren. Oder Zeiten aus Emails mit dem jeweiligen Chat. Wenn der Chat Channel wenig genutzt wird ist das egal, aber wenn zu der Zeit viel gechattet wurde, ist es sehr hilfreich um die genauen Stellen zu finden.
+
+Q: Fallen dir andere Verarbeitungsinteressen und Auswertungsansätze ein, die eine andere Firma mit den genannten Daten, auch aus dem Administrationsbereich, vielleicht haben könnte?
+Oh jaaaa. Oh ja! Und zwar all die Analyse, die ich mit sehr viel Kontext im Kopf durchführe, zur Produktivität, zur Effizienz (wie viel vom Ticket pro Tag schafft der Mirtarbeiter), zu Arbeitszeiten allgemein. All diese in meinem Kopf soft durchgeführte Analysen, können auch maschinell durchgeführt werden, nur halt mit weniger Kontext, und können dann vom Arbeitgeber als Druckmittel bei Gehaltsverhandlungen genutzt werden.
+Ebenso können auch die Projektleiter und Lead-Developer anhand der Performanzstatistiken ihrer Mitarbeiter beurteilt werden. Ich hatte da in einem anderen Unternehmen mal den Fall das ein sehr guter Projektleiter entlassen wurde, weil seine KPIs schlechter waren als die von anderen, die aber eig. schlechtere Ergebnisse geliefert haben.
+Diese Detaildaten könnten auch an Kunden gegeben werden, das selbe Problem in Grün.
+
+Abschließend kann ich sagen: Daten in diesem Detailgrad dürfen nur sehr lokal ausgewertet werden. Je weiter der Analysierende vom Geschehen entfernt ist, desto unschärfer müssen die Daten sein, damit keine falschen Schlüsse geschlossen werden.

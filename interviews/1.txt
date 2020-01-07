@@ -1,0 +1,78 @@
+Q: Welche Rolle übernimmst du im Unternehmen?
+A: Ich entwickle Software, indem ich sie programmiere, dokumentiere und pflege.
+Q: Du administrierst auch Server?
+A: Ja, auch Administration von Servern.
+Q: Welche Daten verarbeitest du bei der Softwareentwicklung? Welche Daten schaust du dir in DevOps -Tools an, um dich bei der Softwareentwicklung zu unterstützen?
+A: Aktivität von anderen Entwicklern, die am Projekt arbeiten. D.h. wann und was wurd in letzter Zeit getan, an dem Projekt spezifisch.
+Q: Was schaust du dir dort konkret an?
+A: Zeitstempel, Git Commits, Commit messages, um informiert zu bleiben was in dem Projekt passiert ist, gerade auch in der Zeit, in der ich nicht aktiv war. Wenn ich ein paar Tage oder an einem Wochenende nicht aktiv war und es sich viel getan hat in der Zeit, dann geht es mir auch um die Zeitstempel.
+Q: In welche Auflösung brauchst du die Zeitstempel? Auf der GitHub Weboberfläche wird ja z.B. nach mehr als einem Tag nicht mehr die genau Uhrzeit angezeigt sondern “vor einem Tag”, “vor einer Woche”, etc. Stört dich das oder brauchst du den Zeitstempel irgendwann nicht mehr so genau?
+A: Am selben Tag brauche ich schon den genauen Zeitstempel, aber nach einem Tag ist das nicht mehr so wichtig und dann geht es nurnoch darum ob das gestern oder vorgestern passiert ist.
+Q: Gibt es irgendetwas Anderes, was du dir anschaust?
+A: Den Umfang eines Commits. Ob es jetzt ein kleiner Fix war oder ein großes Feature, worauf ich mich jetzt einstellen muss. Ob sich etwas verändert hat in der Struktur der Software.
+Die Builds auf dem Jenkins schaue ich mir an, was dort passiert ist.
+Dort auch mit Zeitstempeln. Vermutlich würde es dort aber auch ausreichen, eine gewisse Tagesanzahl anzuzeigen, die ein Build zurück liegt, zu sehen. Ich bin garnicht sicher wie das im Moment ist.
+Q: Du schaust dir also an, wer, was gebaut hat, warscheinlich projektspezifisch?
+A: Ob es überhaupt gebaut wurde. Wenn ich einen neuen Fix oder ein neues Feature gepusht habe, ob der schon auf dem Live-System ist oder ob ich das noch tun müsste.
+Q: Aber interessiert dich dort dann, wer das gemacht hat?
+A: Nein.
+Q: Was schaust du dir bei Gerrit an?
+A: Genau das Gleiche: die Zeitstempel, neue Patches oder Patchsets. Ob es etwas gibt was ich reviewen muss. Dort ist es dann auch relevant, wer das hochgeladen hat.
+Q: Wie lange ist es wichtig, dass diese Daten aufbewahrt werden?
+A: Wenn alles glatt läuft, dann ist es mir relativ egal wann ein Patch hochgeladen wurde, oder eine Neuerung gemerged wurde. Es ist jedoch relevant, wenn dabei etwas schief geht. Aber da das meistens relativ bald nach dem mergen passiert denke ich so ca. eine Woche nach dem mergen. Es fällt mir jetzt schwer eine Zeitspanne zu nennen. Am einfachsten wäre es zu sagen, dass sobald man weiß, dass eine Neuerung zu keinen Problemen geführt hat, ab dann kann eigentlich alles was dazu geführt hat gelöscht werden. Vor allem Zeitstempel könnten gelöscht werden. Kommentare auf einem Gerrit change könnten aber weiterhin relevant sein.
+Q: Wie lange werden die Daten in den DevOps tools aufbewahrt?
+A: Dadurch, dass unser Buildserver sehr schnell voll gelaufen ist haben wir derzeit nur die letzten X builds. Ansonsten hatten wir aber ein 360 Tage limit.
+Git und GitHub issues sowieso ohne limit.
+Q: Was für Daten schaust du dir GitHub issues an und in welchem Detailsgrad brauchst du diese Daten?
+A: Text und Titel, wer es aufgemacht hat spielt häufig auch eine Rolle. Allerdings nicht so eine große. Wann ein Issue geöffnet wurde. Z.B. wenn es einen Fehler gibt, der durch ein Issue reported wurde ist es ja relevant ob das Issue vor einem Jahr oder gestern geöffnet wurde, da ich wissen muss, ob ich mich darum jetzt kümmern muss, oder ob diese Fehelr vielleicht schon nicht mehr relevant ist. Und den Status des issues.
+Q: Schaust du dir auch an, wann und von wem ein Issue oder Kommentar editiert wurde?
+A: Ja, wobei das nicht so transparent ist bei GitHub ist. Also ich sehe nur, dass es editiert wurde, ich sehe selten die Historie. Ich weiß jetzt nicht aus dem Kopf wie ich dort hin komme, das habe ich mir noch nicht angeschaut. Also wenn es editiert wurde ist es nicht so relevant, wann und warum, da man dort sowieso keinen Grund angeben kann.
+Q: Also du meinst es würde dich nicht so interessieren wer, wann, was editiert hat?
+A: Du meinst vorhandene Kommentare? Nein. Zumindest nicht bei unserem Use-case. Wir sind ja in einem relativ privaten Setting mit den GitHub issues. Bei öffentlichen Issues ist das natürlich schon relevant: ob da etwa der Admin negative Kritik oder generell Kritik verändert hat. Da gibt es ein paar prominente Beispiele auf GitHub. Aber in einem privaten Repository, auf das dann nur die Teaminternen Leute zugriff haben, dann ist es für mich nicht so relevant, weil dann hat jeder seine Gründe und die sind meistens gut.
+Q: Welche Interessen verfolgst du, wenn du dir Zeitstempel in den DevOps-Tools anschaust?
+A: Nachvollziehbarkeit
+Q: Nachvollziehbarkeit ist eher ein Zweck. Wozu möchtest du Nachvollziehbarkeit haben?
+A: Ich würde gerne Nachvollziehen was passiert ist, in der Zeit in der ich nicht beteiligt war. Ich würde gerne Nachvollziehen warum und wann etwas passiert ist.
+Q: Also quasi Projektplanung für dich?
+A: Ja, Planung ist gut. Ich würde gerne die Entwicklung meiner eigenen Features planen.
+Q: Vielleicht auch Qualitätssicherung?
+A: Ja, mich interessiert natürlich auch welche Qualität ein Patch hat, den ich dann z.B. reviewen will. Bzw. Sagen wir es anders herum: ich will durch das Review wissen welche Qualität der Patch hat.
+Q: Könntest du dir vorstellen, dass man diese Daten auch zur Leistungsbeurteilung verwenden könnte?
+A: Ganz klar. Git generell warscheinlich, da man nur auf die Contributions einer Person schaut und die dann analysiert kann man schnell Muster erkennen, aber eben auch eine Entwicklung – ob sich jemand verbessert hat oder über Monate gleich schlecht oder gleich gut ist.
+Q: Könntest du dir sonst irgendwelche Auswertungen aus den Daten vorstellen, die du persönlich nicht machst, aber wo du siehst, dass eine andere Firma oder ein anderer Entwickler klare Interessen haben könnte?
+A: Leistungsbewertung kann an allein anhand der Zeitstempel schon machen. Wie effektiv das ist ist dann wieder eine andere Frage, aber es gibt bestimmt Firmen, die Leistungsbewertung nur anhand von Zeitstempeln machen. Also wie häufig hat jemand seine Arbeit hochgeladen und wenn das häufig ist, dann ist der Mitarbeiter gut, und wenn nicht dann nicht. Oder eben auch der Ufmang. Wenn ein Mitarbeiter viele große Patches hochläd könnte sein Arbeitgeber ihn dahingehend bewerten.
+Q: Bei den Zeitstempeln – was würde man mit denen machen?
+A: Ich würde mir die Frequenz anschauen.
+Q: Dann gehen wir über zu deiner nächsten Rolle: Administration. Welche Daten schaust du dir für diese Rolle an? Wie benötigst du diese Daten und in welcher Form liegen sie jetzt vor?
+A: Auch GitHub issues, und in diesem Fall auch unser eigenes proprietäres Issuesystem. Welcher Server ausgefallen und ist und warum und wer das reportet hat. Es ist jetzt nicht so relevant, wer das reportet hat aber der Zeitstempel ist wichtig. Ob es ein älteres Problem ist, ob es andauert, ob es häufiger passiert, da ist der Zeitstempel wichtig. Am gleichen Tag vielleicht schon wichtig in Minuten, oder zumindest in Stunden, aber sobald ein Tag vorbei ist oder das Issue gelöst ist sind sie nicht mehr so wichtig. Wenn ein Issue zu einer bestimmten Zeit reportet wurde, dann schaue ich mir eben zu dieser Zeit die Serverlogs an, um herauszufinden was passiert ist.
+Q: Was für logs schaust du dir an?
+A: Den globalen Serverlog und wenn da nichts drin steht, was mir weiterhelfen kann, dann den Applikationsspezifischen log.
+Q: Schaust du dir in den logs an welcher User wann was gemacht hat?
+A: Das würde ich gerne, aber das haben wir ausgeschaltet.
+Q: Das heißt, dort hast du jetzt keine Punkte zur Verfügung, die du auf einen bestimmten Mitarbeiter zurückführen könntest? Es geht immer um die Daten von Mitarbeitern.
+A: Achso. Wenn ein Patch eines anderen Mitarbeiters die Applikation, die ich administriere kaputt gemacht hat, dann schaue ich mir das natürlich schon an und versuche zu verstehen, was dazu geführt hat. Und eventuell, wenn ich da nicht über den Code ran komme, dann versuche ich eben auch den Mitarbeiter zu erreichen und zu fragen warum das jetzt so und so war. Was er sich dabei gedacht hat. Also ich gehe mal davon aus, dass solche Probleme nicht durch Absicht auftauchen, sondern durch einen Fehler, was halt passieren kann. Aber da ist natürlich ganz wichtig: warum ist dieser Fehler passiert. Nachdem ich das herausgefunden habe muss ich das natürlich zurückführen auf ein Ereignis. Und wenn das eben “schlechter Code” war, dann schaue ich mir natürlich auch an, wer diesen Code geschrieben hat und versuche dann zu kommunizieren und zu fragen warum, und ob man das wieder ändern kann. Bei Konfigurationssachen ist es natürlich ein wenig schwieriger, da dort die Nachvollziehbarkeit nicht gegeben ist, da das bei uns nicht über die Versionskontrolle passiert. Ich würde dort versuchen herauszufinden, wer zu diesem Zeitpunkt oder kurz davor eingeloggt war und Konfiguration betrieben hat. Also access logs.
+Q: Also für dich interessant wäre dort Benutzername und Zeitstempel?
+A: Ja.
+Q: Weißt du wie lange wir das aufbewahren?
+A: Access log? Nein, weiß ich nicht.
+Q: Welche Tools verwendest du noch zur Administration?
+A: Spring Boot Admin, aber dort fallen keine Mitarbeiterbezogenen Daten an. Wir verwenden alle den selben Account und dort werden nur logs der Produktionsapplikationen aggregiert.
+Q: D.h. du hast keine Möglichkeit über die Oberfläche zu sehen wer wann was gemacht hat mit Spring Boot Admin?
+A: Nein, auch in den logs nicht. Maximal über die access logs, über die ip adresse des servers, aber das weiß ich nicht ob das gespeichert wird.
+Q: Noch ein anderes Tool?
+A: Ich benutze auch Jenkins. Wenn eine Applikation nicht wieder gestartet hat dann schaue ich mir an, ob die Applikation durch einen Build neu gestartet wurde oder ob irgendetwas anderes passiert ist. Und wenn es ein Build war, dann schaue ich mir an, wer den Build gestartet hat und frage nach warum. Auch dort wieder um nachzuvollziehen warum der Build gestartet wurde.
+Q: Warum ist es für dich relevant, wer den Build gestartet hat?
+A: Der Grund kann häufig ein Indiz dafür sein, warum die Applikation nicht wieder startet. Dass der Fehler meistens im Code liegt, ist natürlich klar. Das wäre der nächste Anhaltspunkt. Ich würde aber zunächst den Grund des Builds erfragen und der Grund wird eben meistens sein, dass es neue Patches gab und dann müsste man sich die Patches eben anschauen. Dann wäre man wieder bei der Versionskontrolle.
+Q: Mir ist immernoch nicht klar geworden warum es relevant ist wer den Build gestartet hat und warum. Du kannst eigentlich immer in den Code schauen, oder?
+A: Ja natürlich. Ich glaube das ist auch noch nicht vorgekommen bei uns. Aber bei uns ist es ja so, dass wir relativ versetzt arbeiten. Also wenn bei uns ein Entwickler ein Feature in den master branch merged und nicht sofort deployed und dann am nächsten Morgen jemand den Build betätigt, dann möchte ich schon wissen warum. Meistens geht das auch durch die Issues hervor oder anderen Kommunikationswege, aber wenn das nicht der Fall ist, dann würde ich schon gerne wissen wer den Build gestartet hat.
+Q: Fällt dir noch etwas andere ein, was du dir anschaust?
+A: Der Chatverlauf in Slack. Wenn in den Channels eine Diskussion über ein Feature war oder die Handhabung einer Sache, dann interssiert mich wer die Meinung hatte und warum. Das würde ich gerne nachvollziehen und eben das Endergebnis der Diskussion, wenn es das betrifft, was ich implementieren muss, oder zumindest beteiligt daran bin. Da muss ich natürlich Planen können. Das wäre wieder das Interesse der Planung.
+Q: Welche Datenpunkte schaust du dir dort an?
+A: Zeitstempel, ob es eine neue Diskussion ist. Wenn es eine Diskussion von vor ein paar Tagen ist, dann habe ich sie meistens auch schon gelesen. Also wenn das neue Nachrichten sind, dann schaue ich mir an wann die Diskussion geführt wurde und von wem die Nachrichten kommen. Und was der Grund ist warum die Diskussion gestartet wurde.
+Q: Ist der Detailsgrad, in dem die Daten derzeit vorliegen erforderlich? Brauchst du ihn tatsächlich?
+A: Also für mich ist schon relevant, gerade bei Kurznachrichten, fast in welcher Minute das gepostet wurde. Einfach um das nachzuvollziehen. Aber dadurch, dass die Darstellung ja schon linear chronologisch ist und ich genau das sehe, wie es in der Reihenfolge auch geschrieben wurde ist das nicht so relevant. Also den Zeitstempel selbst muss ich mir nicht so genau anschauen. Aber der Tag ist relevant für mich, auch für die Nachverfolgung später. Wenn ich später zurückgehe um eine Diskussion zu lesen brauche ich schon einen Anhaltspunkt wann das diskutiert wurde.
+Q: Wenn ich das richtig verstehe, dann kann der Zeitstempel, sobald die Diskussion länger als einen Tag her ist nurnoch der Tag und nicht die Uhrzeit der Nachricht wichtig?
+A: Ja.
+Q: Fallen dir andere Verarbeitungsinteressen und Auswertungsansätze ein, die eine andere Firma mit den genannten Daten aus dem Administrationsbereich vielleicht haben könnte?
+A: Ich denke die Frequenz wie häufig eine Platform benutzt wird ist ausschlaggebend dafür, wie eine Platform ihre Resourcen plant. Also wenn eine Firma ein Dashboard für etwas anbietet, dann mus diese Firma darüber bescheid wissen zu welchem Zeitpunkt sie diese Resourcen zu Verfügung stellen muss und das geht eben über die Frequenz bzw. in diesem Fall Zeitstempel für die Aktivitäten.
+

@@ -1,0 +1,124 @@
+Interviewvorlage
+
+Q: Welche Rolle übernimmst du im Unternehmen?
+Systemadministrator (SysAdmin) und DevOps.
+
+Q: Beschreibe doch mal DevOps.
+Ist ein SysAdmin, aber er heißt DevOps, weil SysAdmin zu oldschool ist. Eig. macht ein DevOps das selbe wie ein guter SysAdmin.
+Q: Was macht ein guter SysAdmin?
+Möglichst wenig. Also er versucht alles automatisch zu erledigen, durch Skripte, Code, Magie, anstatt eine Sache 2 oder 3 mal zu machen.
+Q: Mit welchen anderen Leuten/Rollen interagierst du als DevOps besonders viel?
+Mit Anwendern (also wie ein SysAdmin) und befähigten Anwendern, also Programmierern und andere Leute, die irgendwelche Anliegen haben.
+
+Q: Du administrierst auch Server?
+Ja.
+
+Q: Welche Daten verarbeitest du bei einer Softwareentwicklung? Welche Daten schaust du dir in DevOps-Tools an, die dich bei einer Softwareentwicklung unterstützen?
+Ich gucke ob die Builds und Deployments im CI und CD Tool funktioniert haben und passe sie notfalls an.
+Dazu gucke ich mir Git Commits an und ggf. wer diesen Commit gemacht hat, um dann das persönliche Gespräch zu suchen.
+
+Q: Was schaust du dir dort explizit an?
+Explizit gucke ich ob... ach ich gucke in die Build Logs... ob es mein Fehler war, oder der Fehler eines befähigten Anwenders. Also wer es dann war.
+
+Q: In welcher Auflösung brauchst du Zeitstempel? Auf der GitHub Weboberfläche wird ja z.B. nach mehr als einem Tag nicht mehr die genaue Uhrzeit angezeigt, sondern “vor einem Tag”, “vor einer Woche”, etc. Stört dich das, oder brauchst du den Zeitstempel irgendwann nicht mehr so genau?
+Normalerweise interessiert mich nicht wann genau jemand den Build am Tag kaputt gemacht hat. Also das stört mich nicht.
+
+Q: Gibt es irgendetwas anderes, was du dir anschaust?
+Nö. Also ich gucke mir die Commits an, die was kaputt gemacht haben am Ende.
+Q: Du schaust dir also keine weiteren Logs z.B. von Servern an?
+Das ist ja außerhalb der DevOps-Tools.
+
+Q: Du schaust dir also an, wer, was gebaut hat, wahrscheinlich projektspezifisch?
+Ja.
+
+Q: Aber interessiert dich dort dann, wer das gemacht hat?
+Ja.
+
+Q: Was schaust du dir bei Review-Tools an?
+Eig. gucke ich nicht viel in Review Tools rein.
+
+Q: Wie lange ist es wichtig, dass diese Daten aufbewahrt werden?
+Also mir persönlich reicht wahrscheinlich die letzten 5 Builds oder so. Also ich brauche keine Historie in irgendeiner Form.
+
+Q: Wie lange werden die Daten in den DevOps tools aufbewahrt?
+Ich glaube TeamCity und so speichert alles bis man den Counter manuell resettet.
+Die anderen Tools haben ja gar nicht so viel historische Daten, die sich ändern.
+Q: Sicher?
+Naja, es wird kein Limit in den ganzen Tools sein, standardmäßig.
+
+Q: Was für Daten schaust du dir in GitHub issues an und in welchem Detailsgrad brauchst du diese Daten?
+Die Issue Beschreibung, Titel, Typ und die Problembeschreibung bitte so detailliert wie möglich.
+
+Q: Schaust du dir auch an, wann und von wem ein Issue oder Kommentar editiert wurde?
+Ja, wenn es so ein lang hin und her geschobenes Ding ist, wo sich die Leute nicht einig werden, aber sonst ist es wohl egal.
+
+Q: Welche Interessen verfolgst du generell, wenn du dir Zeitstempel in den DevOps-Tools anschaust?
+Das aktuell vorhandene (technische) Problem lösen.
+
+Q: Nachvollziehbarkeit ist ein Zweck. Brauchst du das auch?
+In den Tools an sich eher weniger.
+Q: Wo denn eher mehr?
+Naja in Logs halt, da sind Zeitstempel sehr wichtig. Um herauszufinden in welcher Reihenfolge Sachen kaputt gegangen sind.
+Q: Reihenfolgen kann man ja auch mit Vektoruhren darstellen.
+Ja das funktioniert total toll bei *einem* Log, aber nicht um mehrere zu korrelieren.
+
+Q: Vielleicht auch Qualitätssicherung?
+Ne. Vllt. um die Qualität des Systems, was man betreibt, sicherzustellen, weil man Probleme beheben kann, aber KA ob ich das so nennen würde.
+
+Q: Könntest du dir vorstellen, dass man solche Daten auch zur Leistungsbeurteilung verwenden könnte?
+Ja kann man, wenn man seltsam drakonisch drauf ist und Leute für fehlgeschlagene Builds bestrafen will, oder so.
+
+Q: Also wird das in deinem aktuellen Unternehmen nicht gemacht?
+Ne.
+
+Q: Könntest du dir sonst irgendwelche Auswertungen aus den Daten vorstellen, die du persönlich nicht machst, aber wo du siehst, dass eine andere Firma, oder ein anderer Mensch klare Interessen dran haben könnte?
+Nö. Man könnte so blödsinnige Metriken bauen, halt so und so viele Prozent der Commits des Users wurden erfolgreich gebaut und so und so viele halt nicht, aber das ist halt eine blödsinnige Metrik. Weil am Ende hat man durch dieses Wissen nichts gewonnen.
+
+Q: Dann gehen wir über zu deiner nächsten Rolle: Administration. Welche Daten schaust du dir für diese Rolle an? Wie benötigst du diese Daten und in welcher Form liegen sie jetzt vor?
+Logs in Form von Textdateien, oder Binärdateien.
+Live Auswertungsdaten / Monitoring, also wie viel CPU Last, wieviel RAM Auslastung, so welche Sachen.
+
+Q: Was für logs schaust du dir an?
+Syslog, auth log, messages log, ja ich gucke mir alle Logs an. Alles was in var/log liegt, wird auch irgendwie angeguckt.
+
+Q: Schaust du dir in den logs an welcher User wann was gemacht hat?
+Nö.
+
+Q: Also für dich wäre es uninteressant dort Benutzernamen zu sehen?
+Ja.
+
+Q: Weißt du wie lange wir Logs aufbewahren?
+90 Tage, mindestens.
+Q: Sind es oft eher deutlich längere Zeitspannen?
+Ja.
+
+Q: Welche Tools verwendest du noch zur Administration?
+Ansible, ssh, python, logcheck, grep, thunderbird
+Q: Thunderbird?
+Ja also logcheck läuft mit einer Liste von vielen Regexen über viele Logs, hauptsächlich syslog und alles was logcheck nicht kennt, löst eine Email aus. Das ist dann entweder etwas wo noch ein Filter fehlt, oder ein Bug, den ich beheben muss.
+
+Q: Warum ist es für dich relevant, wer einen Build gestartet hat?
+Weil ich wissen muss mit wem ich darüber reden muss, wenn der Build fehlschlug. Um das Problem zu beheben.
+Q: Also nur wenn er fehlschlägt?
+Ja.
+
+Q: Fällt dir noch etwas anderes ein, was du dir anschaust?
+Nö.
+Q: Schaust du dir zufällig Daten in einem Chat Programm an?
+Ja.
+Q: Welche und warum?
+Die Nachricht, die mir Leute schreiben, in mattermost. Weil so Kommunikation funktioniert.
+
+Q: Welche Datenpunkte schaust du dir dort genau an?
+Äh Nachrichten und von wem.
+Q: Also nicht wann die Nachrichten geschrieben wurden.
+Seltener. Also nicht bewusst.
+
+Q: Ist der Detailsgrad, in dem die Daten derzeit vorliegen erforderlich? Brauchst du ihn tatsächlich?
+Also ich brauche zumindest keinen auf Stunden aufgeschlüsselten Timestamp, zumindest nicht nach einer Woche noch, oder 3 Tagen.
+
+Q: Wenn ich das richtig verstehe, kann der Zeitstempel, sobald die Diskussion länger her ist, durch den Tag und nicht mehr die Uhrzeit der Nachricht ersetzt werden?
+Ja.
+
+Q: Fallen dir andere Verarbeitungsinteressen und Auswertungsansätze ein, die eine andere Firma mit den genannten Daten, auch aus dem Administrationsbereich, vielleicht haben könnte?
+Man könnte gucken wann jemand eingeloggt ist und arbeitet, oder eingeloggt ist halt, um so zu tun als würde er arbeiten.
