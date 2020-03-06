@@ -1,0 +1,24 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[92] biber-darwin:322> INFO - === Wed Mar  4, 2020, 11:05:32
+[110] Biber.pm:415> INFO - Reading 'main.bcf'
+[235] Biber.pm:943> INFO - Found 37 citekeys in bib section 0
+[255] Biber.pm:4256> INFO - Processing section 0
+[255] Utils.pm:75> INFO - Globbing data source 'literature.bib'
+[255] Utils.pm:91> INFO - Globbed data source 'literature.bib' to literature.bib
+[267] Biber.pm:4455> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[271] bibtex.pm:1653> INFO - LaTeX decoding ...
+[388] bibtex.pm:1471> INFO - Found BibTeX data source 'literature.bib'
+[446] Utils.pm:304> WARN - ISBN '9783642078873 9783662053225' in entry 'kou_weidong_secure_2003' is invalid - run biber with '--validate_datamodel' for details.
+[618] Utils.pm:304> WARN - month field 'August' in entry 'rfc5246' is not an integer - this will probably not sort properly.
+[717] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[717] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[717] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[718] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[798] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[798] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[798] Biber.pm:4084> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[798] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[846] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[903] bbl.pm:755> INFO - Output to main.bbl
+[903] Biber.pm:128> INFO - WARNINGS: 2
