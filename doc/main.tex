@@ -59,45 +59,39 @@ consistentlayout, % layout of declaration, abstract and acknowledgements pages m
 \input{misc/setup.tex} % Load the settings from Misc/setup.tex
 \input{misc/commands.tex} % Load the custom commands from Misc/commands.tex
 
-% Uncomment this command to make all links black:
-%   useful for printing on black-white printers that do a
-%   poor job at rasterizing colored text properly
-%\hypersetup{colorlinks=false}
+% Make all links black:
+\hypersetup{colorlinks=false}
 
 \addbibresource{literature.bib} % The filename of the bibliography
 
 %----------------------------------------------------------------------------------------
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
-\newcommand{\thesistype}{Bachelor} % type of your thesis (Bachelors, Masters, Doctoral ...)
+\newcommand{\thesistype}{Bachelor} % type of thesis
 
-%%% CHANGE THIS:
-% Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle 
-\thesistitle{Guidelines for Writing a High-Quality Thesis with the PSITemplate}
+% Thesis title, print it elsewhere with \ttitle 
+\thesistitle{Qualitative Analyse von Stakeholdern in einem Unternehmen zu Sichtweisen auf Privatsphäre bei Softwareentwicklern bzw. -administratoren}
 
 % date to be printed on the title
 \def\tdate{\today}
-\def\tdate{February 2020}
-% for the final version, insert the date of submission in the format "Month YYYY", e.g., January 2020
-%\def\tdate{January 2020}
+\def\tdate{Juli 2020}
 
-%%% CHANGE THIS:
-% Your name, this is used in the title page, print it elsewhere with \authorname
-\author{Dominik Herrmann}
+% Name, print it elsewhere with \authorname
+\author{Samet Murat Akcabay}
 
-% Your supervisor's name, this is used in the title page, print it elsewhere with \supname
-\supervisor{Prof. Dr. XXX YYY}
+% Supervisor's name, print it elsewhere with \supname
+\supervisor{Prof. Dr. Dominik Herrmann}
 
-% Your university's name and URL, this is used in the title page, print it elsewhere with \univname
-\university{\href{https://www.uni-bamberg.de/en/}{University of Bamberg}}
+% University's name and URL, print it elsewhere with \univname
+\university{\href{https://www.uni-bamberg.de/en/}{Otto-Friedrich-Universität Bamberg}}
 
-% Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
-\group{\href{https://www.uni-bamberg.de/en/psi/}{Privacy and Security in Information Systems Group}}
+% Research groups name and URL, print it elsewhere with \groupname
+\group{\href{https://www.uni-bamberg.de/informatik/psi/}{Lehrstuhl für Privatsphäre und Sicherheit in Informationssystemen}}
 
-% Your department's name and URL, this is used in the title page, print it elsewhere with \deptname
-\department{department not used}
+% Department's name, print it elsewhere with \deptname
+\department{Fakultät für Wirtschaftsinformatik und Angewandte Informatik}
 
-% Your faculty's name and URL, this is used in the title page, print it elsewhere with \facname
+% Faculty's name and URL, print it elsewhere with \facname
 % TODO: insert *your* degree program in the \faculty command below
 % Applied Computer Science
 % Computing in the Humanities
@@ -106,15 +100,15 @@ consistentlayout, % layout of declaration, abstract and acknowledgements pages m
 % International Software Systems Science
 % Software Systems Science
 % Education in Business and Information Systems
-\faculty{Software Systems Science Degree Program in the\\ \href{https://www.uni-bamberg.de/en/wiai/}{Faculty of Information Systems and Applied Computer Sciences}}
+\faculty{Applied Computer Science in the\\ \href{https://www.uni-bamberg.de/wiai/}{Faculty of Information Science and Applied Computer Science}}
 
-% Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
-\addresses{address not used}
+% Adress, print it elsewhere with \addressname
+\addresses{Brennerstraße 50\\96052 Bamberg}
 
-% Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+% Subject are, print it elsewhere with \subjectname
 \subject{subject not used}
 
-% Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+% Keywords for thesis, print it elsewhere with \keywordnames
 \keywords{keywords not used}
 %----------------------------------------------------------------------------------------
 %	END OF THESIS INFORMATION
@@ -229,8 +223,8 @@ Moreover, consider the advice by Markus Kuhn on differentiating abstract and int
 % Mind the \input instead of the \include here, that change is necessary for the appendix formatting
 % Due to the \input command you also need to provide the .tex file ending
 
-\input{chapters/chapter1.tex}
-\input{chapters/chapter2.tex}
+%\input{chapters/chapter1.tex}
+%\input{chapters/chapter2.tex}
 %\input{chapters/chapter3.tex}
 %\input{chapters/chapter4.tex}
 %\input{chapters/chapter5.tex}
@@ -258,9 +252,9 @@ Moreover, consider the advice by Markus Kuhn on differentiating abstract and int
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
 
-\include{appendices/appendixA}
-\include{appendices/appendixB}
-\include{appendices/appendixC}
+%\include{appendices/appendixA}
+%\include{appendices/appendixB}
+%\include{appendices/appendixC}
 
 
 
@@ -302,8 +296,6 @@ Moreover, consider the advice by Markus Kuhn on differentiating abstract and int
 
 \begin{declaration}
 \addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
-
-% TODO Change the declaration according as needed. *
 
 %\selectlanguage{ngerman}
 Ich erkläre hiermit gemä\ss\ \S~17 Abs.\,2 APO, dass ich die vorstehende {\thesistype}arbeit selbständig\\ verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.
