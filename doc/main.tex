@@ -1,184 +1,60 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% PSI Chair Thesis Template
-% Version 2020-01
-%
-% based on MastersDoctoralThesis.cls
-% Version 2.5 (27/8/17)
-%
-% which was obtained from:
-% http://www.LaTeXTemplates.com
-%
-% Version 2.x major modifications by:
-% Vel (vel@latextemplates.com)
-%
-% This template is based on a template by:
-% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
-% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
-%
-% License of this guide and the template
-% CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
-%
-% Exception 1: Some excerpts, figures, and tables that have been taken
-% from the literature (denoted with a citation in the caption) are not
-% covered by the above license. Permission to re-use and distribute
-% these excerpts, figures, and tables must be obtained from the
-% respective holder of the copyrights.
-%
-% Exception 2: Chapter 1 and Appendix C are based on content from the
-% MastersDoctoralThesis template mentioned above, which is licensed under 
-% CC BY-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-% 
-% License of the PSIThesis.cls class file:
-% LPPL v1.3c (http://www.latex-project.org/lppl)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \PassOptionsToPackage{english,ngerman}{babel}
 \documentclass[
-11pt, % The default document font size is 11 (recommended), options: 10pt, 11pt, 12pt
-%oneside, % Two-side layout is recommended; uncomment to switch to one-sided
-english, % replace with ngerman for German; not fully supported so far -- requires changes elsewhere
-singlespacing, % Single line spacing (recommended), alternatives: onehalfspacing or doublespacing
-%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
-%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
-%liststotoc, % Uncomment to add list of figures/tables/etc to table of contents (not recommended)
-%toctotoc, % Uncomment to add the main table of contents to the table of contents (not recommended)
-parskip, % add space between paragraphs (recommended)
-nohyperref, % do not load the hyperref package (is loaded in setup.tex)
-%headsepline, % print a horizontal line under the page header
-consistentlayout, % layout of declaration, abstract and acknowledgements pages matches the default layout
-%final, % Uncomment to hide all todo notes
-]{PsiThesis} % The class file specifying the document structure
+	11pt,
+	english,
+	singlespacing,
+	parskip,
+	nohyperref,
+	consistentlayout,
+]{PsiThesis}
 
+\input{misc/setup.tex}
+\input{misc/commands.tex}
 
-\input{misc/setup.tex} % Load the settings from Misc/setup.tex
-\input{misc/commands.tex} % Load the custom commands from Misc/commands.tex
-
-% Make all links black:
 \hypersetup{colorlinks=false}
 
-\addbibresource{literature.bib} % The filename of the bibliography
+\addbibresource{literature.bib}
 
-%----------------------------------------------------------------------------------------
-%	THESIS INFORMATION
-%----------------------------------------------------------------------------------------
-\newcommand{\thesistype}{Bachelor} % type of thesis
-
-% Thesis title, print it elsewhere with \ttitle 
+% THESIS INFORMATION
+\newcommand{\thesistype}{Bachelor}
 \thesistitle{Qualitative Analyse von Stakeholdern in einem Unternehmen zu Sichtweisen auf Privatsphäre bei Softwareentwicklern bzw. -administratoren}
-
-% date to be printed on the title
 \def\tdate{\today}
 \def\tdate{Juli 2020}
-
-% Name, print it elsewhere with \authorname
-\author{Samet Murat Akcabay}
-
-% Supervisor's name, print it elsewhere with \supname
+\author{Samet zweiter Test Murat Akcabay}
 \supervisor{Prof. Dr. Dominik Herrmann}
-
-% University's name and URL, print it elsewhere with \univname
 \university{\href{https://www.uni-bamberg.de/en/}{Otto-Friedrich-Universität Bamberg}}
-
-% Research groups name and URL, print it elsewhere with \groupname
 \group{\href{https://www.uni-bamberg.de/informatik/psi/}{Lehrstuhl für Privatsphäre und Sicherheit in Informationssystemen}}
-
-% Department's name, print it elsewhere with \deptname
 \department{Fakultät für Wirtschaftsinformatik und Angewandte Informatik}
-
-% Faculty's name and URL, print it elsewhere with \facname
-% TODO: insert *your* degree program in the \faculty command below
-% Applied Computer Science
-% Computing in the Humanities
-% Information Systems
-% International Information Systems Management
-% International Software Systems Science
-% Software Systems Science
-% Education in Business and Information Systems
 \faculty{Applied Computer Science in the\\ \href{https://www.uni-bamberg.de/wiai/}{Faculty of Information Science and Applied Computer Science}}
-
-% Adress, print it elsewhere with \addressname
 \addresses{Brennerstraße 50\\96052 Bamberg}
-
-% Subject are, print it elsewhere with \subjectname
 \subject{subject not used}
-
-% Keywords for thesis, print it elsewhere with \keywordnames
 \keywords{keywords not used}
-%----------------------------------------------------------------------------------------
-%	END OF THESIS INFORMATION
-%----------------------------------------------------------------------------------------
+% END OF THESIS INFORMATION
 
-
+% DOCUMENT
 \begin{document}
+	\selectlanguage{english}
+	\frenchspacing
+	\frontmatter
+	\hypersetup{urlcolor=black}
+	\include{misc/titlepage}
+	\hypersetup{urlcolor=ubblue80}
 
-\selectlanguage{english}
+	% ABSTRACT
+	\begin{abstract}
+	Provide a Thesis Abstract here (length: less than one page).
+	Consider the excellent guide by Kent Beck on how to write good abstracts:
+	\url{https://plg.uwaterloo.ca/~migod/research/beckOOPSLA.html}
+	Moreover, consider the advice by Markus Kuhn on differentiating abstract and introduction: \url{https://www.lightbluetouchpaper.org/2007/03/14/how-not-to-write-an-abstract/}
+	\end{abstract}
+	% END OF ABSTRACT
+	
+	\include{main.tex}
 
-\frenchspacing % do not add additional hspace after end of sentence full stop dot.
+	% TABLE OF CONTENTS
+	\cleardoublepage
 
-\frontmatter % Uses roman page numbering style (i, ii, iii, iv...) for the pre-content pages
-
-\hypersetup{urlcolor=black}
-
-\include{misc/titlepage} % Typeset the titlepage
-
-\hypersetup{urlcolor=ubblue80}
-
-
-%----------------------------------------------------------------------------------------
-%	QUOTATION
-%----------------------------------------------------------------------------------------
-
-% \vspace*{0.2\textheight}
-
-% \noindent\enquote{\itshape Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism.}\bigbreak
-
-% \hfill Dave Barry
-
-
-%----------------------------------------------------------------------------------------
-%	ABSTRACT PAGE
-%----------------------------------------------------------------------------------------
-
-\begin{abstract}
-%\addchaptertocentry{\abstractname}
-% uncomment to add the abstract to the table of contents (not recommended)
-
-Provide a Thesis Abstract here (length: less than one page).
-
-Consider the excellent guide by Kent Beck on how to write good abstracts:
-\url{https://plg.uwaterloo.ca/~migod/research/beckOOPSLA.html}
-
-Moreover, consider the advice by Markus Kuhn on differentiating abstract and introduction: \url{https://www.lightbluetouchpaper.org/2007/03/14/how-not-to-write-an-abstract/}
-\end{abstract}
-
-
-%----------------------------------------------------------------------------------------
-%	ACKNOWLEDGEMENTS
-%----------------------------------------------------------------------------------------
-
-%\begin{acknowledgements}
-% %\addchaptertocentry{\acknowledgementname}
-% Add the acknowledgements to the table of contents (not recommended)
-%
-%The acknowledgments and the people to thank go here.
-%\end{acknowledgements}
-
-\include{main.tex}
-
-%----------------------------------------------------------------------------------------
-%	TABLE OF CONTENTS
-%----------------------------------------------------------------------------------------
-
-\cleardoublepage
-
-% Table of Contents uses a wider layout than the main content
-\newgeometry{
+	\newgeometry{
 		head=13.6pt,
 		top=27.4mm,
 		bottom=27.4mm,
@@ -186,136 +62,80 @@ Moreover, consider the advice by Markus Kuhn on differentiating abstract and int
 		outer=24.8mm,
 		marginparsep=0mm,
 		marginparwidth=0mm,
-}
-{
-\hypersetup{linkcolor=black}
-\tableofcontents % Prints the ToC entries
-}
-\restoregeometry
+	}
+	{
+		\hypersetup{linkcolor=black}
+		\tableofcontents % Prints the ToC entries
+	}
+	\restoregeometry
 
-%----------------------------------------------------------------------------------------
-%	DEDICATION
-%----------------------------------------------------------------------------------------
+	% THESIS CONTENTS - CHAPTERS
+	\mainmatter
+	\pagestyle{thesis}
 
-% \dedicatory{For/Dedicated to/To my\ldots}
+	\newcommand{\keyword}[1]{\textbf{#1}}
+	\newcommand{\tabhead}[1]{\textbf{#1}}
+	\newcommand{\code}[1]{\texttt{#1}}
+	\newcommand{\file}[1]{\texttt{#1}}
+	\newcommand{\option}[1]{\texttt{\itshape#1}}
 
+	\graphicspath{{./figures/}{./examples/}}
 
-%----------------------------------------------------------------------------------------
-%	THESIS CONTENT - CHAPTERS
-%----------------------------------------------------------------------------------------
-\mainmatter % From here on, numeric (1,2,3...) page numbering
-\pagestyle{thesis} % Return the page headers back to the "thesis" style
+	% CHAPTERS
+	%\input{chapters/chapter1.tex}
+	%\input{chapters/chapter2.tex}
+	%\input{chapters/chapter3.tex}
+	%\input{chapters/chapter4.tex}
+	%\input{chapters/chapter5.tex}
 
-% Define some commands to keep the formatting separated from the content
-\newcommand{\keyword}[1]{\textbf{#1}}
-\newcommand{\tabhead}[1]{\textbf{#1}}
-\newcommand{\code}[1]{\texttt{#1}}
-\newcommand{\file}[1]{\texttt{#1}}
-\newcommand{\option}[1]{\texttt{\itshape#1}}
+	% APPENDICES
+	\addtocontents{toc}{\string\def\string\chaptername{Appendix}}
+	\appendix
+	\renewcommand{\thesection}{\thechapter.\arabic{section}}
+	\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+	\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
 
-% Figures will automatically be searched for in the Figures subdirectory
-\graphicspath{{./figures/}{./examples/}}
+	%\include{appendices/appendixA}
+	%\include{appendices/appendixB}
+	%\include{appendices/appendixC}
 
-%%% CHANGES NEEDED HERE
-%
-% Include the chapters of the thesis as separate files from the Chapters folder
-% Uncomment the lines as you write the chapters
-% Mind the \input instead of the \include here, that change is necessary for the appendix formatting
-% Due to the \input command you also need to provide the .tex file ending
+	% BIBLIOGRAPHY
+	\newgeometry{
+		inner=2cm,
+		outer=2cm, 
+		marginparwidth=0cm,
+		marginparsep=0mm,
+		bindingoffset=.5cm,
+		top=1.5cm,
+		bottom=2.5cm,
+		includehead,
+		includefoot
+	}
+	\addchap{References}
 
-%\input{chapters/chapter1.tex}
-%\input{chapters/chapter2.tex}
-%\input{chapters/chapter3.tex}
-%\input{chapters/chapter4.tex}
-%\input{chapters/chapter5.tex}
+	\setlength\columnsep{2em}
+	\begin{multicols}{2}
+		\begin{refcontext}[sorting=nyt]
+			\renewcommand*{\bibfont}{\small\RaggedRight}
+			\linespread{1.0}\selectfont
+			\printbibliography[heading=none]
+		\end{refcontext}
+	\end{multicols}
 
-
-%----------------------------------------------------------------------------------------
-%	THESIS CONTENT - APPENDICES
-%----------------------------------------------------------------------------------------
-
-% By using input instead of include for the chapters we are able to move the following line here
-% Therefore the addition before the last chapter is not necessary anymore.
-
-% Call the following chapters "Appendix" inside the table of contents
-\addtocontents{toc}{\string\def\string\chaptername{Appendix}}
-
-\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
-
-% Ensure proper section numbering in appendix, e.g., A.1, A.2, B.1, …
-\renewcommand{\thesection}{\thechapter.\arabic{section}}
-\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
-\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
-
-%%% CHANGES NEEDED HERE
-%
-% Include the appendices of the thesis as separate files from the Appendices folder
-% Uncomment the lines as you write the Appendices
-
-%\include{appendices/appendixA}
-%\include{appendices/appendixB}
-%\include{appendices/appendixC}
-
-
-
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-% Bibliography has no wide margins:
-\newgeometry{
-	inner=2cm, % Inner margin
-	outer=2cm, % Outer margin
-	marginparwidth=0cm,
-	marginparsep=0mm,
-	bindingoffset=.5cm, % Binding offset
-	top=1.5cm, % Top margin
-	bottom=2.5cm, % Bottom margin,
-	includehead,
-	includefoot
-	% showframe, % Uncomment to show how the type block is set on the page
-}
-
-\addchap{References}
-
-% enables two-column layout for bibliography
-\setlength\columnsep{2em}
-\begin{multicols}{2}
-	\begin{refcontext}[sorting=nyt] % sort bibliography by last name, year, title
-		\renewcommand*{\bibfont}{\small\RaggedRight}
-		\linespread{1.0}\selectfont % increase linespread if desired (not recommended)
-		\printbibliography[heading=none]
-	\end{refcontext}
-\end{multicols}
-
-%----------------------------------------------------------------------------------------
-
-%----------------------------------------------------------------------------------------
-%	DECLARATION PAGE
-%----------------------------------------------------------------------------------------
-
-\begin{declaration}
-\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
-
-%\selectlanguage{ngerman}
-Ich erkläre hiermit gemä\ss\ \S~17 Abs.\,2 APO, dass ich die vorstehende {\thesistype}arbeit selbständig\\ verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.
-
-\bigskip
-\bigskip
-
-\begin{tabular}{@{}l@{}}
-  Bamberg, den \rule[-0.8em]{10em}{0.5pt}\\[2ex]
-  ~
-\end{tabular}
-\hspace{\fill}%
-\begin{tabular}{@{}c@{}}
-  \rule[-0.8em]{20em}{0.5pt}\\[2ex]
-  \authorname
-\end{tabular}\hspace{\fill}
-
-
-
-
-\end{declaration}
-
+	% DECLARATION
+	\begin{declaration}
+		\addchaptertocentry{\authorshipname}
+		Ich erkläre hiermit gemä\ss\ \S~17 Abs.\,2 APO, dass ich die vorstehende {\thesistype}arbeit selbständig\\ verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.
+		\bigskip
+		\bigskip
+		\begin{tabular}{@{}l@{}}
+  		Bamberg, den \rule[-0.8em]{10em}{0.5pt}\\[2ex]
+  		~
+		\end{tabular}
+		\hspace{\fill}%
+		\begin{tabular}{@{}c@{}}
+  			\rule[-0.8em]{20em}{0.5pt}\\[2ex]
+  			\authorname
+			\end{tabular}\hspace{\fill}
+	\end{declaration}
 \end{document}
