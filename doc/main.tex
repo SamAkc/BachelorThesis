@@ -1,7 +1,8 @@
+% !TeX program = lualatex
 \PassOptionsToPackage{english,ngerman}{babel}
 \documentclass[
 	11pt,
-	english,
+	german,
 	singlespacing,
 	parskip,
 	nohyperref,
@@ -19,13 +20,12 @@
 \newcommand{\thesistype}{Bachelor}
 \thesistitle{Qualitative Analyse von Stakeholdern in einem Unternehmen zu Sichtweisen auf Privatsphäre bei Softwareentwicklern bzw. -administratoren}
 \def\tdate{\today}
-\def\tdate{Juli 2020}
-\author{Samet zweiter Test Murat Akcabay}
+\def\tdate{2. August 2020}
+\author{Samet Murat Akcabay}
 \supervisor{Prof. Dr. Dominik Herrmann}
 \university{\href{https://www.uni-bamberg.de/en/}{Otto-Friedrich-Universität Bamberg}}
 \group{\href{https://www.uni-bamberg.de/informatik/psi/}{Lehrstuhl für Privatsphäre und Sicherheit in Informationssystemen}}
 \department{Fakultät für Wirtschaftsinformatik und Angewandte Informatik}
-\faculty{Applied Computer Science in the\\ \href{https://www.uni-bamberg.de/wiai/}{Faculty of Information Science and Applied Computer Science}}
 \addresses{Brennerstraße 50\\96052 Bamberg}
 \subject{subject not used}
 \keywords{keywords not used}
@@ -33,7 +33,7 @@
 
 % DOCUMENT
 \begin{document}
-	\selectlanguage{english}
+	\selectlanguage{ngerman}
 	\frenchspacing
 	\frontmatter
 	\hypersetup{urlcolor=black}
@@ -42,10 +42,7 @@
 
 	% ABSTRACT
 	\begin{abstract}
-	Provide a Thesis Abstract here (length: less than one page).
-	Consider the excellent guide by Kent Beck on how to write good abstracts:
-	\url{https://plg.uwaterloo.ca/~migod/research/beckOOPSLA.html}
-	Moreover, consider the advice by Markus Kuhn on differentiating abstract and introduction: \url{https://www.lightbluetouchpaper.org/2007/03/14/how-not-to-write-an-abstract/}
+	Diese qualitative Analyse beschäftigt sich mit den Sichtweisen auf Privatsphäre und Sicherheit von Stakeholdern in einem Softwareentwicklungs-Unternehmen. Mit der stetig wachsenden Digitalisierung spielt der Datenschutz, und somit die Privatsphäre und Sicherheit, eine immer größere Rolle bei Nutzern des Internets. Aus praktischer Sicht sind die Sichtweisen auf diese unterschiedlich, weswegen bei der Recherche darauf Wert gelegt wurde, möglichst viele Experten aus unterschiedlichen Berufsgruppen (z.B. Werkstudenten, Festangestellte, Team-Leads o.Ä.) einzubeziehen und deren Aussagen auszuwerten. Nach erfolgreicher Auswertung der Expertenbefragungen hat sich ergeben, dass die Berufsgruppe, damit verbunden die Arbeitsweise und der -umfang, [...]keinen Einfluss auf die Einstellung gegenüber personenbezogenen Daten und die Verarbeitung dieser in DevOps-Tools haben.
 	\end{abstract}
 	% END OF ABSTRACT
 	
@@ -82,11 +79,10 @@
 	\graphicspath{{./figures/}{./examples/}}
 
 	% CHAPTERS
-	%\input{chapters/chapter1.tex}
-	%\input{chapters/chapter2.tex}
+	\input{chapters/chapter1.tex}
+	\input{chapters/chapter2.tex}
 	%\input{chapters/chapter3.tex}
 	%\input{chapters/chapter4.tex}
-	%\input{chapters/chapter5.tex}
 
 	% APPENDICES
 	\addtocontents{toc}{\string\def\string\chaptername{Appendix}}
@@ -125,7 +121,7 @@
 	% DECLARATION
 	\begin{declaration}
 		\addchaptertocentry{\authorshipname}
-		Ich erkläre hiermit gemä\ss\ \S~17 Abs.\,2 APO, dass ich die vorstehende {\thesistype}arbeit selbständig\\ verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.
+		Ich erkläre hiermit gemä\ss\ \S~17 Abs.\,2 APO, dass ich die vorstehende {\thesistype}arbeit selbständig\\ verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.\\
 		\bigskip
 		\bigskip
 		\begin{tabular}{@{}l@{}}
