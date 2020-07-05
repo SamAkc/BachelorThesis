@@ -3,54 +3,24 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Relevanz von Privatsph\"are und Sicherheit in der heutigen Zeit - eine Einleitung}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}A Quick Welcome}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Learning LaTeX}{1}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Introduction to LaTeX}{2}{subsection.1.2.1}%
-\contentsline {paragraph}{A Short Math Guide for LaTeX}{2}{paragraph*.3}%
-\contentsline {paragraph}{Common LaTeX Math Symbols}{2}{paragraph*.4}%
-\contentsline {subsection}{\numberline {1.2.2}LaTeX Distributions}{2}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Required Software}{3}{section.1.3}%
-\contentsline {paragraph}{Using Overlaf and XeTeX}{3}{paragraph*.5}%
-\contentsline {section}{\numberline {1.4}Getting Started with the Template}{3}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Folder Structure}{3}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Files}{4}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Compiling the PDF}{5}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Filling in Your Information in \emph {main.tex}}{5}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5}More Information on \emph {main.tex}}{6}{subsection.1.4.5}%
-\contentsline {section}{\numberline {1.5}Your Turn Now}{6}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Conventions}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Links and References}{7}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Links to Websites}{7}{subsection.2.1.1}%
-\contentsline {paragraph}{Link Rot}{8}{paragraph*.7}%
-\contentsline {subsection}{\numberline {2.1.2}Citation and References}{8}{subsection.2.1.2}%
-\contentsline {paragraph}{BibTeX Snippets}{9}{paragraph*.8}%
-\contentsline {section}{\numberline {2.2}Side Notes, Margin Notes, and Footnotes}{9}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Tables, Figures, and Listings}{10}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Tables}{10}{subsection.2.3.1}%
-\contentsline {paragraph}{Further Reading}{12}{paragraph*.13}%
-\contentsline {subsection}{\numberline {2.3.2}Figures}{12}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Effective Figure Design}{12}{subsubsection.2.3.2.1}%
-\contentsline {subsubsection}{\numberline {2.3.2.2}Figure Layout Options}{14}{subsubsection.2.3.2.2}%
-\contentsline {paragraph}{Wide Figures}{15}{paragraph*.16}%
-\contentsline {paragraph}{Side-by-Side Figures}{16}{paragraph*.18}%
-\contentsline {paragraph}{Margin Figures}{17}{paragraph*.19}%
-\contentsline {paragraph}{Margin Tables}{17}{paragraph*.21}%
-\contentsline {subsection}{\numberline {2.3.3}Listings}{18}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Mathematics}{18}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Structuring Your Thesis}{19}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Typography}{20}{section.2.6}%
-\contentsline {paragraph}{Further Reading}{21}{paragraph*.24}%
-\contentsline {section}{\numberline {2.7}Language and Style}{21}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Spelling, Hyphenation, and Grammar}{21}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Style}{21}{subsection.2.7.2}%
-\contentsline {subsubsection}{\numberline {2.7.2.1}The Science of Scientific Writing}{22}{subsubsection.2.7.2.1}%
-\contentsline {paragraph}{Subject-Verb Separation (Excerpts)}{22}{paragraph*.26}%
-\contentsline {paragraph}{The Stress Position (Excerpts)}{22}{paragraph*.27}%
-\contentsline {paragraph}{The Topic Position (Excerpts)}{23}{paragraph*.28}%
-\contentsline {subsubsection}{\numberline {2.7.2.2}Selected Syntactical Conventions}{23}{subsubsection.2.7.2.2}%
-\contentsline {paragraph}{Common Bugs in Writing}{24}{paragraph*.29}%
-\contentsline {section}{\numberline {2.8}Concluding Remarks}{24}{section.2.8}%
-\contentsline {paragraph}{Further Reading}{24}{paragraph*.30}%
+\contentsline {chapter}{\numberline {2}Theoretischer Hintergrund}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Definition und Identifikation der Stakeholder in einem Softwareentwicklungsunternehmen}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Berufseinsteiger, Praktikanten und Werkstudenten}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Softwareentwickler}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Team-Leads, Projektleiter (und Gesch\"aftsf\"uhrer?)}{3}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Externe Ansprechpartner}{3}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}DevOps und deren Einsatz in Softwareentwicklungsunternehmen}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Interne Kommunikationstools}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Projektmanagement- und Wiki-Software}{3}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Git}{3}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Aktueller Stand und Technologien?}{3}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Forschungsmethode}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Ergebnisse}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{9}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{11}{chapter.6}%
 \def \chaptername {Appendix}
-\contentsline {chapter}{References}{25}{appendix*.31}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{27}{appendix*.32}%
+\contentsline {chapter}{Literaturverzeichnis}{13}{appendix*.3}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{15}{appendix*.4}%

@@ -2182,23 +2182,6 @@
     <bcf:datasource type="file" datatype="bibtex">literature.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Hintz02</bcf:citekey>
-    <bcf:citekey order="2">anderson_ross_emv:_2014</bcf:citekey>
-    <bcf:citekey order="3">murdoch_steven_j._chip_2010</bcf:citekey>
-    <bcf:citekey order="4">Hintz02</bcf:citekey>
-    <bcf:citekey order="5">kou_weidong_secure_2003</bcf:citekey>
-    <bcf:citekey order="6">kou_weidong_secure_2003</bcf:citekey>
-    <bcf:citekey order="7">kou_weidong_secure_2003</bcf:citekey>
-    <bcf:citekey order="8">murdoch_steven_j._chip_2010</bcf:citekey>
-    <bcf:citekey order="8">anderson_ross_emv:_2014</bcf:citekey>
-    <bcf:citekey order="8">kou_weidong_secure_2003</bcf:citekey>
-    <bcf:citekey order="9">murdoch_steven_j._chip_2010</bcf:citekey>
-    <bcf:citekey order="10">anderson_ross_emv:_2014</bcf:citekey>
-    <bcf:citekey order="11">kou_weidong_secure_2003</bcf:citekey>
-    <bcf:citekey order="12">murdoch_steven_j._chip_2010</bcf:citekey>
-    <bcf:citekey order="13">murdoch_steven_j._chip_2010</bcf:citekey>
-    <bcf:citekey order="14">BuchananRSS08</bcf:citekey>
-    <bcf:citekey order="15">DietrichKBF18</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
