@@ -2,7 +2,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Relevanz von Privatsph\"are und Sicherheit in der heutigen Zeit - eine Einleitung}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Die Relevanz der Privatsph\"are im 21. Jahrhundert - eine Einleitung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Theoretischer Hintergrund}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Definition und Identifikation der Stakeholder in einem Softwareentwicklungsunternehmen}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Berufseinsteiger, Praktikanten und Werkstudenten}{3}{subsection.2.1.1}%

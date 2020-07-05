@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  5 JUL 2020 14:26
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  5 JUL 2020 16:53
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -1725,11 +1725,12 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 35.
 Package biblatex Info: Reference segment=0 on input line 35.
- ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box130
 Package hyperref Info: Link coloring OFF on input line 35.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1961,6 +1962,9 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
  []
 
+
+LaTeX Warning: Citation 'Craig1' on page 1 undefined on input line 5.
+
 ) (./chapters/background.tex
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
@@ -2096,23 +2100,32 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: ECAB527C16EDEA4509D72BF469322139;4659.
+(rerunfilecheck)             Checksum: 75FF9369BE9791BABCDA68825C672E4F;4588.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 50277 strings out of 480992
+ 50450 strings out of 480992
  125171,1977958 words of node,token memory allocated
  1332 words of node memory still in use:
    24 hlist, 2 vlist, 10 rule, 5 glue, 4 kern, 1 glyph, 66 attribute, 100 glue_spec, 59 attribute_list, 2 write, 16 pdf_literal, 2 pdf_action, 16 pdf_colorstack nodes
-   avail lists: 1:6,2:889,3:134,4:84,5:199,6:48,7:1213,8:19,9:180,10:8,11:135
- 65778 multiletter control sequences out of 65536+600000
+   avail lists: 1:6,2:889,3:134,4:84,5:196,6:48,7:1213,8:19,9:180,10:9,11:135
+ 65956 multiletter control sequences out of 65536+600000
  302 fonts using 32976915 bytes
  76i,17n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
-Output written on main.pdf (21 pages, 151573 bytes).
+Output written on main.pdf (21 pages, 153193 bytes).
 
 PDF statistics: 255 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
