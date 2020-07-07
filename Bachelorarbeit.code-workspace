@@ -4,5 +4,7 @@
 			"path": "doc"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.language": ",de"
+	}
 }
