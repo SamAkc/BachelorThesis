@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  7 JUL 2020 15:33
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  12 JUL 2020 22:08
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -1963,20 +1963,21 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
  []
 
 
-LaTeX Warning: Citation 'Apple 2020: 55:30 - 55:35' on page 1 undefined on input line 5.
+LaTeX Warning: Citation 'WWDC:20' on page 1 undefined on input line 5.
 
 
-LaTeX Warning: Citation 'Bundeslagebild 2018: S. 52' on page 1 undefined on input line 7.
+LaTeX Warning: Citation 'BLB:18' on page 1 undefined on input line 7.
 
 
-LaTeX Warning: Citation 'G DATA-Blog 2018' on page 1 undefined on input line 8.
+LaTeX Warning: Citation 'GDB:18' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'GD+1' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'GDB:17' on page 1 undefined on input line 9.
 
 ) (./chapters/background.tex
-Overfull \hbox (14.02324pt too wide) in paragraph at lines 5--2
-\TU/Cochineal(0)/m/n/10.95 „   We be-lie-ve pri-va-cy is a fun-da-men-tal hu-man right“ [[]]
- []
-
-
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
@@ -2105,11 +2106,11 @@ LaTeX Warning: Empty bibliography on input line 124.
 
 
 ] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./main.aux (./misc/titlepage.aux) (./main.tex.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 75FF9369BE9791BABCDA68825C672E4F;4588.
 
@@ -2131,12 +2132,12 @@ Here is how much of LuaTeX's memory you used:
  125171,1977958 words of node,token memory allocated
  1332 words of node memory still in use:
    24 hlist, 2 vlist, 10 rule, 5 glue, 4 kern, 1 glyph, 66 attribute, 100 glue_spec, 59 attribute_list, 2 write, 16 pdf_literal, 2 pdf_action, 16 pdf_colorstack nodes
-   avail lists: 1:6,2:889,3:134,4:84,5:234,6:48,7:1622,8:21,9:180,10:8,11:161
+   avail lists: 1:7,2:892,3:140,4:87,5:272,6:48,7:1950,8:19,9:191,10:9,11:194
  65956 multiletter control sequences out of 65536+600000
  302 fonts using 32976915 bytes
  76i,17n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
-Output written on main.pdf (21 pages, 154244 bytes).
+Output written on main.pdf (21 pages, 156336 bytes).
 
 PDF statistics: 255 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
