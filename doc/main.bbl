@@ -19,78 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{WWDC:20}{online}{}
-      \name{author}{1}{}{%
-        {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
-           family={Apple},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \field{labelalpha}{App20}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{WWDC 2020 Special Event Keynote --- Apple}
-      \field{urlday}{22}
-      \field{urlmonth}{6}
-      \field{urlyear}{2020}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
-      \endverb
-      \keyw{privacy}
-    \endentry
-    \entry{GD+1}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{G Data}
-      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \keyw{auszeichnungen}
-    \endentry
-    \entry{BLB:18}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ebcb48f0fdf4e224c44d91a325bee068}{%
-           family={Bundeskriminalamt},
-           familyi={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Bundeskriminalamt}%
-      }
-      \strng{namehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{fullhash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{bibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{authorbibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{authornamehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{authorfullhash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \field{labelalpha}{Bun19}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Cybercrime. Bundeslagebild 2018}
-      \field{year}{2019}
-      \keyw{bundeslagebild}
-    \endentry
-    \entry{Fle:16}{online}{}
+    \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
         {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
            family={Fleig},
@@ -123,6 +52,31 @@
       \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
       \endverb
       \keyw{stakeholder}
+    \endentry
+    \entry{Hasselbring:2015aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=131b9781ee9671d87bd60771bd41a0bc}{%
+           family={Hasselbring},
+           familyi={H\bibinitperiod},
+           given={Wilhelm},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{fullhash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{bibnamehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{authorbibnamehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{authornamehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{authorfullhash}{131b9781ee9671d87bd60771bd41a0bc}
+      \field{labelalpha}{Has15}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DevOps: Softwarearchitektur an der Schnittstelle zwischen Entwicklung und Betrieb}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+      \keyw{devops,definition}
     \endentry
     \entry{GDB:17}{online}{}
       \field{labelalpha}{18}
@@ -237,7 +191,7 @@
       \endverb
       \keyw{privacy}
     \endentry
-    \entry{STW:13}{article}{}
+    \entry{Stallwood:2013aa}{article}{}
       \name{author}{1}{}{%
         {{hash=cacdb6a9be7b80f87e9426ba276c9a97}{%
            family={Stallwood},
@@ -260,6 +214,22 @@
       \field{title}{Game to destroy CCTV cameras: vandalism or valid protest?}
       \field{year}{2013}
       \keyw{cctv}
+    \endentry
+    \entry{MSAzure:2020aa}{online}{}
+      \field{labelalpha}{20}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Microsoft Azure}
+      \field{title}{Was ist DevOps?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
+      \endverb
+      \keyw{devops}
     \endentry
   \enddatalist
   \datalist[entry]{anyt/global//global/global}
@@ -308,78 +278,23 @@
       \endverb
       \keyw{malware}
     \endentry
-    \entry{GD+1}{online}{}
+    \entry{MSAzure:2020aa}{online}{}
       \field{labelalpha}{20}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{G Data}
-      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
+      \field{journaltitle}{Microsoft Azure}
+      \field{title}{Was ist DevOps?}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
       \verb{url}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
-      \keyw{auszeichnungen}
+      \keyw{devops}
     \endentry
-    \entry{WWDC:20}{online}{}
-      \name{author}{1}{}{%
-        {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
-           family={Apple},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \field{labelalpha}{App20}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{WWDC 2020 Special Event Keynote --- Apple}
-      \field{urlday}{22}
-      \field{urlmonth}{6}
-      \field{urlyear}{2020}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
-      \endverb
-      \keyw{privacy}
-    \endentry
-    \entry{BLB:18}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ebcb48f0fdf4e224c44d91a325bee068}{%
-           family={Bundeskriminalamt},
-           familyi={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Bundeskriminalamt}%
-      }
-      \strng{namehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{fullhash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{bibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{authorbibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{authornamehash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \strng{authorfullhash}{ebcb48f0fdf4e224c44d91a325bee068}
-      \field{labelalpha}{Bun19}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Cybercrime. Bundeslagebild 2018}
-      \field{year}{2019}
-      \keyw{bundeslagebild}
-    \endentry
-    \entry{Fle:16}{online}{}
+    \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
         {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
            family={Fleig},
@@ -412,6 +327,31 @@
       \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
       \endverb
       \keyw{stakeholder}
+    \endentry
+    \entry{Hasselbring:2015aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=131b9781ee9671d87bd60771bd41a0bc}{%
+           family={Hasselbring},
+           familyi={H\bibinitperiod},
+           given={Wilhelm},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{fullhash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{bibnamehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{authorbibnamehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{authornamehash}{131b9781ee9671d87bd60771bd41a0bc}
+      \strng{authorfullhash}{131b9781ee9671d87bd60771bd41a0bc}
+      \field{labelalpha}{Has15}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DevOps: Softwarearchitektur an der Schnittstelle zwischen Entwicklung und Betrieb}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+      \keyw{devops,definition}
     \endentry
     \entry{Pettinger:2020aa}{online}{}
       \name{author}{1}{}{%
@@ -481,7 +421,7 @@
       \endverb
       \keyw{privacy}
     \endentry
-    \entry{STW:13}{article}{}
+    \entry{Stallwood:2013aa}{article}{}
       \name{author}{1}{}{%
         {{hash=cacdb6a9be7b80f87e9426ba276c9a97}{%
            family={Stallwood},
@@ -506,6 +446,9 @@
       \keyw{cctv}
     \endentry
   \enddatalist
+  \missing{BLB:18}
+  \missing{GD+1}
+  \missing{WWDC:20}
 \endrefsection
 \endinput
 

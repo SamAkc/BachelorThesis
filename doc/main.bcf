@@ -2187,11 +2187,15 @@
     <bcf:citekey order="3">GDB:18</bcf:citekey>
     <bcf:citekey order="4">GD+1</bcf:citekey>
     <bcf:citekey order="5">GDB:17</bcf:citekey>
-    <bcf:citekey order="6">STW:13</bcf:citekey>
+    <bcf:citekey order="6">Stallwood:2013aa</bcf:citekey>
     <bcf:citekey order="7">Picchi:2018aa</bcf:citekey>
     <bcf:citekey order="8">Pettinger:2020aa</bcf:citekey>
-    <bcf:citekey order="9">Fle:16</bcf:citekey>
-    <bcf:citekey order="10">Fle:16</bcf:citekey>
+    <bcf:citekey order="9">Fleig:2016aa</bcf:citekey>
+    <bcf:citekey order="10">Fleig:2016aa</bcf:citekey>
+    <bcf:citekey order="11">MSAzure:2020aa</bcf:citekey>
+    <bcf:citekey order="12">MSAzure:2020aa</bcf:citekey>
+    <bcf:citekey order="13">Hasselbring:2015aa</bcf:citekey>
+    <bcf:citekey order="14">MSAzure:2020aa</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

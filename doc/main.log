@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  16 JUL 2020 12:40
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  16 JUL 2020 20:50
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -1726,7 +1726,29 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                BLB:18
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                GD+1
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                WWDC:20
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 35.
 Package biblatex Info: Reference segment=0 on input line 35.
  ABD: EveryShipout initializing macros
@@ -1819,7 +1841,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<misc/UB_Logo_20mm_CMYK.pdf, id=139, 57.21375pt x 57.21375pt>
+<misc/UB_Logo_20mm_CMYK.pdf, id=143, 57.21375pt x 57.21375pt>
 File: misc/UB_Logo_20mm_CMYK.pdf Graphic file (type pdf)
 <use misc/UB_Logo_20mm_CMYK.pdf>
 Package luatex.def Info: misc/UB_Logo_20mm_CMYK.pdf  used on input line 43.
@@ -1979,16 +2001,26 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
  []
 
-) (./chapters/research.tex
+
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
 
-[3] [4]
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 25--31
+
+ []
+
+) (./chapters/research.tex [4]
 Kapitel 3.
 
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
+ []
+
+
+Overfull \hbox (10.68347pt too wide) in paragraph at lines 12--12
+|[][]\TU/Cochineal(1)/b/n/12 Iden-ti-fi-ka-ti-on der Sta-ke-hol-der in ei-nem Soft-ware-ent-wick-
  []
 
 
@@ -2091,35 +2123,44 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./main.aux (./misc/titlepage.aux) (./main.tex.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2BFA9E6AF68FDB215701D44FB06B5FB5;5573.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 87726611324E4291B0222DF148AC6429;5731
+(rerunfilecheck)             After:  02EC9F8B062D4A522E1D78DCE6085BB2;4884.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 50692 strings out of 480992
+ 50700 strings out of 480992
  125171,1977958 words of node,token memory allocated
- 1409 words of node memory still in use:
-   24 hlist, 2 vlist, 10 rule, 5 glue, 4 kern, 1 glyph, 78 attribute, 101 glue_spec, 65 attribute_list, 2 write, 16 pdf_literal, 8 pdf_action, 16 pdf_colorstack nodes
-   avail lists: 1:7,2:1159,3:1757,4:186,5:393,6:60,7:7579,8:126,9:303,10:52,11:384
- 66112 multiletter control sequences out of 65536+600000
- 379 fonts using 39402355 bytes
+ 1385 words of node memory still in use:
+   24 hlist, 2 vlist, 10 rule, 5 glue, 4 kern, 1 glyph, 74 attribute, 101 glue_spec, 63 attribute_list, 2 write, 16 pdf_literal, 6 pdf_action, 16 pdf_colorstack nodes
+   avail lists: 1:7,2:1234,3:1490,4:155,5:472,6:69,7:6419,8:127,9:254,10:52,11:484
+ 66119 multiletter control sequences out of 65536+600000
+ 379 fonts using 39400435 bytes
  76i,18n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
-Output written on main.pdf (21 pages, 177468 bytes).
 
-PDF statistics: 329 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 131072)
- 392 words of extra memory for PDF output out of 10000 (max. 100000000)
+warning  (pdf backend): unreferenced destination with name 'section.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.1.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.1.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.1.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.1.1'
+</usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
+Output written on main.pdf (21 pages, 178846 bytes).
+
+PDF statistics: 339 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 131072)
+ 400 words of extra memory for PDF output out of 10000 (max. 100000000)
 
