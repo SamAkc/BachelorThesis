@@ -50,107 +50,12 @@
       \endverb
       \keyw{privacy}
     \endentry
-    \entry{GDB:17}{online}{}
-      \name{author}{1}{}{%
-        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
-           family={Blog},
-           familyi={B\bibinitperiod},
-           given={G\bibnamedelima Data},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \field{extraname}{1}
-      \field{labelalpha}{Blo18}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extraalpha}{1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Malware-Zahlen 2017}
-      \field{urlday}{26}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \keyw{malware}
-    \endentry
-    \entry{GDB:18}{online}{}
-      \name{author}{1}{}{%
-        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
-           family={Blog},
-           familyi={B\bibinitperiod},
-           given={G\bibnamedelima Data},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \field{extraname}{2}
-      \field{labelalpha}{Blo18}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extraalpha}{2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
-      \field{urlday}{30}
-      \field{urlmonth}{8}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \verb{url}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \keyw{malware}
-    \endentry
-    \entry{BLB:18}{book}{}
-      \list{publisher}{1}{%
-        {Bundeskriminalamt}%
-      }
-      \field{labelalpha}{19}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeltitlesource}{title}
-      \field{title}{Cybercrime. Bundeslagebild 2018}
-      \field{year}{2019}
-      \keyw{bundeslagebild}
-    \endentry
     \entry{GD+1}{online}{}
-      \name{author}{1}{}{%
-        {{hash=59477752dff373b462d1167e4a78ee64}{%
-           family={Data},
-           familyi={D\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{fullhash}{59477752dff373b462d1167e4a78ee64}
-      \strng{bibnamehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{authorbibnamehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{authornamehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{authorfullhash}{59477752dff373b462d1167e4a78ee64}
-      \field{labelalpha}{Dat20}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{labelnamesource}{author}
+      \field{labelalpha}{20}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{G Data}
       \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
       \field{year}{2020}
       \verb{urlraw}
@@ -160,6 +65,30 @@
       \verb https://www.gdata.de/ueber-g-data/auszeichnungen
       \endverb
       \keyw{auszeichnungen}
+    \endentry
+    \entry{BLB:18}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ebcb48f0fdf4e224c44d91a325bee068}{%
+           family={Bundeskriminalamt},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bundeskriminalamt}%
+      }
+      \strng{namehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{fullhash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{bibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authorbibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authornamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authorfullhash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \field{labelalpha}{Bun19}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cybercrime. Bundeslagebild 2018}
+      \field{year}{2019}
+      \keyw{bundeslagebild}
     \endentry
     \entry{Fle:16}{online}{}
       \name{author}{1}{}{%
@@ -195,19 +124,205 @@
       \endverb
       \keyw{stakeholder}
     \endentry
+    \entry{GDB:17}{online}{}
+      \field{labelalpha}{18}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{1}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G Data Blog}
+      \field{title}{Malware-Zahlen 2017}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GDB:18}{report}{}
+      \list{institution}{1}{%
+        {G Data Blog}%
+      }
+      \field{labelalpha}{18}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{2}
+      \field{labeltitlesource}{title}
+      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
+      \field{type}{techreport}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \verb{url}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{Pettinger:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d11a07942b8c01a1719cc61614945bd5}{%
+           family={Pettinger},
+           familyi={P\bibinitperiod},
+           given={Bianca},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{fullhash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{bibnamehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{authorbibnamehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{authornamehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{authorfullhash}{d11a07942b8c01a1719cc61614945bd5}
+      \field{labelalpha}{Pet20}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dr. Datenschutz. intersoft consulting services.}
+      \field{title}{Recht auf Privatsph{ä}re -- ein kleiner Hoffnungsschimmer bleibt}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dr-datenschutz.de/recht-auf-privatsphaere-ein-kleiner-hoffnungsschimmer-bleibt/
+      \endverb
+      \verb{url}
+      \verb https://www.dr-datenschutz.de/recht-auf-privatsphaere-ein-kleiner-hoffnungsschimmer-bleibt/
+      \endverb
+      \keyw{privacy,definition}
+    \endentry
+    \entry{Picchi:2018aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=238633f81aaa418e7696497f91879e88}{%
+           family={Picchi},
+           familyi={P\bibinitperiod},
+           given={Aimee},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{238633f81aaa418e7696497f91879e88}
+      \strng{fullhash}{238633f81aaa418e7696497f91879e88}
+      \strng{bibnamehash}{238633f81aaa418e7696497f91879e88}
+      \strng{authorbibnamehash}{238633f81aaa418e7696497f91879e88}
+      \strng{authornamehash}{238633f81aaa418e7696497f91879e88}
+      \strng{authorfullhash}{238633f81aaa418e7696497f91879e88}
+      \field{labelalpha}{Pic18}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CBS News}
+      \field{title}{\#LogOutFacebook: The social media giant faces protests and canceled accounts}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
+      \endverb
+      \verb{url}
+      \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
+      \endverb
+      \keyw{privacy}
+    \endentry
+    \entry{STW:13}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cacdb6a9be7b80f87e9426ba276c9a97}{%
+           family={Stallwood},
+           familyi={S\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{fullhash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{bibnamehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{authorbibnamehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{authornamehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{authorfullhash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \field{labelalpha}{Sta13}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Guardian}
+      \field{title}{Game to destroy CCTV cameras: vandalism or valid protest?}
+      \field{year}{2013}
+      \keyw{cctv}
+    \endentry
   \enddatalist
   \datalist[entry]{anyt/global//global/global}
-    \entry{BLB:18}{book}{}
-      \list{publisher}{1}{%
-        {Bundeskriminalamt}%
-      }
-      \field{labelalpha}{19}
+    \entry{GDB:17}{online}{}
+      \field{labelalpha}{18}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extraalpha}{1}
       \field{labeltitlesource}{title}
-      \field{title}{Cybercrime. Bundeslagebild 2018}
-      \field{year}{2019}
-      \keyw{bundeslagebild}
+      \field{journaltitle}{G Data Blog}
+      \field{title}{Malware-Zahlen 2017}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GDB:18}{report}{}
+      \list{institution}{1}{%
+        {G Data Blog}%
+      }
+      \field{labelalpha}{18}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extraalpha}{2}
+      \field{labeltitlesource}{title}
+      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
+      \field{type}{techreport}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \verb{url}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GD+1}{online}{}
+      \field{labelalpha}{20}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G Data}
+      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \keyw{auszeichnungen}
     \endentry
     \entry{WWDC:20}{online}{}
       \name{author}{1}{}{%
@@ -240,104 +355,29 @@
       \endverb
       \keyw{privacy}
     \endentry
-    \entry{GDB:17}{online}{}
+    \entry{BLB:18}{book}{}
       \name{author}{1}{}{%
-        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
-           family={Blog},
-           familyi={B\bibinitperiod},
-           given={G\bibnamedelima Data},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ebcb48f0fdf4e224c44d91a325bee068}{%
+           family={Bundeskriminalamt},
+           familyi={B\bibinitperiod}}}%
       }
-      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \field{extraname}{1}
-      \field{labelalpha}{Blo18}
+      \list{publisher}{1}{%
+        {Bundeskriminalamt}%
+      }
+      \strng{namehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{fullhash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{bibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authorbibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authornamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authorfullhash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \field{labelalpha}{Bun19}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Malware-Zahlen 2017}
-      \field{urlday}{26}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \keyw{malware}
-    \endentry
-    \entry{GDB:18}{online}{}
-      \name{author}{1}{}{%
-        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
-           family={Blog},
-           familyi={B\bibinitperiod},
-           given={G\bibnamedelima Data},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
-      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
-      \field{extraname}{2}
-      \field{labelalpha}{Blo18}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extraalpha}{2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
-      \field{urlday}{30}
-      \field{urlmonth}{8}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \verb{url}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \keyw{malware}
-    \endentry
-    \entry{GD+1}{online}{}
-      \name{author}{1}{}{%
-        {{hash=59477752dff373b462d1167e4a78ee64}{%
-           family={Data},
-           familyi={D\bibinitperiod},
-           given={G},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{fullhash}{59477752dff373b462d1167e4a78ee64}
-      \strng{bibnamehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{authorbibnamehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{authornamehash}{59477752dff373b462d1167e4a78ee64}
-      \strng{authorfullhash}{59477752dff373b462d1167e4a78ee64}
-      \field{labelalpha}{Dat20}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \keyw{auszeichnungen}
+      \field{title}{Cybercrime. Bundeslagebild 2018}
+      \field{year}{2019}
+      \keyw{bundeslagebild}
     \endentry
     \entry{Fle:16}{online}{}
       \name{author}{1}{}{%
@@ -372,6 +412,98 @@
       \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
       \endverb
       \keyw{stakeholder}
+    \endentry
+    \entry{Pettinger:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d11a07942b8c01a1719cc61614945bd5}{%
+           family={Pettinger},
+           familyi={P\bibinitperiod},
+           given={Bianca},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{fullhash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{bibnamehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{authorbibnamehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{authornamehash}{d11a07942b8c01a1719cc61614945bd5}
+      \strng{authorfullhash}{d11a07942b8c01a1719cc61614945bd5}
+      \field{labelalpha}{Pet20}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dr. Datenschutz. intersoft consulting services.}
+      \field{title}{Recht auf Privatsph{ä}re -- ein kleiner Hoffnungsschimmer bleibt}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dr-datenschutz.de/recht-auf-privatsphaere-ein-kleiner-hoffnungsschimmer-bleibt/
+      \endverb
+      \verb{url}
+      \verb https://www.dr-datenschutz.de/recht-auf-privatsphaere-ein-kleiner-hoffnungsschimmer-bleibt/
+      \endverb
+      \keyw{privacy,definition}
+    \endentry
+    \entry{Picchi:2018aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=238633f81aaa418e7696497f91879e88}{%
+           family={Picchi},
+           familyi={P\bibinitperiod},
+           given={Aimee},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{238633f81aaa418e7696497f91879e88}
+      \strng{fullhash}{238633f81aaa418e7696497f91879e88}
+      \strng{bibnamehash}{238633f81aaa418e7696497f91879e88}
+      \strng{authorbibnamehash}{238633f81aaa418e7696497f91879e88}
+      \strng{authornamehash}{238633f81aaa418e7696497f91879e88}
+      \strng{authorfullhash}{238633f81aaa418e7696497f91879e88}
+      \field{labelalpha}{Pic18}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CBS News}
+      \field{title}{\#LogOutFacebook: The social media giant faces protests and canceled accounts}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
+      \endverb
+      \verb{url}
+      \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
+      \endverb
+      \keyw{privacy}
+    \endentry
+    \entry{STW:13}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cacdb6a9be7b80f87e9426ba276c9a97}{%
+           family={Stallwood},
+           familyi={S\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{fullhash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{bibnamehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{authorbibnamehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{authornamehash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \strng{authorfullhash}{cacdb6a9be7b80f87e9426ba276c9a97}
+      \field{labelalpha}{Sta13}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Guardian}
+      \field{title}{Game to destroy CCTV cameras: vandalism or valid protest?}
+      \field{year}{2013}
+      \keyw{cctv}
     \endentry
   \enddatalist
 \endrefsection
