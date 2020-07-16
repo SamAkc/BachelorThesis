@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  15 JUL 2020 13:17
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  15 JUL 2020 14:08
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -1725,12 +1725,11 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 35.
 Package biblatex Info: Reference segment=0 on input line 35.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box130
 Package hyperref Info: Link coloring OFF on input line 35.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1820,7 +1819,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<misc/UB_Logo_20mm_CMYK.pdf, id=163, 57.21375pt x 57.21375pt>
+<misc/UB_Logo_20mm_CMYK.pdf, id=139, 57.21375pt x 57.21375pt>
 File: misc/UB_Logo_20mm_CMYK.pdf Graphic file (type pdf)
 <use misc/UB_Logo_20mm_CMYK.pdf>
 Package luatex.def Info: misc/UB_Logo_20mm_CMYK.pdf  used on input line 43.
@@ -1962,21 +1961,6 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
  []
 
-
-LaTeX Warning: Citation 'WWDC:20' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'BLB:18' on page 1 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'GDB:18' on page 1 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'GD+1' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'GDB:17' on page 1 undefined on input line 9.
-
 ) (./chapters/background.tex
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
@@ -2009,12 +1993,6 @@ Kapitel 3.
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
  []
-
-
-LaTeX Warning: Citation 'Fle:16' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Fle:16' on page 5 undefined on input line 14.
 
 
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
@@ -2104,11 +2082,7 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 
 
 
-]
-
-LaTeX Warning: Empty bibliography on input line 124.
-
-[13] [14
+] [13] [14
 
 
 ] [15]
@@ -2117,54 +2091,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./main.aux (./misc/titlepage.aux) (./main.tex.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F61E16EFDDCCCFEC9A253A27441ACA6D;7104
-(rerunfilecheck)             After:  4678AAA30B0DE96B8933E6C32D4FD2C7;5573.
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4678AAA30B0DE96B8933E6C32D4FD2C7;5573.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 50488 strings out of 480992
+ 50682 strings out of 480992
  125171,1977958 words of node,token memory allocated
- 1332 words of node memory still in use:
-   24 hlist, 2 vlist, 10 rule, 5 glue, 4 kern, 1 glyph, 66 attribute, 100 glue_spec, 59 attribute_list, 2 write, 16 pdf_literal, 2 pdf_action, 16 pdf_colorstack nodes
-   avail lists: 1:6,2:757,3:115,4:85,5:394,6:56,7:2935,8:23,9:177,10:14,11:380
- 65982 multiletter control sequences out of 65536+600000
- 302 fonts using 32980755 bytes
+ 1373 words of node memory still in use:
+   24 hlist, 2 vlist, 10 rule, 5 glue, 4 kern, 1 glyph, 72 attribute, 101 glue_spec, 62 attribute_list, 2 write, 16 pdf_literal, 5 pdf_action, 16 pdf_colorstack nodes
+   avail lists: 1:5,2:1021,3:1058,4:125,5:393,6:65,7:4782,8:112,9:215,10:50,11:384
+ 66105 multiletter control sequences out of 65536+600000
+ 379 fonts using 39402355 bytes
  76i,18n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
+Output written on main.pdf (21 pages, 172377 bytes).
 
-warning  (pdf backend): unreferenced destination with name 'section.2.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.3.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.3.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.3.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.3.1'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.2.4'
-</usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf>
-Output written on main.pdf (21 pages, 161669 bytes).
-
-PDF statistics: 307 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
+PDF statistics: 321 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
  58 named destinations out of 1000 (max. 131072)
- 440 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 392 words of extra memory for PDF output out of 10000 (max. 100000000)
 

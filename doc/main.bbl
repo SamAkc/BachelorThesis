@@ -1,0 +1,379 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{WWDC:20}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
+           family={Apple},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{labelalpha}{App20}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{WWDC 2020 Special Event Keynote --- Apple}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
+      \endverb
+      \keyw{privacy}
+    \endentry
+    \entry{GDB:17}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
+           family={Blog},
+           familyi={B\bibinitperiod},
+           given={G\bibnamedelima Data},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \field{extraname}{1}
+      \field{labelalpha}{Blo18}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malware-Zahlen 2017}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GDB:18}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
+           family={Blog},
+           familyi={B\bibinitperiod},
+           given={G\bibnamedelima Data},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \field{extraname}{2}
+      \field{labelalpha}{Blo18}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \verb{url}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{BLB:18}{book}{}
+      \list{publisher}{1}{%
+        {Bundeskriminalamt}%
+      }
+      \field{labelalpha}{19}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{title}{Cybercrime. Bundeslagebild 2018}
+      \field{year}{2019}
+      \keyw{bundeslagebild}
+    \endentry
+    \entry{GD+1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=59477752dff373b462d1167e4a78ee64}{%
+           family={Data},
+           familyi={D\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{fullhash}{59477752dff373b462d1167e4a78ee64}
+      \strng{bibnamehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{authorbibnamehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{authornamehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{authorfullhash}{59477752dff373b462d1167e4a78ee64}
+      \field{labelalpha}{Dat20}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \keyw{auszeichnungen}
+    \endentry
+    \entry{Fle:16}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
+           family={Fleig},
+           familyi={F\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{fullhash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{bibnamehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{authorbibnamehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{authornamehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{authorfullhash}{a03f386daccff0044a013ab5b1ddfa63}
+      \field{labelalpha}{Fle16}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{business.wissen.de}
+      \field{title}{Stakeholder erkennen und analysieren. Was sind Stakeholder und was bedeutet der Stakeholder-Ansatz?}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
+      \endverb
+      \verb{url}
+      \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
+      \endverb
+      \keyw{stakeholder}
+    \endentry
+  \enddatalist
+  \datalist[entry]{anyt/global//global/global}
+    \entry{BLB:18}{book}{}
+      \list{publisher}{1}{%
+        {Bundeskriminalamt}%
+      }
+      \field{labelalpha}{19}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Cybercrime. Bundeslagebild 2018}
+      \field{year}{2019}
+      \keyw{bundeslagebild}
+    \endentry
+    \entry{WWDC:20}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
+           family={Apple},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{labelalpha}{App20}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{WWDC 2020 Special Event Keynote --- Apple}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
+      \endverb
+      \keyw{privacy}
+    \endentry
+    \entry{GDB:17}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
+           family={Blog},
+           familyi={B\bibinitperiod},
+           given={G\bibnamedelima Data},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \field{extraname}{1}
+      \field{labelalpha}{Blo18}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malware-Zahlen 2017}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GDB:18}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0e4d24a921334beda2e62247ff0318e3}{%
+           family={Blog},
+           familyi={B\bibinitperiod},
+           given={G\bibnamedelima Data},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{fullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{bibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorbibnamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authornamehash}{0e4d24a921334beda2e62247ff0318e3}
+      \strng{authorfullhash}{0e4d24a921334beda2e62247ff0318e3}
+      \field{extraname}{2}
+      \field{labelalpha}{Blo18}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \verb{url}
+      \verb /Users/samet/git/BachelorThesis/doc
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GD+1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=59477752dff373b462d1167e4a78ee64}{%
+           family={Data},
+           familyi={D\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{fullhash}{59477752dff373b462d1167e4a78ee64}
+      \strng{bibnamehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{authorbibnamehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{authornamehash}{59477752dff373b462d1167e4a78ee64}
+      \strng{authorfullhash}{59477752dff373b462d1167e4a78ee64}
+      \field{labelalpha}{Dat20}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \keyw{auszeichnungen}
+    \endentry
+    \entry{Fle:16}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
+           family={Fleig},
+           familyi={F\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{fullhash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{bibnamehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{authorbibnamehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{authornamehash}{a03f386daccff0044a013ab5b1ddfa63}
+      \strng{authorfullhash}{a03f386daccff0044a013ab5b1ddfa63}
+      \field{labelalpha}{Fle16}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{business.wissen.de}
+      \field{title}{Stakeholder erkennen und analysieren. Was sind Stakeholder und was bedeutet der Stakeholder-Ansatz?}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
+      \endverb
+      \verb{url}
+      \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
+      \endverb
+      \keyw{stakeholder}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
