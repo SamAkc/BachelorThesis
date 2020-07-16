@@ -78,6 +78,35 @@
       \range{pages}{20}
       \keyw{devops,definition}
     \endentry
+    \entry{Inc.:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=94118d80e46d4a50ba83ab8a2ca1919f}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Synopsis},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{fullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{bibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{authorbibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{authornamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{authorfullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \field{labelalpha}{Inc20}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compare Repositories}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \verb{url}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \keyw{scm}
+    \endentry
     \entry{GDB:17}{online}{}
       \field{labelalpha}{18}
       \field{sortinit}{M}
@@ -190,6 +219,35 @@
       \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
       \endverb
       \keyw{privacy}
+    \endentry
+    \entry{Scott-Chacon:2020aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8e3d7a5ebb1cc4b6ac451b0940455fcc}{%
+           family={Scott\bibnamedelima Chacon},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ben\bibnamedelima Straub},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Expert's Voice}%
+      }
+      \strng{namehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{fullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{bibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{authorbibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{authornamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{authorfullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \field{labelalpha}{Sco20}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition}
+      \field{title}{Pro Git}
+      \field{year}{2020}
+      \field{pages}{9\bibrangedash 11}
+      \range{pages}{3}
+      \keyw{git}
     \endentry
     \entry{Stallwood:2013aa}{article}{}
       \name{author}{1}{}{%
@@ -353,6 +411,35 @@
       \range{pages}{20}
       \keyw{devops,definition}
     \endentry
+    \entry{Inc.:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=94118d80e46d4a50ba83ab8a2ca1919f}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Synopsis},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{fullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{bibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{authorbibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{authornamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \strng{authorfullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
+      \field{labelalpha}{Inc20}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compare Repositories}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \verb{url}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \keyw{scm}
+    \endentry
     \entry{Pettinger:2020aa}{online}{}
       \name{author}{1}{}{%
         {{hash=d11a07942b8c01a1719cc61614945bd5}{%
@@ -420,6 +507,35 @@
       \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
       \endverb
       \keyw{privacy}
+    \endentry
+    \entry{Scott-Chacon:2020aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8e3d7a5ebb1cc4b6ac451b0940455fcc}{%
+           family={Scott\bibnamedelima Chacon},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ben\bibnamedelima Straub},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Expert's Voice}%
+      }
+      \strng{namehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{fullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{bibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{authorbibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{authornamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \strng{authorfullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
+      \field{labelalpha}{Sco20}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition}
+      \field{title}{Pro Git}
+      \field{year}{2020}
+      \field{pages}{9\bibrangedash 11}
+      \range{pages}{3}
+      \keyw{git}
     \endentry
     \entry{Stallwood:2013aa}{article}{}
       \name{author}{1}{}{%

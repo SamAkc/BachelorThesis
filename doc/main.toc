@@ -10,20 +10,20 @@
 \contentsline {subsection}{\numberline {2.3.1}Continuous Integration und Delivery}{4}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Continuous Monitoring}{4}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Versionsverwaltung}{4}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}DevOps-Tools in der Anwendung}{4}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}Forschungsmethode}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Experteninterviews als Mittel zur Analyse}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Identifikation der Stakeholder in einem Softwareentwicklungsunternehmen}{5}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Berufseinsteiger, Praktikanten und Werkstudenten}{6}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Softwareentwickler}{6}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Team-Leads, Projektleiter (und Gesch\"aftsf\"uhrer?)}{6}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Externe Ansprechpartner}{6}{subsection.3.2.4}%
-\contentsline {chapter}{\numberline {4}Ergebnisse}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{9}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{9}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{11}{chapter.6}%
+\contentsline {subsection}{\numberline {2.3.4}DevOps-Tools in der Anwendung}{5}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}Forschungsmethode}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Experteninterviews als Mittel zur Analyse}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Identifikation der Stakeholder in einem Softwareentwicklungsunternehmen}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Berufseinsteiger, Praktikanten und Werkstudenten}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Softwareentwickler}{8}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Team-Leads, Projektleiter (und Gesch\"aftsf\"uhrer?)}{8}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Externe Ansprechpartner}{8}{subsection.3.2.4}%
+\contentsline {chapter}{\numberline {4}Ergebnisse}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{11}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{13}{chapter.6}%
 \def \chaptername {Appendix}
-\contentsline {chapter}{Literaturverzeichnis}{13}{appendix*.3}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{15}{appendix*.4}%
+\contentsline {chapter}{Literaturverzeichnis}{15}{appendix*.3}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{17}{appendix*.4}%
