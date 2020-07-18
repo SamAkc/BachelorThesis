@@ -27,16 +27,22 @@ oder einem allgemein positiv zurückgebliebenem Eindruck beim Kunden überzeugen
 andauernd hochwertige Produkte anbieten zu können \cite{MSAzure:2020aa}. Der Begriff setzt sich zusammen aus \enquote{Development} (dt. \textit{Entwicklung}) von Software sowie \enquote{Operations} (dt. \textit{Vorgänge}), welche damit zusammenhängen 
 \cite{MSAzure:2020aa} und repräsentiert dabei die \enquote{Zusammenarbeit von Entwicklung und Betrieb} \cite{Hasselbring:2015aa} dar. Dies erfolgt durch die Einführung von DevOps-Methoden und -Tools, sodass den zuvor getrennten Bereichen, 
 und zusätzlichen wie beispielsweise der Qualitätssicherung, der Sicherheit etc., die Möglichkeit zur Koordination und Zusammenarbeit geboten wird \cite{MSAzure:2020aa}. \\ \\
-Im Folgenden werden beispielhaft repräsentative DevOps-Methoden und -Tools aufgelistet und definiert.
+Im Folgenden werden beispielhaft repräsentative DevOps-Methoden und -Tools definiert und aufgelistet.
 
-\subsection{Continuous Integration und Delivery}
+\subsection{Continuous Integration und Continuous Delivery}
 In der Softwareprogrammierung ist es mit zunehmender Komplexität und Umfang des Programms üblich, mehrere einzelne Module in dieses einzubinden, weswegen sich die gängige Vorgehensweise in der Softwareentwicklung insofern gestaltet, dass das Gesamtprojekt,
 welches aus diesen einzelnen Modulen besteht, durch mehrere Teams parallel vorangetrieben \cite{HJL:2018aa}. Statt auf eine täglich erfolgende Kompilierung auf einem extra angelegten \enquote{Build}-Server warten zu müssen, kommt heutzutage in modernen
-Unternehmen die sogenannte \enquote{Continuous Integration} (dt. \textit{Kontinuierliche Integration}) zum Einsatz: Diese bezeichnet \enquote{eine Technik der agilen Softwareentwicklung [...], [welche die] in kleinen Schritten vorgenommenen Änderungen [...] 
-regelmäßig zusammenführt} \cite{}
+Unternehmen die sogenannte \enquote{Continuous Integration} (dt. \textit{Kontinuierliche Integration}) zum Einsatz \cite{HJL:2018aa}: Diese bezeichnet \enquote{eine Technik der agilen Softwareentwicklung [...], [welche die] in kleinen Schritten vorgenommenen Änderungen [...] 
+regelmäßig zusammenführt} \cite{Dirk:2018aa}, also eine kontinuierliche Integration von Softwarekomponenten wie z.B. eines Guided User Interfaces (dt. \textit{grafische Benutzeroberfläche}), eines Application Programming Interfaces (dt. \textit{Programmierschnittstelle}) etc.,
+in das gemeinsame Projekt bzw. den gemeinsamen Code \cite{HJL:2018aa}. \\ In der Arbeit als Team kann der Code dann für dasselbe Projekt also nicht erst wie zuvor nach dem Fertigstellen der anderen Teilbereiche mit in den Gesamtcode des Projekts aufgenommen werden, sondern nach 
+eigenem Bedarf, sogar mehrmals am Tag \cite{Dirk:2018aa}. Dadurch kann der Code für die beteiligten Programmier schon viel früher offengelegt werden, sodass Tests und damit verbunden, Fehlerbehebungen früher und effizienter durch Einsparung von Zeit und Ressourcen, durchgeführt
+können - trotzdem müssen diese sich zunächst Umorientieren, da ein bereits gängiger Prozess neu aufgelegt und zusätzliche Prozesse sowie Server neu eingebunden werden müssen \cite{HJL:2018aa, Dirk:2018aa}. Dieser gesamte Prozess funktioniert durch das Einspeisen der zusammengefügten
+Änderungen des Codes in ein Repository, womit im Anschluss eine Versionskontrolle durch die Übernahme von einer aktuellen Version des Codes durch einen automatisierten Build-Prozess \cite{HJL:2018aa}. \\ \\
+Der Begriff \enquote{Continuous Delivery} (dt. \textit{Kontinuierliche Auslieferung}) geht einen Schritt weiter: Eine Sammlung, welche \enquote{kurze Entwicklungszyklen und [eine] schnelle Auslieferung von Software-Updates [durch Techniken, Prozesse und Werkzeuge]} \cite{Ilanrr:2017aa}
+ermöglicht, beschreibt man als Continuous Delivery. Anstatt konventionell darauf zu setzen, Software erst zu programmieren, dann einem Test und einer Evaluation zu unterziehen, bevor diese an Kunden ausgeliefert wird, kann durch Continuous Delivery eine vollfunktionsfähige Version der Software
+in jedem Entwicklungsstand nach Bedarf vom Kunden bezogen werden - in der Regel ohne Fehler zu enthalten \cite{Ilanrr:2017aa}.
 
-
-\subsection{Continuous Monitoring}
+\subsection{Continuous Delivery vs. Continuous Deployment}
 
 \subsection{Versionsverwaltung}
 Durch die Zusammenarbeit im Team an einem gemeinsamen Projekt werden Softwareentwickler häufig vor das Problem der Versionsverwaltung gestellt: Wie können mehrere Personen an einem gemeinsamen Projekt und z.T. sogar am selben Programm gleichzeitig arbeiten?
@@ -47,6 +53,3 @@ und Subversion (24\%) die Spitze dar \cite{Inc.:2020aa}. \\
 Git unterscheidet hierbei zwischen der lokalen, zentralen und verteilten Versionsverwaltung: Die lokale Versionsverwaltung befasst sich dabei mit der \enquote{[Verwaltung] aller Änderungen relevanter Dateien in einer Datenbank} \cite{Scott-Chacon:2020aa}, wohingegen die
 zentrale mit dem Problem der Kooperation mit anderen Entwicklern an gemeinsamer Software \cite{Scott-Chacon:2020aa}. Der letzte Punkt der verteilten Verwaltung behandelt das vollständige Kopieren eines sogenannten \enquote{Repositories} (dt. \textit{Quelle bzw. Lager von Software})
 von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Chacon:2020aa}.
-
-
-\subsection{DevOps-Tools in der Anwendung}

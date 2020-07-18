@@ -19,6 +19,40 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Dirk:2018aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=52fd38790bdbf01d6f7dcd3100cfacc5}{%
+           family={Dirk},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{fullhash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{bibnamehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{authorbibnamehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{authornamehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{authorfullhash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \field{labelalpha}{Dir18}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IT-Talents}
+      \field{title}{Was ist Continuous Integration (Kontinuierliche Integration)?}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.it-talents.de/blog/it-talents/was-ist-continuous-delivery
+      \endverb
+      \verb{url}
+      \verb https://www.it-talents.de/blog/it-talents/was-ist-continuous-delivery
+      \endverb
+      \keyw{ci}
+    \endentry
     \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
         {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
@@ -77,6 +111,40 @@
       \field{pages}{1\bibrangedash 20}
       \range{pages}{20}
       \keyw{devops,definition}
+    \endentry
+    \entry{HJL:2018aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=35b46392f5736c922c3b870c123c0ccb}{%
+           family={HJL\bibnamedelima (Pseudonym)},
+           familyi={H\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Stephan\bibnamedelima Augsten},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{fullhash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{bibnamehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{authorbibnamehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{authornamehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{authorfullhash}{35b46392f5736c922c3b870c123c0ccb}
+      \field{labelalpha}{HJL18}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dev-Insider}
+      \field{title}{Was ist Continuous Integration?}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \keyw{ci}
     \endentry
     \entry{Inc.:2020aa}{online}{}
       \name{author}{1}{}{%
@@ -352,6 +420,40 @@
       \endverb
       \keyw{devops}
     \endentry
+    \entry{Dirk:2018aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=52fd38790bdbf01d6f7dcd3100cfacc5}{%
+           family={Dirk},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{fullhash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{bibnamehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{authorbibnamehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{authornamehash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \strng{authorfullhash}{52fd38790bdbf01d6f7dcd3100cfacc5}
+      \field{labelalpha}{Dir18}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IT-Talents}
+      \field{title}{Was ist Continuous Integration (Kontinuierliche Integration)?}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.it-talents.de/blog/it-talents/was-ist-continuous-delivery
+      \endverb
+      \verb{url}
+      \verb https://www.it-talents.de/blog/it-talents/was-ist-continuous-delivery
+      \endverb
+      \keyw{ci}
+    \endentry
     \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
         {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
@@ -410,6 +512,40 @@
       \field{pages}{1\bibrangedash 20}
       \range{pages}{20}
       \keyw{devops,definition}
+    \endentry
+    \entry{HJL:2018aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=35b46392f5736c922c3b870c123c0ccb}{%
+           family={HJL\bibnamedelima (Pseudonym)},
+           familyi={H\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Stephan\bibnamedelima Augsten},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{fullhash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{bibnamehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{authorbibnamehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{authornamehash}{35b46392f5736c922c3b870c123c0ccb}
+      \strng{authorfullhash}{35b46392f5736c922c3b870c123c0ccb}
+      \field{labelalpha}{HJL18}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dev-Insider}
+      \field{title}{Was ist Continuous Integration?}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \keyw{ci}
     \endentry
     \entry{Inc.:2020aa}{online}{}
       \name{author}{1}{}{%
