@@ -19,6 +19,79 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{HJL:2018aa}{online}{}
+      \name{author}{2}{}{%
+        {{hash=89f8d55cf3a6a869f6cb70a3970656d1}{%
+           family={(Pseudonym)},
+           familyi={(\bibinitperiod},
+           given={HJL},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b6d43ba4f262081aa3ba7e923d5db4c2}{%
+           family={Augsten},
+           familyi={A\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{fullhash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{bibnamehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{authorbibnamehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{authornamehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{authorfullhash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \field{labelalpha}{PA18}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dev-Insider}
+      \field{title}{Was ist Continuous Integration?}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \keyw{ci}
+    \endentry
+    \entry{Scott-Chacon:2020aa}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8f4ee0c97dee95179ce1e79e846dd298}{%
+           family={Chacon},
+           familyi={C\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50418136ff59fed99760e32ba5613c51}{%
+           family={Straub},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Expert's Voice}%
+      }
+      \strng{namehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{fullhash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{bibnamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authorbibnamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authornamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authorfullhash}{1764b95256df68c84d8a593fc2dfa143}
+      \field{labelalpha}{CS20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition}
+      \field{title}{Pro Git}
+      \field{year}{2020}
+      \field{pages}{9\bibrangedash 11}
+      \range{pages}{3}
+      \keyw{git}
+    \endentry
     \entry{Dirk:2018aa}{online}{}
       \name{author}{1}{}{%
         {{hash=52fd38790bdbf01d6f7dcd3100cfacc5}{%
@@ -112,39 +185,42 @@
       \range{pages}{20}
       \keyw{devops,definition}
     \endentry
-    \entry{HJL:2018aa}{online}{}
-      \name{author}{1}{}{%
-        {{hash=35b46392f5736c922c3b870c123c0ccb}{%
-           family={HJL\bibnamedelima (Pseudonym)},
-           familyi={H\bibinitperiod\bibinitdelim (\bibinitperiod},
-           given={Stephan\bibnamedelima Augsten},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+    \entry{Ilanrr:2017aa}{online}{}
+      \name{author}{2}{}{%
+        {{hash=6f82e5b272f584dc66d312c5e37bf2c5}{%
+           family={Ilan_r_r},
+           familyi={I\bibinitperiod}}}%
+        {{hash=b6d43ba4f262081aa3ba7e923d5db4c2}{%
+           family={Augsten},
+           familyi={A\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{fullhash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{bibnamehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{authorbibnamehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{authornamehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{authorfullhash}{35b46392f5736c922c3b870c123c0ccb}
-      \field{labelalpha}{HJL18}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \strng{namehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{fullhash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{bibnamehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{authorbibnamehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{authornamehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{authorfullhash}{c3ea2c25978c0895e177855e35dc9877}
+      \field{labelalpha}{IA17}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Dev-Insider}
-      \field{title}{Was ist Continuous Integration?}
-      \field{urlday}{16}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
+      \field{title}{Definition "Kontinuierliche Auslieferung". Was ist Continuous Delivery?}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \verb https://www.dev-insider.de/was-ist-continuous-delivery-a-664429/
       \endverb
       \verb{url}
-      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \verb https://www.dev-insider.de/was-ist-continuous-delivery-a-664429/
       \endverb
-      \keyw{ci}
+      \keyw{cd}
     \endentry
     \entry{Inc.:2020aa}{online}{}
       \name{author}{1}{}{%
@@ -287,35 +363,6 @@
       \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
       \endverb
       \keyw{privacy}
-    \endentry
-    \entry{Scott-Chacon:2020aa}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8e3d7a5ebb1cc4b6ac451b0940455fcc}{%
-           family={Scott\bibnamedelima Chacon},
-           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Ben\bibnamedelima Straub},
-           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {The Expert's Voice}%
-      }
-      \strng{namehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{fullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{bibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{authorbibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{authornamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{authorfullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \field{labelalpha}{Sco20}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Second Edition}
-      \field{title}{Pro Git}
-      \field{year}{2020}
-      \field{pages}{9\bibrangedash 11}
-      \range{pages}{3}
-      \keyw{git}
     \endentry
     \entry{Stallwood:2013aa}{article}{}
       \name{author}{1}{}{%
@@ -420,6 +467,40 @@
       \endverb
       \keyw{devops}
     \endentry
+    \entry{Scott-Chacon:2020aa}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8f4ee0c97dee95179ce1e79e846dd298}{%
+           family={Chacon},
+           familyi={C\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50418136ff59fed99760e32ba5613c51}{%
+           family={Straub},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Expert's Voice}%
+      }
+      \strng{namehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{fullhash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{bibnamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authorbibnamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authornamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authorfullhash}{1764b95256df68c84d8a593fc2dfa143}
+      \field{labelalpha}{CS20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition}
+      \field{title}{Pro Git}
+      \field{year}{2020}
+      \field{pages}{9\bibrangedash 11}
+      \range{pages}{3}
+      \keyw{git}
+    \endentry
     \entry{Dirk:2018aa}{online}{}
       \name{author}{1}{}{%
         {{hash=52fd38790bdbf01d6f7dcd3100cfacc5}{%
@@ -513,39 +594,42 @@
       \range{pages}{20}
       \keyw{devops,definition}
     \endentry
-    \entry{HJL:2018aa}{online}{}
-      \name{author}{1}{}{%
-        {{hash=35b46392f5736c922c3b870c123c0ccb}{%
-           family={HJL\bibnamedelima (Pseudonym)},
-           familyi={H\bibinitperiod\bibinitdelim (\bibinitperiod},
-           given={Stephan\bibnamedelima Augsten},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+    \entry{Ilanrr:2017aa}{online}{}
+      \name{author}{2}{}{%
+        {{hash=6f82e5b272f584dc66d312c5e37bf2c5}{%
+           family={Ilan_r_r},
+           familyi={I\bibinitperiod}}}%
+        {{hash=b6d43ba4f262081aa3ba7e923d5db4c2}{%
+           family={Augsten},
+           familyi={A\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{fullhash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{bibnamehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{authorbibnamehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{authornamehash}{35b46392f5736c922c3b870c123c0ccb}
-      \strng{authorfullhash}{35b46392f5736c922c3b870c123c0ccb}
-      \field{labelalpha}{HJL18}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \strng{namehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{fullhash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{bibnamehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{authorbibnamehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{authornamehash}{c3ea2c25978c0895e177855e35dc9877}
+      \strng{authorfullhash}{c3ea2c25978c0895e177855e35dc9877}
+      \field{labelalpha}{IA17}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Dev-Insider}
-      \field{title}{Was ist Continuous Integration?}
-      \field{urlday}{16}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
+      \field{title}{Definition "Kontinuierliche Auslieferung". Was ist Continuous Delivery?}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \verb https://www.dev-insider.de/was-ist-continuous-delivery-a-664429/
       \endverb
       \verb{url}
-      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \verb https://www.dev-insider.de/was-ist-continuous-delivery-a-664429/
       \endverb
-      \keyw{ci}
+      \keyw{cd}
     \endentry
     \entry{Inc.:2020aa}{online}{}
       \name{author}{1}{}{%
@@ -575,6 +659,45 @@
       \verb https://www.openhub.net/repositories/compare
       \endverb
       \keyw{scm}
+    \endentry
+    \entry{HJL:2018aa}{online}{}
+      \name{author}{2}{}{%
+        {{hash=89f8d55cf3a6a869f6cb70a3970656d1}{%
+           family={(Pseudonym)},
+           familyi={(\bibinitperiod},
+           given={HJL},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b6d43ba4f262081aa3ba7e923d5db4c2}{%
+           family={Augsten},
+           familyi={A\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{fullhash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{bibnamehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{authorbibnamehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{authornamehash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \strng{authorfullhash}{7493e06e9f1868b5b02d1025eddf7bd4}
+      \field{labelalpha}{PA18}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dev-Insider}
+      \field{title}{Was ist Continuous Integration?}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-ist-continuous-integration-a-690914/
+      \endverb
+      \keyw{ci}
     \endentry
     \entry{Pettinger:2020aa}{online}{}
       \name{author}{1}{}{%
@@ -643,35 +766,6 @@
       \verb https://www.cbsnews.com/news/logoutfacebook-the-social-media-giant-faces-naacp-protests-and-canceled-accounts/
       \endverb
       \keyw{privacy}
-    \endentry
-    \entry{Scott-Chacon:2020aa}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8e3d7a5ebb1cc4b6ac451b0940455fcc}{%
-           family={Scott\bibnamedelima Chacon},
-           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Ben\bibnamedelima Straub},
-           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {The Expert's Voice}%
-      }
-      \strng{namehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{fullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{bibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{authorbibnamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{authornamehash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \strng{authorfullhash}{8e3d7a5ebb1cc4b6ac451b0940455fcc}
-      \field{labelalpha}{Sco20}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Second Edition}
-      \field{title}{Pro Git}
-      \field{year}{2020}
-      \field{pages}{9\bibrangedash 11}
-      \range{pages}{3}
-      \keyw{git}
     \endentry
     \entry{Stallwood:2013aa}{article}{}
       \name{author}{1}{}{%
