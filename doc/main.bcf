@@ -2187,27 +2187,99 @@
     <bcf:citekey order="3">GDB:18</bcf:citekey>
     <bcf:citekey order="4">GD+1</bcf:citekey>
     <bcf:citekey order="5">GDB:17</bcf:citekey>
-    <bcf:citekey order="6">Stallwood:2013aa</bcf:citekey>
-    <bcf:citekey order="7">Picchi:2018aa</bcf:citekey>
-    <bcf:citekey order="8">Pettinger:2020aa</bcf:citekey>
-    <bcf:citekey order="9">Fleig:2016aa</bcf:citekey>
+    <bcf:citekey order="7">Stallwood:2013aa</bcf:citekey>
+    <bcf:citekey order="8">Picchi:2018aa</bcf:citekey>
+    <bcf:citekey order="9">Pettinger:2020aa</bcf:citekey>
     <bcf:citekey order="10">Fleig:2016aa</bcf:citekey>
-    <bcf:citekey order="11">MSAzure:2020aa</bcf:citekey>
+    <bcf:citekey order="11">Fleig:2016aa</bcf:citekey>
     <bcf:citekey order="12">MSAzure:2020aa</bcf:citekey>
-    <bcf:citekey order="13">Hasselbring:2015aa</bcf:citekey>
-    <bcf:citekey order="14">MSAzure:2020aa</bcf:citekey>
-    <bcf:citekey order="15">HJL:2018aa</bcf:citekey>
+    <bcf:citekey order="13">MSAzure:2020aa</bcf:citekey>
+    <bcf:citekey order="14">Hasselbring:2015aa</bcf:citekey>
+    <bcf:citekey order="15">MSAzure:2020aa</bcf:citekey>
     <bcf:citekey order="16">HJL:2018aa</bcf:citekey>
-    <bcf:citekey order="17">Dirk:2018aa</bcf:citekey>
-    <bcf:citekey order="18">HJL:2018aa</bcf:citekey>
-    <bcf:citekey order="19">Dirk:2018aa</bcf:citekey>
-    <bcf:citekey order="20">HJL:2018aa</bcf:citekey>
+    <bcf:citekey order="17">HJL:2018aa</bcf:citekey>
+    <bcf:citekey order="18">Dirk:2018aa</bcf:citekey>
+    <bcf:citekey order="19">HJL:2018aa</bcf:citekey>
     <bcf:citekey order="20">Dirk:2018aa</bcf:citekey>
     <bcf:citekey order="21">HJL:2018aa</bcf:citekey>
-    <bcf:citekey order="22">Ilanrr:2017aa</bcf:citekey>
+    <bcf:citekey order="21">Dirk:2018aa</bcf:citekey>
+    <bcf:citekey order="22">HJL:2018aa</bcf:citekey>
     <bcf:citekey order="23">Ilanrr:2017aa</bcf:citekey>
-    <bcf:citekey order="24">Scott-Chacon:2020aa</bcf:citekey>
-    <bcf:citekey order="25">Inc.:2020aa</bcf:citekey>
-    <bcf:citekey order="26">Scott-Chacon:2020aa</bcf:citekey>
+    <bcf:citekey order="24">Ilanrr:2017aa</bcf:citekey>
+    <bcf:citekey order="25">Scott-Chacon:2020aa</bcf:citekey>
+    <bcf:citekey order="26">Inc.:2020aa</bcf:citekey>
     <bcf:citekey order="27">Scott-Chacon:2020aa</bcf:citekey>
     <bcf:citekey order="28">Scott-Chacon:2020aa</bcf:citekey>
+    <bcf:citekey order="29">Scott-Chacon:2020aa</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="anyt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">labelalpha</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="7">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <bcf:sortingtemplate name="nyt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/global//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

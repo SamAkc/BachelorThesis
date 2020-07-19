@@ -5,6 +5,8 @@
 		}
 	],
 	"settings": {
-		"cSpell.language": ",de"
+		"cSpell.language": ",de",
+		"workbench.list.horizontalScrolling": true,
+		"editor.scrollPredominantAxis": false
 	}
 }
