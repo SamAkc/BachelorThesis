@@ -44,7 +44,7 @@ Teilbereiche mit in den Gesamtcode des Projekts aufgenommen werden, sondern nach
 und effizienter durch Einsparung von Zeit und Ressourcen, durchgeführt werden können - wobei trotzdem zunächst eine Umorientierung erforderlich ist, da ein bereits gängiger Prozess neu aufgelegt und zusätzliche Prozesse sowie Server neu eingebunden werden müssen \cite{HJL:2018aa, Dirk:2018aa}. 
 Dieser gesamte Prozess funktioniert durch das Einspeisen der zusammengefügten Änderungen des Codes in ein Repository, womit im Anschluss eine Versionskontrolle durch die Übernahme von einer aktuellen Version des Codes durch einen automatisierten Build-Prozess \cite{HJL:2018aa}.
 \begin{marginfigure}[-1\baselineskip] % move figure up by 1 line
-    \includegraphics[width=1.3\marginparwidth]{pipeline.png}
+    \includegraphics[width=1.4\marginparwidth]{pipeline.png}
     \caption{\label{fig:pipeline}Die CI-/CD-Pipeline.}
 \end{marginfigure}
 
@@ -57,7 +57,7 @@ in jedem Entwicklungsstand nach Bedarf vom Kunden bezogen werden - in der Regel 
 Das Continuous Deployment (kurz: CD) stellt den Abschluss der CI-/CD-Pipeline (s. Abbildung \ref{fig:pipeline}) dar und erweitert den Continuous Delivery, welche die zur Auslieferung fertigen Builds automatisch freigibt, um die automatische Freigabe einer Applikation in der Phase der Produktion \cite{RedHat:2020aa}. Dies bedeutet in der Praxis betrachtet,
 dass nach Fertigstellen der Codeänderungen und nach erfolgreichem Bestehen der definierten Tests, die Applikation automatisch (bspw. an die Kunden zum Einholen von Feedback) ausgeliefert werden kann \cite{RedHat:2020aa}.
 
-\begin{marginfigure} % move figure up by 1 line
+\begin{marginfigure}
     \includegraphics[width=1.1\marginparwidth]{ohloh.png}
     \caption{\label{fig:ohloh}Versionsverwaltungs-Tools im Ranking (nach Anzahl der Repositories) - Stand: 2020.}
 \end{marginfigure}
@@ -66,7 +66,11 @@ Durch die Zusammenarbeit im Team an einem gemeinsamen Projekt werden Softwareent
 Wie können verschiedene Versionen eines Programms einheitlich und übersichtlich verwaltet werden? Und wie verfährt man möglichst effizient mit Code, welcher von unterschiedlichen Autoren geschrieben wurde und fügt diese zusammen? Zur Lösung dieser Konflikte 
 ist die Versionsverwaltung heutzutage in Softwareentwicklungsunternehmen essentiell. Diese \enquote{ist ein System, welches die Änderungen an einer oder einer Reihe von Dateien über die Zeit hinweg protokolliert, sodass man später auf eine bestimmte Version 
 zurückgreifen kann.} \cite{Scott-Chacon:2020aa}. Laut der Webseite Open Hub, welche zur Katalogisierung von Open-Source-Software verwendet wird und wie hier, den Anteil von Versionsverwaltungs-Tools anhand der registrierten Daten indexiert, stellen Git (71\%) 
-und Subversion (24\%) die Spitze dar (s. Abbildung \ref{fig:ohloh}) \cite{Inc.:2020aa}. \newline
+und Subversion (24\%) die Spitze dar (s. Abbildung \ref{fig:ohloh}) \cite{Inc.:2020aa}, weswegen diese in den folgenden Unterkapiteln näher betrachtet werden.
+
+\subsubsection{Git}
 Git unterscheidet hierbei zwischen der lokalen, zentralen und verteilten Versionsverwaltung: Die lokale Versionsverwaltung befasst sich dabei mit der \enquote{[Verwaltung] aller Änderungen relevanter Dateien in einer Datenbank} \cite{Scott-Chacon:2020aa}, wohingegen die
 zentrale mit dem Problem der Kooperation mit anderen Entwicklern an gemeinsamer Software \cite{Scott-Chacon:2020aa}. Der letzte Punkt der verteilten Verwaltung behandelt das vollständige Kopieren eines sogenannten \enquote{Repositories} (dt. \textit{Quelle bzw. Lager von Software})
 von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Chacon:2020aa}.
+
+\subsubsection{Subversion}
