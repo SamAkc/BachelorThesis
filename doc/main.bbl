@@ -527,6 +527,40 @@
       \endverb
       \keyw{payback}
     \endentry
+    \entry{Peters:2015aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d1b2a9f9690245a5824190b20ec8cb97}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{fullhash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{bibnamehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{authorbibnamehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{authornamehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{authorfullhash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \field{labelalpha}{Pet15}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kussin}
+      \field{title}{SVN, was sind Trunk, Branch und Co?}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kussin.de/development/svn-was-sind-trunk-branch-und-co/
+      \endverb
+      \verb{url}
+      \verb https://www.kussin.de/development/svn-was-sind-trunk-branch-und-co/
+      \endverb
+      \keyw{trunk}
+    \endentry
     \entry{Pettinger:2020aa}{online}{}
       \name{author}{1}{}{%
         {{hash=d11a07942b8c01a1719cc61614945bd5}{%
@@ -635,6 +669,23 @@
       \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
       \keyw{devops}
+    \endentry
+    \entry{RedHat:2020aa}{online}{}
+      \field{labelalpha}{20}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extraalpha}{3}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RedHat}
+      \field{title}{Was versteht man unter CI/CD?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \verb{url}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \keyw{redhat}
     \endentry
   \enddatalist
   \datalist[entry]{anyt/global//global/global}
@@ -755,6 +806,23 @@
       \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
       \keyw{devops}
+    \endentry
+    \entry{RedHat:2020aa}{online}{}
+      \field{labelalpha}{20}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extraalpha}{3}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RedHat}
+      \field{title}{Was versteht man unter CI/CD?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \verb{url}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \keyw{redhat}
     \endentry
     \entry{Apple:2020aa}{online}{}
       \name{author}{1}{}{%
@@ -1163,6 +1231,40 @@
       \endverb
       \keyw{payback}
     \endentry
+    \entry{Peters:2015aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d1b2a9f9690245a5824190b20ec8cb97}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{fullhash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{bibnamehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{authorbibnamehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{authornamehash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \strng{authorfullhash}{d1b2a9f9690245a5824190b20ec8cb97}
+      \field{labelalpha}{Pet15}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kussin}
+      \field{title}{SVN, was sind Trunk, Branch und Co?}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kussin.de/development/svn-was-sind-trunk-branch-und-co/
+      \endverb
+      \verb{url}
+      \verb https://www.kussin.de/development/svn-was-sind-trunk-branch-und-co/
+      \endverb
+      \keyw{trunk}
+    \endentry
     \entry{Pettinger:2020aa}{online}{}
       \name{author}{1}{}{%
         {{hash=d11a07942b8c01a1719cc61614945bd5}{%
@@ -1256,6 +1358,7 @@
       \keyw{cctv}
     \endentry
   \enddatalist
+  \missing{Seyfried:2018aa}
 \endrefsection
 \endinput
 
