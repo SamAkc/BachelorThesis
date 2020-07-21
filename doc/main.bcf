@@ -2200,8 +2200,8 @@
     <bcf:citekey order="16">Pettinger:2020aa</bcf:citekey>
     <bcf:citekey order="17">Fleig:2016aa</bcf:citekey>
     <bcf:citekey order="18">Fleig:2016aa</bcf:citekey>
-    <bcf:citekey order="19">Seyfried:2018aa</bcf:citekey>
-    <bcf:citekey order="20">Seyfried:2018aa</bcf:citekey>
+    <bcf:citekey order="19">Seyfriedt:2018aa</bcf:citekey>
+    <bcf:citekey order="20">Seyfriedt:2018aa</bcf:citekey>
     <bcf:citekey order="21">MSAzure:2020aa</bcf:citekey>
     <bcf:citekey order="22">MSAzure:2020aa</bcf:citekey>
     <bcf:citekey order="23">Hasselbring:2015aa</bcf:citekey>
@@ -2224,6 +2224,9 @@
     <bcf:citekey order="39">Scott-Chacon:2020aa</bcf:citekey>
     <bcf:citekey order="40">Scott-Chacon:2020aa</bcf:citekey>
     <bcf:citekey order="41">Scott-Chacon:2020aa</bcf:citekey>
+    <bcf:citekey order="42">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="43">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="44">Doring:2014aa</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
