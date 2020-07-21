@@ -2221,12 +2221,16 @@
     <bcf:citekey order="36">RedHat:2020aa</bcf:citekey>
     <bcf:citekey order="37">Scott-Chacon:2020aa</bcf:citekey>
     <bcf:citekey order="38">Inc.:2020aa</bcf:citekey>
-    <bcf:citekey order="39">Scott-Chacon:2020aa</bcf:citekey>
+    <bcf:citekey order="39">Git:2020aa</bcf:citekey>
     <bcf:citekey order="40">Scott-Chacon:2020aa</bcf:citekey>
     <bcf:citekey order="41">Scott-Chacon:2020aa</bcf:citekey>
-    <bcf:citekey order="42">Doring:2014aa</bcf:citekey>
-    <bcf:citekey order="43">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="42">Scott-Chacon:2020aa</bcf:citekey>
+    <bcf:citekey order="43">Collins-Sussman:2004aa</bcf:citekey>
     <bcf:citekey order="44">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="45">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="46">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="47">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="48">Doring:2014aa</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

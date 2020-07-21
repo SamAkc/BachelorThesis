@@ -23,15 +23,14 @@ direkt oder indirekt betroffen sind oder [...] ein Interesse an diesen [...] hab
 Unternehmensanteilen oder vom Unternehmen selbst) auftreten \cite{Fleig:2016aa}. \newline Neben den Stakeholdern selbst existiert der sogenannte \enquote{Stakeholder-Ansatz}: Dieser besagt die Betrachtung einer Unternehmung
 als Organisation unter Zusammenschluss verschiedener Stakeholder \cite{Seyfriedt:2018aa}. Dabei stellt die Unternehmensleitung die Vermittlung zwischen den verschiedenen Gruppen dar \cite{Seyfriedt:2018aa}. \newline
 Betrachtet man diesen Begriff nun aus der informatischen Sicht, so kann man aus der Definition herleiten, dass Stakeholder hier in der Regel Erwartungen und Interessen an einem einem Programm bzw. einer Applikation oder einem 
-Computersystem, statt einem Unternehmen verfolgen. \newline \newline In dieser Analyse ist der Bezug fortlaufend auf diese Stakeholder gelegt.
+Computersystem, statt einem Unternehmen verfolgen. \newline dieser Analyse ist der Bezug fortlaufend auf diese Stakeholder gelegt.
 
 \section{DevOps}
 \enquote{Die Zufriedenheit unserer Kunden liegt uns am Herzen} - durch dieses Motto strahlen Unternehmen ihre Kundenorientierung aus und möchten in der Regel zusätzlich durch Feedback, Kulanz, einem überzeugenden Produkt
 oder einem allgemein positiv zurückgebliebenem Eindruck beim Kunden überzeugen. In Softwareentwicklungsunternehmen vereint DevOps die benötigten Technologien, die Prozesse und die Menschen miteinander, um für diese Kunden 
 andauernd hochwertige Produkte anbieten zu können \cite{MSAzure:2020aa}. Der Begriff setzt sich zusammen aus \enquote{Development} (dt. \textit{Entwicklung}) von Software sowie \enquote{Operations} (dt. \textit{Vorgänge}), welche damit zusammenhängen 
 \cite{MSAzure:2020aa} und repräsentiert dabei die \enquote{Zusammenarbeit von Entwicklung und Betrieb} \cite{Hasselbring:2015aa} dar. Dies erfolgt durch die Einführung von DevOps-Methoden und -Tools, sodass den zuvor getrennten Bereichen, 
-und zusätzlichen wie beispielsweise der Qualitätssicherung, der Sicherheit etc., die Möglichkeit zur Koordination und Zusammenarbeit geboten wird \cite{MSAzure:2020aa}. \newline \newline
-Im Folgenden werden beispielhaft repräsentative DevOps-Methoden und -Tools definiert und aufgelistet.
+und zusätzlichen wie beispielsweise der Qualitätssicherung, der Sicherheit etc., die Möglichkeit zur Koordination und Zusammenarbeit geboten wird \cite{MSAzure:2020aa}. \newline Im Folgenden werden beispielhaft repräsentative DevOps-Methoden und -Tools definiert und aufgelistet.
 
 \subsection{Continuous Integration}
 In der Softwareprogrammierung ist es mit zunehmender Komplexität und Umfang des Programms üblich, mehrere einzelne Module in dieses einzubinden, weswegen sich die gängige Vorgehensweise in der Softwareentwicklung insofern gestaltet, dass das Gesamtprojekt,
@@ -68,9 +67,11 @@ ist die Versionsverwaltung heutzutage in Softwareentwicklungsunternehmen essenti
 zurückgreifen kann.} \cite{Scott-Chacon:2020aa}. Laut der Webseite Open Hub, welche zur Katalogisierung von Open-Source-Software verwendet wird und wie hier, den Anteil von Versionsverwaltungs-Tools anhand der registrierten Daten indexiert, stellen Git (71\%) 
 und Subversion (24\%) die Spitze dar (s. Abbildung \ref{fig:ohloh}) \cite{Inc.:2020aa}, weswegen diese in den folgenden Unterkapiteln näher betrachtet werden.
 
-\subsubsection{Git}
-Git unterscheidet hierbei zwischen der lokalen, zentralen und verteilten Versionsverwaltung: Die lokale Versionsverwaltung befasst sich dabei mit der \enquote{[Verwaltung] aller Änderungen relevanter Dateien in einer Datenbank} \cite{Scott-Chacon:2020aa}, wohingegen die
+\subsubsection{Git} \label{git}
+Git ist eine freie Software zur Versionsverwaltung \cite{Git:2020aa}. Die grundlegende Funktion unterscheidet hierbei zwischen der lokalen, zentralen und verteilten Versionsverwaltung: Die lokale Versionsverwaltung befasst sich dabei mit der \enquote{[Verwaltung] aller Änderungen relevanter Dateien in einer Datenbank} \cite{Scott-Chacon:2020aa}, wohingegen die
 zentrale mit dem Problem der Kooperation mit anderen Entwicklern an gemeinsamer Software \cite{Scott-Chacon:2020aa}. Der letzte Punkt der verteilten Verwaltung behandelt das vollständige Kopieren eines sogenannten \enquote{Repositories} (dt. \textit{Quelle bzw. Lager von Software})
-von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Chacon:2020aa}.
+von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Chacon:2020aa}. Unter Git wird das Hauptverzeichnis als \enquote{master} bezeichnet, wohingegen die Versionierungen hiervon als \enquote{ranches}, wie unter SVN (s. Kapitel \ref{svn}), betitelt werden.
 
-\subsubsection{Subversion}
+\subsubsection{Subversion} \label{svn}
+Apache Subversion (kurz: SVN) ist ebenfalls eine freie Software zur Versionsverwaltung von Dateien sowie Verzeichnissen, wodurch alte Versionen von Daten und eine Historie der verschiedenen Änderungen und Versionen an diesen betrachtet werden können \cite{Collins-Sussman:2004aa}.
+Unter Subversion wird das Verzeichnis der \enquote{Hauptlinie} als \enquote{Trunk} definiert und seine Subverzeichnisse, wie auch schon unter Git (s. Kapitel \ref{git}), als \enquote{Branches}.

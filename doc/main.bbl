@@ -58,6 +58,22 @@
       \endverb
       \keyw{ci}
     \endentry
+    \entry{Git:2020aa}{online}{}
+      \field{labelalpha}{20}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extraalpha}{1}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://git-scm.com
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com
+      \endverb
+      \keyw{git}
+    \endentry
     \entry{Apple:2020aa}{online}{}
       \name{author}{1}{}{%
         {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
@@ -93,7 +109,7 @@
       \field{labelalpha}{20}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extraalpha}{1}
+      \field{extraalpha}{2}
       \field{labeltitlesource}{title}
       \field{journaltitle}{G Data}
       \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
@@ -220,6 +236,39 @@
       \field{pages}{9\bibrangedash 11}
       \range{pages}{3}
       \keyw{git}
+    \endentry
+    \entry{Collins-Sussman:2004aa}{book}{}
+      \name{author}{3}{}{%
+        {{hash=6a0c3282b480240bae575880293ac50b}{%
+           family={Collins-Sussman},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=312976d299f6db192d3b3267dcaeeeb3}{%
+           family={Fitzpatrick},
+           familyi={F\bibinitperiod},
+           given={Brian\bibnamedelima W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1c8d48201db6014e21a461a21d0b1d30}{%
+           family={Pilato},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi Michael},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{fullhash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{bibnamehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{authorbibnamehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{authornamehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{authorfullhash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \field{labelalpha}{CFP04}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Version Control with Subversion}
+      \field{year}{2004}
+      \keyw{svn}
     \endentry
     \entry{Bundesamt:2019aa}{online}{}
       \field{labelalpha}{19}
@@ -722,7 +771,7 @@
       \field{labelalpha}{20}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{extraalpha}{2}
+      \field{extraalpha}{3}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Microsoft Azure}
       \field{title}{Was ist DevOps?}
@@ -739,7 +788,7 @@
       \field{labelalpha}{20}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{extraalpha}{3}
+      \field{extraalpha}{4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{RedHat}
       \field{title}{Was versteht man unter CI/CD?}
@@ -838,11 +887,27 @@
       \endverb
       \keyw{internet usage}
     \endentry
-    \entry{GD:2020aa}{online}{}
+    \entry{Git:2020aa}{online}{}
       \field{labelalpha}{20}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{extraalpha}{1}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://git-scm.com
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com
+      \endverb
+      \keyw{git}
+    \endentry
+    \entry{GD:2020aa}{online}{}
+      \field{labelalpha}{20}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extraalpha}{2}
       \field{labeltitlesource}{title}
       \field{journaltitle}{G Data}
       \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
@@ -859,7 +924,7 @@
       \field{labelalpha}{20}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extraalpha}{2}
+      \field{extraalpha}{3}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Microsoft Azure}
       \field{title}{Was ist DevOps?}
@@ -876,7 +941,7 @@
       \field{labelalpha}{20}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extraalpha}{3}
+      \field{extraalpha}{4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{RedHat}
       \field{title}{Was versteht man unter CI/CD?}
@@ -1000,6 +1065,39 @@
       \field{title}{Cybercrime. Bundeslagebild 2018}
       \field{year}{2019}
       \keyw{bundeslagebild}
+    \endentry
+    \entry{Collins-Sussman:2004aa}{book}{}
+      \name{author}{3}{}{%
+        {{hash=6a0c3282b480240bae575880293ac50b}{%
+           family={Collins-Sussman},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=312976d299f6db192d3b3267dcaeeeb3}{%
+           family={Fitzpatrick},
+           familyi={F\bibinitperiod},
+           given={Brian\bibnamedelima W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1c8d48201db6014e21a461a21d0b1d30}{%
+           family={Pilato},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi Michael},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{fullhash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{bibnamehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{authorbibnamehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{authornamehash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \strng{authorfullhash}{c0a935f7104f0918ce50ddd35bdb7b93}
+      \field{labelalpha}{CFP04}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Version Control with Subversion}
+      \field{year}{2004}
+      \keyw{svn}
     \endentry
     \entry{Scott-Chacon:2020aa}{article}{}
       \name{author}{2}{}{%
