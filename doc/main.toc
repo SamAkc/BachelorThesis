@@ -18,11 +18,16 @@
 \contentsline {section}{\numberline {3.2}Durchf\"uhrung und Transkription der Experteninterviews}{8}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Kodierung der Ergebnisse}{9}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Ergebnisse}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{13}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{13}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{15}{chapter.6}%
+\contentsline {section}{\numberline {4.1}Kategorien mit einer Pr\"aferenz f\"ur die Privatsph\"are}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Kategorien mit einer Pr\"aferenz f\"ur die Benutzerfreundlichkeit und Einfachheit}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Kategorien mit unstimmigen Ergebnissen}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Vorgeschlagene Alternativen}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Zusammenstellung der Ergebnisse}{13}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{15}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{17}{chapter.6}%
 \def \chaptername {Appendix}
-\contentsline {chapter}{Literaturverzeichnis}{17}{appendix*.7}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{19}{appendix*.8}%
+\contentsline {chapter}{Literaturverzeichnis}{19}{appendix*.7}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{21}{appendix*.8}%

@@ -2,4 +2,56 @@
 \chapter{Ergebnisse} % Main chapter title
 \label{Results} % For referencing the chapter elsewhere, use \ref{Results}
 
-Dies ist das Kapitel, in welchem ich meine Ergebnisse präsentiere und evaluiere.
+Anhand der Expertenbefragungen konnten insgesamt 18 Kategorien zu den verschiedenen Sichtweisen herausausgearbeitet werden. Hierbei wird zwischen
+der Präferenz der Privatsphäre im Allgemeinen oder der Benutzerfreundlichkeit bzw. Einfachheit unterschieden: Kategorien, in welchen Experten überwiegend
+(>50\% der Experten sind der selben Ansicht) angegeben haben, die Privatsphäre sei ihnen wichtiger, werdem dem Kapitel \ref{privacy} zugeordnet, wohingegen die Kategorien, in welchen die Privatsphäre
+aufgrund der Benutzerfreundlichkeit und Einfachheit vernachlässigt werden konnte, dem Kapitel \ref{noprivacy} zugerechnet werden. Im Anschluss werden die Ergebnisse,
+in welchen kein einstimmiges Ergebnis (bei sieben Befragten ergibt dies: Weniger als 28\% der Befragten haben die selbe Meinung) erzielt werden konnte, in Kapitel \ref{noclearresult} thematisiert.
+
+\section{Kategorien mit einer Präferenz für die Privatsphäre} \label{privacy}
+\textbf{Interesse an persönlichen Daten in Log-Dateien:} \newline
+Dieser Punkt befasst sich mit dem allgemeinen Interesse an persönlichen Daten, welche in Form von Benutzernamen, Zeitstempeln, IDs etc. in Log-Dateien sämtlicher Art auftreten können. Hier haben die Befragten einstimmig
+entschieden, kein Interesse an diesen zu haben und ein mögliches Entfernen in der Zukunft willkommen zu heißen. Es wurde lediglich angegeben, dass in bestimmten Fällen (Zusammenarbeit an einem Projekt, 
+in Testfällen von Code, Servern oder Applikationen oder auf Anfrage) eine Nachverfolgung auf Wunsch eines Kunden oder eines Auftrags erfolgen muss. Für die Befragten ist es nur wichtig, den Ablauf und auftretende Fehler 
+von Servern, Applikationen oder Code im Allgemeinen nachverfolgen zu können - ein Interesse an bestimmten Personen oder Zeitstempeln ist nicht vorhanden, weswegen in dieser Kategorie die Privatsphäre über der Nutzerfreundlichkeit
+steht. \newline \newline
+\textbf{Bevorzugte Aufbewahrungsdauer von Log-Dateien:} \newline
+Als Weiterleitung der Frage über die tatsächliche Aufbewahrungsdauer von Log-Dateien in Kapitel \ref{noprivacy} wurden in dieser Kategorie die Experten dazu angehalten, ihre persönliche Präferenz zur Dauer anzugeben. Hier haben alle 
+Befragten angegeben, eine temporäre Aufbewahrungsdauer zu bevorzugen. Diese könne anhand der Lebensdauer von Projekten, der Lebensdauer von Programmcode, den letzten x Builds, einer festgelegten Zeit (z.B. zwei Wochen)
+oder der Existenz von gemeldeten Fehlern deklariert werden. In der Regel sind sich die Befragten einig, eine Dauer von maximal wenigen Monaten zu bevorzugen. Diese Sichtweisen stellen einen Gegensatz zur tatsächlichen Aufbewahrungsdauer von
+Log-Dateien in Softwareentwicklungsunternehmen dar, welche in Kapitel \ref{noprivacy} angesprochen werden.
+
+\section{Kategorien mit einer Präferenz für die Benutzerfreundlichkeit und Einfachheit} \label{noprivacy}
+\textbf{Verarbeitete Daten zur Unterstützung der Softwareentwicklung in DevOps-Tools:} \newline
+Zu Beginn der Interviews haben alle Befragten angegeben, mit persönlichen Daten in Berührung zu kommen und diese auch zu verarbeiten. Dabei haben alle vier Softwareentwickler angegeben, die Nutzeraktivitäten und den Programmcode von Kollegen 
+einsehen und verarbeiten zu können. Dies erfolge zur Nachvollziehbarkeit der Builds und Deployments, des Programmcodes selbst, z.B. durch Git Commits und zur allgemeinen Fehlerbehebung bei fehlgeschlagenen Builds bzw. fehlerhaftem Programmcode. 
+Zwei Befragte haben zudem angegeben, Zugriff auf sensible Kundendaten in Form von Klarnamen, Anschriften, E-Mail Adressen uvm. zu besitzen: Dies ist bei jenen der Fall, die häufig mit externen Ansprechpartnern und Unternehmen in Kontakt treten 
+und mit diesen zusammenarbeiten müssen. \newline \newline
+\textbf{Tatsächliche Aufbewahrungsdauer von Log-Dateien:} \newline
+Da ein sehr großer Anteil der Befragten von über 85\% (vgl. Tabelle \ref{tab:generaldata}) angegeben haben, Log-Dateien aktiv zu nutzen, ist es für den weiteren Verlauf der Analyse erforderlich, die tatsächliche Aufbewahrungsdauer der genutzten Log-Dateien 
+im Unternehmen zu spezifizieren. Hier haben alle Befragten angegeben, dass alle Log-Dateien in der Regel für eine unbegrenzte bzw. unbestimmte Dauer aufbewahrt werden. Die Stakeholder haben zudem meist keine Kenntnis über die genaue Aufbewahrungsdauer und 
+beziehen sich bei ihrer Aussage auf die Existenz von sehr alten Log-Dateien (über 5 Jahre). Die Ausnahme dieser Regel betrifft manuell durchgeführte Bereinigungen von Speicher und eingeleitete Löschung spezifischer Log-Dateien: Bei einem Befragten kam es vor,
+dass das System einen Absturz erlitten hat, welche die Log-Dateien unbenutzbar gemacht haben, wohingegen bei einem anderen der Serverspeicher geleert werden musste und dieses Vorgehen sämtliche Log-Dateien gelöscht hat. \newline Aus diesen Aussagen lässt sich 
+ableiten, dass ein Vorgehen zur automatisierten Löschung von Log-Dateien bei den Befragten bisher keine Anwendung gefunden hat. \newline \newline
+\textbf{Interesse an anderen persönlichen Daten in DevOps-Tools:} \\
+\textbf{Gründe für das Interesse an Zeitstempeln in DevOps-Tools:} \\
+\textbf{Interesse an persönlichen Daten in Review-Tools:} \\
+\textbf{Interesse an persönlichen Daten in Administrationstools:} \\
+\textbf{Detailgrad von Issues in Ticketverwaltungstools:} \\
+\textbf{Personenbezug von Issue-Kommentaren in Ticketverwaltungstools:} \\
+\textbf{Allgemeine Auswertungen von persönlichen Daten aus DevOps-Tools:} \\
+\textbf{Relevanz von persönlichen Daten in Builds:} \\
+\textbf{Interesse an Log-Dateien:} \\
+\textbf{Mögliche Verarbeitungsinteressen von persönlichen Daten in anderen Unternehmen:} \\
+
+\section{Kategorien mit unstimmigen Ergebnissen} \label{noclearresult}
+\textbf{Detailgrad von Zeitstempeln in DevOps-Tools:} \\
+\textbf{Sonstige Verarbeitungsinteressen von persönlichen Daten:} \\
+
+\section{Vorgeschlagene Alternativen}
+
+\section{Zusammenstellung der Ergebnisse}
+
+
+
+
