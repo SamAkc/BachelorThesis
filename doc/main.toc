@@ -21,14 +21,20 @@
 \contentsline {section}{\numberline {4.1}Kategorien mit einstimmigen Ergebnissen}{11}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Kategorien mit einer Pr\"aferenz f\"ur die Benutzerfreundlichkeit und Einfachheit}{11}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Kategorien mit einer Pr\"aferenz f\"ur die Privatsph\"are}{15}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Kategorien mit unstimmigen Ergebnissen}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Vorgeschlagene Alternativen}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Zusammenstellung der Ergebnisse}{16}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{17}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{17}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{19}{chapter.6}%
+\contentsline {section}{\numberline {4.2}Kategorien mit abweichenden Ergebnissen}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Vorgeschlagene Alternativen}{17}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{19}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{21}{chapter.6}%
 \def \chaptername {Appendix}
-\contentsline {chapter}{Literaturverzeichnis}{21}{appendix*.7}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{23}{appendix*.8}%
+\contentsline {chapter}{\numberline {A}Further Recommendations}{23}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introduction, Related Work, and Conclusion}{23}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Introduction Chapter}{23}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Related Work Chapter}{23}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Conclusion Chapter}{24}{subsection.A.1.3}%
+\contentsline {section}{\numberline {A.2}Thesis Length}{24}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Practices to Avoid}{24}{section.A.3}%
+\contentsline {chapter}{Literaturverzeichnis}{25}{appendix*.8}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{27}{appendix*.9}%

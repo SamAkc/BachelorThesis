@@ -1,13 +1,16 @@
 % !TeX program = lualatex
 \chapter{Ergebnisse} % Main chapter title
 \label{Results} % For referencing the chapter elsewhere, use \ref{Results}
-Anhand der Expertenbefragungen konnten insgesamt 13 verschiedene Kategorien zu den jeweiligen Sichtweisen der einzelnen Stakeholder herausausgearbeitet werden. Hierbei wird zwischen
-der Präferenz der Privatsphäre im Allgemeinen oder der Benutzerfreundlichkeit bzw. Einfachheit unterschieden: Kategorien, in welchen Experten überwiegend
-(>50\% der Experten sind der selben Ansicht) angegeben haben, die Privatsphäre sei ihnen wichtiger, werdem dem Kapitel \ref{privacy} zugeordnet, wohingegen die Kategorien, in welchen die Privatsphäre
-aufgrund der Benutzerfreundlichkeit und Einfachheit vernachlässigt werden konnte, dem Kapitel \ref{noprivacy} zugerechnet werden. Im Anschluss werden die Ergebnisse,
-in welchen kein einstimmiges Ergebnis (bei sieben Befragten ergibt dies: Weniger als 28\% der Befragten haben die selbe Meinung) erzielt werden konnte, in Kapitel \ref{noclearresult} thematisiert.
+Anhand der Expertenbefragungen konnten insgesamt zwölf verschiedene Kategorien zu den jeweiligen Sichtweisen der einzelnen Stakeholder herausausgearbeitet werden. Unterschieden wird hierbei zwischen Kategorien mit einstimmigen in Kapitel \ref{clearresult} und abweichenden Ergebnissen in Kapitel \ref{noclearresult}, wobei die genaue Bedeutung dieser Eigenschaften in den entsprechenden Kapiteln näher erläutert werden.
+Die Alternativen zu den einzelnen Aspekten, welche von den einzelnen Stakeholdern vorgeschlagen wurden, werden im Kapitel \ref{alternatives} aufgelistet. Als Letztes werden im Kapitel \ref{results}
+die Ergebnisse tabellarisch präsentiert. 
 
-\section{Kategorien mit einstimmigen Ergebnissen}
+\section{Kategorien mit einstimmigen Ergebnissen} \label{clearresult}
+In diesem Kapitel werden die einzelnen Kategorien anhand der Einstimmigkeit der einzelnen Kategorien aufgelistet. Einstimmig bedeutet in diesem Fall, dass bei den einzelnen Kategorien eine Abweichung von maximal drei von sieben Befragten (<50\%) stattgefunden hat - also anhand
+der absoluten Häufigkeit eine eindeutige Aussage getroffen werden kann. \newline 
+Hierbei wird zwischen der Präferenz der Privatsphäre im Allgemeinen oder der Benutzerfreundlichkeit bzw. Einfachheit unterschieden: Kategorien, in welchen Experten überwiegend
+(>50\% der Experten sind der selben Ansicht) angegeben haben, die Privatsphäre sei ihnen wichtiger, werden dem Kapitel \ref{privacy} zugeordnet, wohingegen die Kategorien, in welchen die Privatsphäre
+aufgrund der Benutzerfreundlichkeit und Einfachheit vernachlässigt werden konnte, dem Kapitel \ref{noprivacy} zugerechnet werden.
 \subsection{Kategorien mit einer Präferenz für die Benutzerfreundlichkeit und Einfachheit} \label{noprivacy}
 \textbf{Verarbeitete Daten zur Unterstützung der Softwareentwicklung in DevOps-Tools:} \newline
 Zu Beginn der Interviews haben alle Befragten angegeben, mit persönlichen Daten in Berührung zu kommen und diese auch zu verarbeiten. Dabei haben alle vier Softwareentwickler angegeben, die Nutzeraktivitäten und den Programmcode von Kollegen 
@@ -37,7 +40,7 @@ Hier sollten die Befragten angeben, ob in den verwendeten Tools zur Administrati
 einzusetzen. Im Prinzip sind sich alle Befragten einig, sowohl Benutzernamen, als auch Zeitstempel in Administrationstools zu benötigen und im Arbeitsalltag auch regelmäßig miteinzubeziehen. Um eine allgemeine Funktion von internen Kommunikationstools (zur eindeutigen Identifikation, mit welcher Person kommuniziert wird) zu gewährleisten und bei Builds anhand ihrer Zeitstempel (Startzeit und Dauer)
 und dem Autor bei Fehlschlag nachvollziehen und einen Ansprechpartner identifizieren zu können, werden hier als Gründe angegeben. Lediglich ein Experte hat angegeben, in SpringBoot auf den Einsatz von persönlichen Daten jeglicher Form verzichten zu können, da diese bisher im eingesetzten SpringBoot ohnehin nicht existent waren. \newline \newline
 \textbf{Detailgrad von Tickets in Ticketverwaltungstools:} \newline
-In Ticketverwaltungstools (vgl. JIRA oder Redmine) kommen sogenannte \enquote{Issues} zum Einsatz. Damit werden die Tickets bezeichnet, welche z.T. von Kunden, aber auch von Mitarbeitern eines Softwareentwicklungsunternehmens selbst erstellt werden. Mit diesen werden beispielsweise auftretende Fehler in jeglicher Form gemeldet, Verbesserungs- bzw. Änderungswünsche angegeben
+In Ticketverwaltungstools (vgl. Jira\sidenotetext{Entwicklungstool zur agilen Softwareentwicklung, vgl. Atlassian (https://www.atlassian.com/de/software/jira)} oder Redmine\sidenotetext{Open-Source-Applikation für Projektmanagement, vgl. Redmine (https://www.redmine.org)}{2}) kommen sogenannte \enquote{Issues} zum Einsatz. Damit werden die Tickets bezeichnet, welche z.T. von Kunden, aber auch von Mitarbeitern eines Softwareentwicklungsunternehmens selbst erstellt werden. Mit diesen werden beispielsweise auftretende Fehler in jeglicher Form gemeldet, Verbesserungs- bzw. Änderungswünsche angegeben
 oder eine andere Aufgabenstellung festgehalten. Dadurch ist es möglich, dass Mitarbeiter und Kunden einsehen, nachverfolgen und Kommentare zu den Tickets hinzufügen können, welche Probleme aufgetreten sind, welche Wünsche (z.B. von einer Applikation) gefordert sind oder welche Informationen zu einem bestimmten Thema relevant sind. Da ein grundlegendes Verständnis beim
 Anlegen eines solchen Issue-Tickets gewährleistet sein muss, haben alle Befragten auch angegeben, eine ausführliche Issue-Beschreibung zu benötigen. In dieser befindet sich i.d.R. der Inhalt des Tickets (\enquote{Was genau muss getan werden?}, der Status (\enquote{Wie weit fortgeschritten ist diese Aufgabe?}, ein Zeitstempel (\enquote{Wann wurde diese Aufgabe erstellt?} 
 und die Angabe eines Ticket-Erstellers und -Beauftragten (\enquote{Von wem wurde diese Aufgabe angelegt und wer soll diese bearbeiten?}, wobei diese bei sechs Befragten in Form eines Benutzernamen auftritt und beim verbliebenen als Vor- und Nachname.Zusätzlich dazu wünschen alle sieben Experten, dass Benutzernamen und Zeitstempel in diesen vermerkt sind. Dies begründet ein 
@@ -70,18 +73,27 @@ von Servern, Applikationen oder Code im Allgemeinen nachverfolgen zu können - e
 steht. \newline \newline
 \textbf{Bevorzugte Aufbewahrungsdauer von Log-Dateien:} \newline
 Als Weiterleitung der Frage über die tatsächliche Aufbewahrungsdauer von Log-Dateien in Kapitel \ref{noprivacy} wurden in dieser Kategorie die Experten dazu angehalten, ihre persönliche Präferenz zur Dauer anzugeben. Hier haben alle 
-Befragten angegeben, eine temporäre Aufbewahrungsdauer zu bevorzugen. Diese könne anhand der Lebensdauer von Projekten, der Lebensdauer von Programmcode, den letzten x Builds, einer festgelegten Zeit (z.B. zwei Wochen)
-oder der Existenz von gemeldeten Fehlern deklariert werden. In der Regel sind sich die Befragten einig, eine Dauer von maximal wenigen Monaten zu bevorzugen. Diese Sichtweisen stellen einen Gegensatz zur tatsächlichen Aufbewahrungsdauer von
-Log-Dateien in Softwareentwicklungsunternehmen dar, welche in Kapitel \ref{noprivacy} angesprochen werden.
+Befragten angegeben, eine temporäre Aufbewahrungsdauer zu bevorzugen. Begründet wurde dies dadurch, dass Log-Dateien nur für wenige bestimmte Fälle, welche i.d.R. relativ neu sind (<2 Monate), benötigt werden und über diesen Zeitraum
+hinaus redundant werden. \newline \newline
 
-\section{Kategorien mit unstimmigen Ergebnissen} \label{noclearresult}
-\textbf{Sonstige Verarbeitungsinteressen von persönlichen Daten:} \\
+\section{Kategorien mit abweichenden Ergebnissen} \label{noclearresult}
+Dieses Kapitel befasst sich mit der verbliebenen Kategorie, in welcher Aussagen zu Sichtweisen seitens der einzelnen Stakeholder getroffen wurden, welche sich zu keiner eindeutigen Aussage zusammenfassen lassen und dementsprechend separat 
+behandelt werden müssen. Als ein abweichendes Ergebnis wird dabei bezeichnet, dass bei sieben Befragten weniger als 28\% die selbe Sichtweise zu einer Kategorie haben und somit kein einstimmiges Ergebnis vorliegt. \newline \newline
+\textbf{Sonstige relevante Daten aus der Sicht der Stakeholder:} \newline
+Zu diesem Aspekt wurden die Experten befragt, ob ihnen sonstige, für sie relevante, Daten im Arbeitsalltag in den Sinn kommen. Diese Frage ist insofern relevant, da hierdurch potenziell neue Aspekte offenbart werden können, welche im Arbeitsalltag eines Stakeholders Anwendung findet. Dementsprechend
+haben lediglich drei der sieben Befragten eine individuelle Vorstellung wiedergeben können. Da diese sich selbst aber voneinander unterscheiden und keine gemeinsame Kategorie ausfindig gemacht werden konnte, werden diese im Kapitel mit den Kategorien mit abweichenden Ergebnissen behandelt: Für einen Befragten ist es beispielsweise wichtig, den Umfang eines Commits in DevOps-Tools einsehen zu können. Das bedeutet, dass eine Unterscheidung, ob es sich bei einem Commit nun um eine \enquote{kleine Fehlerbehebung}
+oder eine \enquote{große Implementierung eines neuen Features} handelt, durchgeführt werden kann. Dies sei vor allem zur Einschätzung des Arbeitsaufwandes und der Forderungen zur Herangehensweise an die Aufgabe selbst notwendig. \newline
+Ein weiterer Experte hat zusätzlich angegeben, die Überprüfung der Anwesenheit der Angestellten vor Ort sei ein wichtiger Bestandteil seines Arbeitsalltages. Als letzten Aspekt wurde die Aussage getroffen, dass die Commit-Frequenz der eigenen Kollegen für diesen Befragten eine große Rolle spielt: Dadurch könne er, im Falle eines Merge-Requests (Anfrage zum Einbinden eines Commits in das Hauptverzeichnis, z.B. einer Applikation), einschätzen, wieviel dieser im jeweiligen Commit an Änderungen bzw. Anpassungen zu erwarten hat.
+Laut eigener Angabe sei es im eigenen Softwareentwicklungsunternehmen üblich, dass unterschiedliche Entwickler unterschiedliche Commit-Frequenzen aufweisen. Manche stellen deutlich größere, aber seltener Commits bereit, als manche andere, welche viele, kleine Commits als angemessen empfinden. Anhand dieser Information könne der Befragte den Commit angemessener beurteilen.
 
-\section{Vorgeschlagene Alternativen}
+\section{Vorgeschlagene Alternativen} \label{alternatives}
 \textbf{Temporäre Zeitstempel in DevOps-Tools}: \newline
-
-\section{Zusammenstellung der Ergebnisse}
-
+Zusätzlich zur gewünschten Auflösung von Zeitstempeln in DevOps-Tools haben vier der sieben Befragten angegeben, eine temporäre Lebensdauer der Zeitstempel zu bevorzugen, da diese nach einer bestimmten Zeit an Relevanz verlieren würden. Abhängig sei dies beispielsweise durch die Anzahl der zuletzt erfolgreich durchgeführten Builds, einem bestimmten Zeitraum x oder nach vollendeter Lebensdauer eines Tickets. 
+Die Befragten haben dabei Bezug zum eigenen Arbeitsalltag genommen, in welchem die Zeitstempel unlimitiert bestehen bleiben würden und nur nach einer manuell durchgeführten Löschung des übergeordneten Speicherpunktes (z.B. eines abgelaufenen Builds, veralteten Commits etc.) verschwinden würden. \newline \newline
+\textbf{Temporäre Aufbewahrungsdauer von Log-Dateien in Abhängigkeit von Faktor xy:}
+Zu der Frage, welche Länge zur Aufbewahrung von Log-Dateien seitens der Stakeholder bevorzugt werden würde, haben sechs von sieben Experten angegeben, eine temporäre Aufbewahrung von Log-Dateien willkommen zu heißen. Diese könne anhand der Lebensdauer von Projekten, der Lebensdauer von Programmcode, den letzten x Builds, einer festgelegten Zeit (z.B. zwei Wochen/Monaten)
+oder der Existenz von gemeldeten Fehlern deklariert werden. In der Regel sind sich die Befragten einig, eine Dauer von maximal wenigen Monaten zu bevorzugen. Diese Sichtweisen stellen einen Gegensatz zur tatsächlichen Aufbewahrungsdauer von Log-Dateien in Softwareentwicklungsunternehmen dar, welche in Kapitel \ref{noprivacy} angesprochen werden. Begründet wird dieser Vorschlag
+durch die kaum vorhandene Nutzung von alten (z.B. >2 Monate) Log-Dateien im Arbeitsalltag der Stakeholder.
 
 
 

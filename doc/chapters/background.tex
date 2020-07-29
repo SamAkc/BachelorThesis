@@ -70,7 +70,12 @@ und Subversion (24\%) die Spitze dar (s. Abbildung \ref{fig:ohloh}) \cite{Inc.:2
 \subsubsection{Git} \label{git}
 Git ist eine freie Software zur Versionsverwaltung \cite{Git:2020aa}. Die grundlegende Funktion unterscheidet hierbei zwischen der lokalen, zentralen und verteilten Versionsverwaltung: Die lokale Versionsverwaltung befasst sich dabei mit der \enquote{[Verwaltung] aller Änderungen relevanter Dateien in einer Datenbank} \cite{Scott-Chacon:2020aa}, wohingegen die
 zentrale mit dem Problem der Kooperation mit anderen Entwicklern an gemeinsamer Software \cite{Scott-Chacon:2020aa}. Der letzte Punkt der verteilten Verwaltung behandelt das vollständige Kopieren eines sogenannten \enquote{Repositories} (dt. \textit{Quelle bzw. Lager von Software})
-von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Chacon:2020aa}. Unter Git wird das Hauptverzeichnis als \enquote{master} bezeichnet, wohingegen die Versionierungen hiervon als \enquote{ranches}, wie unter SVN (s. Kapitel \ref{svn}), betitelt werden.
+von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Chacon:2020aa}. Unter Git wird das Hauptverzeichnis als \enquote{master} bezeichnet, wohingegen die Versionierungen hiervon als \enquote{Branches} (vgl. Abbildung \ref{fig:git}), wie unter SVN (s. Kapitel \ref{svn}), betitelt werden.
+\begin{marginfigure}
+    \includegraphics[width=1.1\marginparwidth]{git.png}
+    \caption{\label{fig:git}Beispielhafte Historie einer Versionsverwaltung (hier: Git; Verschiedene Profilbilder repräsentieren einzelne Commit-Autoren, Abzweigungen repräsentieren neue Branches))}
+\end{marginfigure}
+
 
 \subsubsection{Subversion} \label{svn}
 Apache Subversion (kurz: SVN) ist ebenfalls eine freie Software zur Versionsverwaltung von Dateien sowie Verzeichnissen, wodurch alte Versionen von Daten und eine Historie der verschiedenen Änderungen und Versionen an diesen betrachtet werden können \cite{Collins-Sussman:2004aa}.
