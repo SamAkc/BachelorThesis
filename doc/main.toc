@@ -33,5 +33,6 @@
 \contentsline {section}{\numberline {A.1}Stellenausschreibung zur Befragung von Softwareentwicklern bzw. -administratoren}{23}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Datenschutzerkl\"arung}{23}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Online-Formular zum Ausf\"ullen \"uber Microsoft Forms}{24}{section.A.3}%
-\contentsline {chapter}{Literaturverzeichnis}{27}{appendix*.7}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{29}{appendix*.8}%
+\contentsline {chapter}{\numberline {B}Interviewleitfaden}{27}{appendix.B}%
+\contentsline {chapter}{Literaturverzeichnis}{29}{appendix*.7}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{31}{appendix*.8}%

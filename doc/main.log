@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  30 JUL 2020 00:08
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  30 JUL 2020 00:40
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -1557,7 +1557,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package hyperref Info: Option `colorlinks' set `false' on input line 15.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (./main.aux (./misc/titlepage.aux) (./main.tex.aux) (./appendices/appendixA.aux))
+ (./main.aux (./misc/titlepage.aux) (./main.tex.aux) (./appendices/appendixA.aux) (./appendices/appendixB.aux))
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/zcochmi/m/it on input line 35.
@@ -1819,7 +1819,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<misc/UB_Logo_20mm_CMYK.pdf, id=151, 57.21375pt x 57.21375pt>
+<misc/UB_Logo_20mm_CMYK.pdf, id=155, 57.21375pt x 57.21375pt>
 File: misc/UB_Logo_20mm_CMYK.pdf Graphic file (type pdf)
 <use misc/UB_Logo_20mm_CMYK.pdf>
 Package luatex.def Info: misc/UB_Logo_20mm_CMYK.pdf  used on input line 43.
@@ -1990,7 +1990,7 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 
 
 ]
-<./figures/pipeline.png, id=280, 795.97375pt x 162.6075pt>
+<./figures/pipeline.png, id=285, 795.97375pt x 162.6075pt>
 File: ./figures/pipeline.png Graphic file (type png)
 <use ./figures/pipeline.png>
 Package luatex.def Info: ./figures/pipeline.png  used on input line 46.
@@ -2021,7 +2021,7 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
  []
 
 [5<./figures/pipeline.png>]
-<./figures/ohloh.png, id=309, 996.72375pt x 943.525pt>
+<./figures/ohloh.png, id=314, 996.72375pt x 943.525pt>
 File: ./figures/ohloh.png Graphic file (type png)
 <use ./figures/ohloh.png>
 Package luatex.def Info: ./figures/ohloh.png  used on input line 60.
@@ -2036,7 +2036,7 @@ Underfull \hbox (badness 2119) in paragraph at lines 61--61
 []\TU/Roboto-Regular.otf(0)/b/n/8 Ab-bil-dung 2.2: |[][]\TU/Roboto-Regular.otf(0)/m/n/8 Versionsverwaltungs-Tools im
  []
 
-<./figures/git.png, id=319, 294.09875pt x 427.5975pt>
+<./figures/git.png, id=324, 294.09875pt x 427.5975pt>
 File: ./figures/git.png Graphic file (type png)
 <use ./figures/git.png>
 Package luatex.def Info: ./figures/git.png  used on input line 75.
@@ -2301,6 +2301,25 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
  []
 
 [25]
+\openout2 = appendices/appendixB.aux
+ (./appendices/appendixB.tex [26
+
+
+
+
+]
+Anhang B.
+
+Overfull \hbox (17.71101pt too wide) in paragraph at lines 3--3
+|[][]| 
+ []
+
+)
+Overfull \hbox (163.88783pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[27]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
 * paper: a4paper
@@ -2334,22 +2353,22 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [26
+ [28
 
 
 
 
-] [27] [28] [29
+] [29] [30] [31
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
- (./main.aux (./misc/titlepage.aux) (./main.tex.aux) (./appendices/appendixA.aux))
+ (./main.aux (./misc/titlepage.aux) (./main.tex.aux) (./appendices/appendixA.aux) (./appendices/appendixB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AEB52A18FF8B2B63661825B068FA6688;6360.
+(rerunfilecheck)             Checksum: 47405551770BF86B547CBB9487DF72E3;6495.
 
 
 LaTeX Warning: There were undefined references.
@@ -2360,19 +2379,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51064 strings out of 480992
+ 51105 strings out of 480992
  195592,1977958 words of node,token memory allocated
  8198 words of node memory still in use:
    65 hlist, 16 vlist, 22 rule, 74 disc, 10 local_par, 4 math, 101 glue, 43 kern, 30 penalty, 12 margin_kern, 528 glyph, 223 attribute, 101 glue_spec, 137 attribute_list, 8 write, 16 pdf_literal, 2 pdf_dest, 20 pdf_action, 24 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:15,2:2687,3:1669,4:176,5:1873,6:105,7:18555,8:173,9:376,10:52,11:2077
- 66339 multiletter control sequences out of 65536+600000
- 410 fonts using 42781907 bytes
+   avail lists: 1:14,2:2684,3:1669,4:176,5:1873,6:107,7:18555,8:173,9:376,10:52,11:2077
+ 66347 multiletter control sequences out of 65536+600000
+ 410 fonts using 42783187 bytes
  76i,18n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/Roboto-Regular.otf><./fonts/Roboto-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main.pdf (35 pages, 597144 bytes).
+Output written on main.pdf (37 pages, 597854 bytes).
 
-PDF statistics: 612 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 126 named destinations out of 1000 (max. 131072)
- 416 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 627 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 129 named destinations out of 1000 (max. 131072)
+ 424 words of extra memory for PDF output out of 10000 (max. 100000000)
 
