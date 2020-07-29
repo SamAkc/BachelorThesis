@@ -16,32 +16,53 @@ Dies erfolge zur Nachvollziehbarkeit der Builds und Deployments, des Programmcod
 Zwei Befragte haben zudem angegeben, Zugriff auf sensible Kundendaten in Form von Klarnamen, Anschriften, E-Mail Adressen uvm. zu besitzen: Dies ist bei jenen der Fall, die häufig mit externen Ansprechpartnern und Unternehmen in Kontakt treten 
 und mit diesen zusammenarbeiten müssen. \newline \newline
 \textbf{Bevorzugter Detailgrad von Zeitstempeln in DevOps-Tools:} \newline
-
+Dieser Aspekt nimmt genaueren Bezug auf Zeitstempel in DevOps-Tools und befasst sich mit der Auflösung (z.B. Detailgrad, Lebensdauer und relevante Faktoren) dieser. Hier wurden die Experten befragt, in welcher Auflösung diese konkret den Zeitstempel 
+im Arbeitsalltag benötigen. Bis auf eine Ausnahme, haben alle Befragten angegeben, einen konkreten Zeitstempel mit der Anfangs- und Endzeit (bzw. alternativ mit der Anfangszeit und der Dauer) zu benötigen und auf diesen nicht verzichten zu können. Dies sei
+vor allem in der Fehlerbehebung (z.B. von fehlerhaften Commits) elementar, denn nur durch eine genaue Zeitangabe könne man den Fehler in Logs, im Code selbst (\enquote{Wie lange hat es gedauert, bis der Fehler aufgetreten ist?}) oder bei potenziellen Verantwortlichen 
+suchen. \newline \newline
 \textbf{Allgemeine Auswertungen von persönlichen Daten aus DevOps-Tools:} \newline
 Bei dieser Frage sollten die Befragten angeben, ob diese sich Auswertungsmöglichkeiten von persönlichen Daten aus DevOps-Tools vorstellen könnten, welche sie selbst nicht zwangsläufig durchführen, aber von welchen sie sich vorstellen könnten, dass dies bei anderen Kollegen bzw. Unternehmen
 zum Einsatz kommen könnte. Hier haben alle Stakeholder angegeben, dass mit Sicherheit eine Form einer Leistungsbeurteilung bzw. -bewertung stattfinden könnte. Da in der Regel Benutzernamen und Zeitstempel in Builds, (Git) Commits und gelegentlich auch in Log-Dateien vorzufinden sind, könne man
 anhand dieser Daten Rückschlüsse auf die Quantität und Qualität der einzelnen Faktoren ziehen. Ein Experte hat zudem angegeben, dass in seinem eigenen Unternehmen diese Daten häufig zum Einsatz zur Problembehebung kommen: Dabei wird anhand des Benutzernamens und Zeitstempels die Person hinter einem Build,
 einem Git Commit oder einer anderen Ausführung ermittelt und durch gemeinsame Absprache mit diesem, eine Behebung des Problems angesteuert. Ein anderer Experte hat zusätzlich erläutert, Statistiken zum Vergleichen dieser Auswertungen mit persönlichen Daten erstellen zu können, da diese Daten unternehmensweit
 für nahezu jeden Mitarbeiter einsehbar sind. Durch diese genannten Ansichten der verschiedenen Stakeholder zeigt sich eine unternehmensübergreifende Präferenz zur Benutzerfreundlichkeit bzw. Einfachheit in Bezug auf die Auswertungen der persönlichen Daten in DevOps-Tools. \newline \newline
-\textbf{Interesse an persönlichen Daten in Review-Tools:} \newline
-
-\textbf{Interesse an persönlichen Daten in Administrationstools:} \newline
-
-\textbf{Detailgrad von Issues in Ticketverwaltungstools:} \newline
-
-\textbf{Interesse an Benutzernamen und Zeitstempeln in Issue-Kommentaren in Ticketverwaltungstools:} \newline
-
+\textbf{Persönlichen Daten in Review-Tools:} \newline
+Diese Frage hat sich damit befasst, ob die Befragten Wert auf die Existenz von persönlichen Daten in Review-Tools (vgl. GitHub oder Gerrit) legen und falls ja, in was für einem Umfang sie diese benötigen bzw. nutzen. Für fünf der insgesamt sieben Befragten war es wichtig, einen Benutzernamen in
+Review-Tools vorzufinden. Begründet wurde dies durch die allgemeine Möglichkeit der Zuordnung und der Identifikation eines Ansprechpartners im Falle von auftretenden Fragen und Wünschen und zum Einholen von Feedback in Bezug auf den verfassten Code. Für drei Befragte, wovon sich bereits drei den Benutzernamen
+gewünscht haben, möchten zusätzlich Zeitstempel in Review-Tools vorfinden können und erklären diesen Wunsch durch die Möglichkeit der zeitlichen Zuordnung der einzelnen Reviews: \enquote{Wann wurde ein Review zu meinem Programmcode bzw. zu meinem Build durchgeführt und wie relevant ist dieses im Augenblick?}. Im Arbeitsalltag lässt
+sich also aus den Aussagen der Befragten ableiten, dass eine Einschätzung über die Dringlichkeit und Relevanz über die potenziell geforderten Änderungen und Anpassungen im Review seitens der Stakeholder erfolgt. \newline
+Die verbliebenen zwei Experten, welche keinen Wert auf persönliche Daten jeglicher Art in Review-Tools legen, begründen ihre Sichtweise dadurch, keine Reviews durchführen zu müssen bzw. keine Reviews zu erhalten oder benötigen in ihrem Arbeitsalltag lediglich Reviews und Feedback zum Inhalt ihres Codes bzw. zum Fehlschlagen von Builds. \newline \newline
+\textbf{Persönlichen Daten in Administrationstools:} \newline
+Hier sollten die Befragten angeben, ob in den verwendeten Tools zur Administration persönliche Daten in Form von Zeitstempeln, Benutzernamen o.Ä. existieren. Die Befragten haben hierbei als Administrationstools angegeben, beispielsweise Jenkins als CI-Tool, SpringBoot als Framework oder einfache Kommunikationstools wie Slack und Microsoft-Teams (und insbesondere dessen Kalenderfunktion)
+einzusetzen. Im Prinzip sind sich alle Befragten einig, sowohl Benutzernamen, als auch Zeitstempel in Administrationstools zu benötigen und im Arbeitsalltag auch regelmäßig miteinzubeziehen. Um eine allgemeine Funktion von internen Kommunikationstools (zur eindeutigen Identifikation, mit welcher Person kommuniziert wird) zu gewährleisten und bei Builds anhand ihrer Zeitstempel (Startzeit und Dauer)
+und dem Autor bei Fehlschlag nachvollziehen und einen Ansprechpartner identifizieren zu können, werden hier als Gründe angegeben. Lediglich ein Experte hat angegeben, in SpringBoot auf den Einsatz von persönlichen Daten jeglicher Form verzichten zu können, da diese bisher im eingesetzten SpringBoot ohnehin nicht existent waren. \newline \newline
+\textbf{Detailgrad von Tickets in Ticketverwaltungstools:} \newline
+In Ticketverwaltungstools (vgl. JIRA oder Redmine) kommen sogenannte \enquote{Issues} zum Einsatz. Damit werden die Tickets bezeichnet, welche z.T. von Kunden, aber auch von Mitarbeitern eines Softwareentwicklungsunternehmens selbst erstellt werden. Mit diesen werden beispielsweise auftretende Fehler in jeglicher Form gemeldet, Verbesserungs- bzw. Änderungswünsche angegeben
+oder eine andere Aufgabenstellung festgehalten. Dadurch ist es möglich, dass Mitarbeiter und Kunden einsehen, nachverfolgen und Kommentare zu den Tickets hinzufügen können, welche Probleme aufgetreten sind, welche Wünsche (z.B. von einer Applikation) gefordert sind oder welche Informationen zu einem bestimmten Thema relevant sind. Da ein grundlegendes Verständnis beim
+Anlegen eines solchen Issue-Tickets gewährleistet sein muss, haben alle Befragten auch angegeben, eine ausführliche Issue-Beschreibung zu benötigen. In dieser befindet sich i.d.R. der Inhalt des Tickets (\enquote{Was genau muss getan werden?}, der Status (\enquote{Wie weit fortgeschritten ist diese Aufgabe?}, ein Zeitstempel (\enquote{Wann wurde diese Aufgabe erstellt?} 
+und die Angabe eines Ticket-Erstellers und -Beauftragten (\enquote{Von wem wurde diese Aufgabe angelegt und wer soll diese bearbeiten?}, wobei diese bei sechs Befragten in Form eines Benutzernamen auftritt und beim verbliebenen als Vor- und Nachname.Zusätzlich dazu wünschen alle sieben Experten, dass Benutzernamen und Zeitstempel in diesen vermerkt sind. Dies begründet ein 
+Experte dadurch, dass die Lebensdauer eines Tickets stark variieren und z.T. nach mehreren Jahren und zweistelliger Anzahl von \enquote{Assignees} (Derzeitiger Beauftragte für die Bearbeitung des Tickets) immernoch existieren kann und die Übersicht ohne diese verloren ginge - schließlich könne man so nicht nachverfolgen, welche Person zu welchem Datum bzw. zu welcher Uhrzeit 
+was bearbeitet habe und dies für die Bearbeitung dieser Tickets erforderlich sei. \newline \newline
+\textbf{Interesse an Benutzernamen und Zeitstempeln in editierten Issue-Kommentaren und -Beschreibungen in Ticketverwaltungstools:} \newline
+Ticketverwaltungstools bieten häufig die Möglichkeit, eigenen, verfassten Text, also in Kommentaren oder in der Beschreibung der Tickets, hinterher zu editieren. Zu diesem Aspekt wurden die Experten befragt, ob ein Interesse, von welcher Person zu welcher Zeit etwas (im Nachgang) editiert wurde. Hier haben sechs Befragte angegeben, Benutzernamen, Zeitstempel und die ursprüngliche Nachricht
+angezeigt bekommen zu wollen. Der Grund hierfür liegt erneut bei der Nachvollziehbarkeit von verfassten Kommentaren oder der Ticketbeschreibung, da es häufig vorkommt, dass Kommentare aufeinander oder auf die Beschreibung aufbauen und eine nachträgliche Änderung den Kontext dieser erschweren könnte. Vor allem bei \enquote{schwierigen Themen} sei dies häufig der Fall. Dabei reicht es drei der
+fünf Experten nicht aus, lediglich einen Vermerk auf einen editierten Beitrag zu erhalten - diese wünschen sich zusätzlich, den ursprünglichen Beitrag, die Uhrzeit und den Benutzernamen, vom Verantwortlichen der Änderungen, angezeigt zu bekommen, da auf diese Art und Weise relevante Informationen aus den Änderungen gewonnen werden können (\enquote{Warum hat diese Person zu diesem Zeitpunkt diesen Beitrag
+editiert?}). Einer der sechs Experten, welche sich für editierte Beiträge interessieren, hat angegeben, keine Historie einsehen zu können und sich aufgrund dessen nicht für diese zu interessieren, weswegen eine einfache Anzeige, dass ein Beitrag editiert wurde, ausreichen würde. \newline \newline
 \textbf{Tatsächliche Aufbewahrungsdauer von Log-Dateien:} \newline
 Da ein sehr großer Anteil der Befragten von über 85\% (vgl. Tabelle \ref{tab:generaldata}) angegeben haben, Log-Dateien aktiv zu nutzen, ist es für den weiteren Verlauf der Analyse erforderlich, die tatsächliche Aufbewahrungsdauer der genutzten Log-Dateien 
 im Unternehmen zu spezifizieren. Hier haben alle Befragten angegeben, dass alle Log-Dateien in der Regel für eine unbegrenzte bzw. unbestimmte Dauer aufbewahrt werden. Die Stakeholder haben zudem meist keine Kenntnis über die genaue Aufbewahrungsdauer und 
 beziehen sich bei ihrer Aussage auf die Existenz von sehr alten Log-Dateien (über 5 Jahre). Die Ausnahme dieser Regel betrifft manuell durchgeführte Bereinigungen von Speicher und eingeleitete Löschung spezifischer Log-Dateien: Bei einem Befragten kam es vor,
 dass das System einen Absturz erlitten hat, welche die Log-Dateien unbenutzbar gemacht haben, wohingegen bei einem anderen der Serverspeicher geleert werden musste und dieses Vorgehen sämtliche Log-Dateien gelöscht hat. \newline Aus diesen Aussagen lässt sich 
 ableiten, dass ein Vorgehen zur automatisierten Löschung von Log-Dateien bei den Befragten bisher keine Anwendung gefunden hat. \newline \newline
-
 \textbf{Mögliche Verarbeitungsinteressen von persönlichen Daten in anderen Unternehmen:} \newline
+Im Rahmen dieser Frage ist es relevant gewesen, die Ansichten der Experten zu möglichen Verarbeitungsinteressen von persönlichen Daten in anderen Unternehmen einzuholen. Dadurch ist es möglich, ein allgemeines Bild von Softwareentwicklungsunternehmen im Ganzen zu erhalten, falls die Ansichten der Stakeholder sich als deckungsgleich zeigen sollten. In der Tat haben etwa 57\% (vier der sieben Befragten) angegeben,
+dass sie sich vorstellen können, wie Unternehmen die Arbeitszeiten der einzelnen Angestellten nachverfolgen können. Schließlich könne man einsehen, welche Person zu welcher Uhrzeit einen Commit bereitgestellt hat (durch Präsenz des Zeitstempels und Benutzernamens), wer im Kommunikationstool anwesend ist (Online-Status, z.B. in Microsoft Teams) oder wer zu welcher Uhrzeit auf E-Mails reagiert bzw. antwortet, behaupten die Stakeholder.
+Aus diesen gesammelten Daten eine Arbeitszeiten-Statistik anzulegen, sei nur einen kleinen Schritt von diesem Aspekt fortgeführt. Durch diesen Punkt könne man gebuchte Arbeitszeiten nachprüfen, korrigieren oder ggf. weglassen, da dies durch die Kontrolle redundant werden würde. \newline
+Zusätzlich hat ein Befragter angegeben, sich vorstellen zu können, dass Ressourcenmanagement betrieben werden könne: Durch die Einsicht in die Arbeits- bzw. Anwesenheitszeiten der einzelnen Angestellten, hat dieser Befragte behauptet, könne man vorhandene Ressourcen (wie z.B. eingeschaltete Server, Computer oder Strom im Allgemein) sparen, indem man diese, abhängig zu den genannten Zeiten, zur Verfügung stellt. Das jeweilige Unternehmen
+könne so laufende Betriebskosten sparen, was im eigenen Interesse liegen würde.
 
 \subsection{Kategorien mit einer Präferenz für die Privatsphäre} \label{privacy}
-\textbf{Interesse an persönlichen Daten in Log-Dateien:} \newline
+\textbf{Persönlichen Daten in Log-Dateien:} \newline
 Dieser Punkt befasst sich mit dem allgemeinen Interesse an persönlichen Daten, welche in Form von Benutzernamen, Zeitstempeln, IDs etc. in Log-Dateien sämtlicher Art auftreten können. Hier haben die Befragten einstimmig
 entschieden, kein Interesse an diesen zu haben und ein mögliches Entfernen in der Zukunft willkommen zu heißen. Es wurde lediglich angegeben, dass in bestimmten Fällen (Zusammenarbeit an einem Projekt, 
 in Testfällen von Code, Servern oder Applikationen oder auf Anfrage) eine Nachverfolgung auf Wunsch eines Kunden oder eines Auftrags erfolgen muss. Für die Befragten ist es nur wichtig, den Ablauf und auftretende Fehler 
@@ -54,10 +75,10 @@ oder der Existenz von gemeldeten Fehlern deklariert werden. In der Regel sind si
 Log-Dateien in Softwareentwicklungsunternehmen dar, welche in Kapitel \ref{noprivacy} angesprochen werden.
 
 \section{Kategorien mit unstimmigen Ergebnissen} \label{noclearresult}
-\textbf{Detailgrad von Zeitstempeln in DevOps-Tools:} \\
 \textbf{Sonstige Verarbeitungsinteressen von persönlichen Daten:} \\
 
 \section{Vorgeschlagene Alternativen}
+\textbf{Temporäre Zeitstempel in DevOps-Tools}: \newline
 
 \section{Zusammenstellung der Ergebnisse}
 
