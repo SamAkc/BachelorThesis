@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  30 JUL 2020 00:40
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  30 JUL 2020 20:08
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -2217,15 +2217,19 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
  []
 
-) (./chapters/conclusion.tex
+
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.2'
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
 
-[19] [20
-
-
-]
+[19]) (./chapters/conclusion.tex [20]
 Kapitel 6.
 
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
@@ -2237,7 +2241,10 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
 
-[21]
+[21
+
+
+]
 \openout2 = appendices/appendixA.aux
  (./appendices/appendixA.tex [22
 
@@ -2379,19 +2386,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51105 strings out of 480992
+ 51120 strings out of 480992
  195592,1977958 words of node,token memory allocated
- 8198 words of node memory still in use:
-   65 hlist, 16 vlist, 22 rule, 74 disc, 10 local_par, 4 math, 101 glue, 43 kern, 30 penalty, 12 margin_kern, 528 glyph, 223 attribute, 101 glue_spec, 137 attribute_list, 8 write, 16 pdf_literal, 2 pdf_dest, 20 pdf_action, 24 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:14,2:2684,3:1669,4:176,5:1873,6:107,7:18555,8:173,9:376,10:52,11:2077
- 66347 multiletter control sequences out of 65536+600000
+ 8925 words of node memory still in use:
+   68 hlist, 18 vlist, 22 rule, 86 disc, 11 local_par, 4 math, 110 glue, 46 kern, 32 penalty, 14 margin_kern, 590 glyph, 229 attribute, 101 glue_spec, 140 attribute_list, 8 write, 16 pdf_literal, 2 pdf_dest, 20 pdf_action, 24 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 1:13,2:2649,3:2101,4:203,5:1875,6:108,7:18483,8:175,9:371,10:52,11:2070
+ 66360 multiletter control sequences out of 65536+600000
  410 fonts using 42783187 bytes
  76i,18n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/Roboto-Regular.otf><./fonts/Roboto-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main.pdf (37 pages, 597854 bytes).
+Output written on main.pdf (37 pages, 602830 bytes).
 
-PDF statistics: 627 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 131072)
+PDF statistics: 637 PDF objects out of 1000 (max. 8388607)
+ 552 compressed objects within 6 object streams
+ 131 named destinations out of 1000 (max. 131072)
  424 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -24,9 +24,9 @@
 \contentsline {section}{\numberline {4.2}Kategorien mit abweichenden Ergebnissen}{16}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Vorgeschlagene Alternativen}{17}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{19}{section.5.3}%
+\contentsline {section}{\numberline {5.1}Implikationen in der Theorie}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Implikationen in der Praxis}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Limitation der Arbeit}{20}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Fazit und Ausblick}{21}{chapter.6}%
 \def \chaptername {Appendix}
 \contentsline {chapter}{\numberline {A}Verbundene Arbeiten}{23}{appendix.A}%

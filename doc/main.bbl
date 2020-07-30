@@ -122,6 +122,42 @@
       \endverb
       \keyw{auszeichnungen}
     \endentry
+    \entry{Bansal:2016aa}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0264a426a444a17ea4428a02a718b898}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Gaurav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1128ad982aad28f1fccf8852c9a2a5fe}{%
+           family={Zahedi},
+           familyi={Z\bibinitperiod},
+           given={Fatemeh\bibnamedelima M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=18b90822d904b9d26652d2372a2ab28e}{%
+           family={Gefen},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{fullhash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{bibnamehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{authorbibnamehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{authornamehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{authorfullhash}{7c1f299fc9f1d74a14103af1df60449e}
+      \field{labelalpha}{BZG16}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information and Management 53}
+      \field{title}{Do context and personality matter? Trust and privacy concerns in disclosing private information online.}
+      \field{volume}{1}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
+    \endentry
     \entry{Barnes:2006aa}{article}{}
       \name{author}{1}{}{%
         {{hash=9140bc405746e359cda3c505af0759e7}{%
@@ -607,6 +643,17 @@
       \endverb
       \keyw{payback}
     \endentry
+    \entry{IfH:2015aa}{proceedings}{}
+      \list{publisher}{1}{%
+        {Institut f{ü}r Handelsforschung}%
+      }
+      \field{labelalpha}{15}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
+      \field{year}{2015}
+    \endentry
     \entry{Peters:2015aa}{online}{}
       \name{author}{1}{}{%
         {{hash=d1b2a9f9690245a5824190b20ec8cb97}{%
@@ -803,6 +850,17 @@
     \endentry
   \enddatalist
   \datalist[entry]{anyt/global//global/global}
+    \entry{IfH:2015aa}{proceedings}{}
+      \list{publisher}{1}{%
+        {Institut f{ü}r Handelsforschung}%
+      }
+      \field{labelalpha}{15}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
+      \field{year}{2015}
+    \endentry
     \entry{GfK:2016aa}{online}{}
       \field{labelalpha}{16}
       \field{sortinit}{1}
@@ -1065,6 +1123,42 @@
       \field{title}{Cybercrime. Bundeslagebild 2018}
       \field{year}{2019}
       \keyw{bundeslagebild}
+    \endentry
+    \entry{Bansal:2016aa}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0264a426a444a17ea4428a02a718b898}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Gaurav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1128ad982aad28f1fccf8852c9a2a5fe}{%
+           family={Zahedi},
+           familyi={Z\bibinitperiod},
+           given={Fatemeh\bibnamedelima M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=18b90822d904b9d26652d2372a2ab28e}{%
+           family={Gefen},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{fullhash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{bibnamehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{authorbibnamehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{authornamehash}{7c1f299fc9f1d74a14103af1df60449e}
+      \strng{authorfullhash}{7c1f299fc9f1d74a14103af1df60449e}
+      \field{labelalpha}{BZG16}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information and Management 53}
+      \field{title}{Do context and personality matter? Trust and privacy concerns in disclosing private information online.}
+      \field{volume}{1}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
     \endentry
     \entry{Collins-Sussman:2004aa}{book}{}
       \name{author}{3}{}{%

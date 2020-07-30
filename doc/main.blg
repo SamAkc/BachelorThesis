@@ -1,21 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'main.blg'
-[86] biber-darwin:322> INFO - === Do Jul 30, 2020, 00:40:24
-[114] Biber.pm:415> INFO - Reading 'main.bcf'
-[216] Biber.pm:943> INFO - Found 28 citekeys in bib section 0
-[237] Biber.pm:4256> INFO - Processing section 0
-[237] Utils.pm:75> INFO - Globbing data source 'literature.bib'
-[237] Utils.pm:91> INFO - Globbed data source 'literature.bib' to literature.bib
-[253] Biber.pm:4455> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[255] bibtex.pm:1653> INFO - LaTeX decoding ...
-[306] bibtex.pm:1471> INFO - Found BibTeX data source 'literature.bib'
-[451] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[451] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[451] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[451] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[493] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[493] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[493] Biber.pm:4084> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[494] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[532] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[552] bbl.pm:755> INFO - Output to main.bbl
+[1] Config.pm:307> INFO - Logfile is 'main.blg'
+[90] biber-darwin:322> INFO - === Do Jul 30, 2020, 20:07:58
+[119] Biber.pm:415> INFO - Reading 'main.bcf'
+[222] Biber.pm:943> INFO - Found 30 citekeys in bib section 0
+[242] Biber.pm:4256> INFO - Processing section 0
+[243] Utils.pm:75> INFO - Globbing data source 'literature.bib'
+[243] Utils.pm:91> INFO - Globbed data source 'literature.bib' to literature.bib
+[256] Biber.pm:4455> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[259] bibtex.pm:1653> INFO - LaTeX decoding ...
+[312] bibtex.pm:1471> INFO - Found BibTeX data source 'literature.bib'
+[464] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[464] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[464] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[464] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[509] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[509] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[509] Biber.pm:4084> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[509] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[551] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[574] bbl.pm:755> INFO - Output to main.bbl
