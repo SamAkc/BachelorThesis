@@ -14,7 +14,21 @@ bzw. ohne ihre Kenntnis verbreitet werden \cite{Picchi:2018aa} - doch was genau 
 Die Privatsphäre lässt sich definieren als einen eingegrenzten, nicht-öffentlichen Raum, in welchem ein Individuum bzw. Individuen nach eigenem Belieben, ohne äußere Einflüsse oder die Beobachtung durch
 Unbeteiligte, zur freien Entfaltung der eigenen Person, handeln kann \cite*{Pettinger:2020aa}. Möchte man diese Definition nun auf die Softwareentwicklung widerspiegeln, so müssen die möglichen, 
 vorherrschenden Komponenten von persönlichen Daten näher betrachtet werden: In Unternehmen, welche sich mit der Softwareentwicklung befassen, müssen Daten vorhanden sein, welche Individuen individuell und 
-bestimmen können (Grund liefern!) - dies kann in Form von IDs und individuell gewählten Nutzernamen vorzufinden sein, aber auf der Kehrseite auch mit Klarnamen, E-Mail Adressen sowie eindeutig identifizierbaren IDs. 
+bestimmen können (Grund liefern!) - dies kann in Form von IDs und individuell gewählten Nutzernamen vorzufinden sein, aber auf der Kehrseite auch mit Klarnamen, E-Mail Adressen sowie eindeutig identifizierbaren IDs. \newline
+Trotzdem wird es dadurch nicht leichter, Privatsphäre im Allgemeinen greifbar zu machen - diese ist nämlich \enquote{vollständig determiniert durch die Bereitschaft zur persönlichen Offenlegung von bestimmten Menschen in einer
+bestimmten Gemeinschaft und zu einer bestimmten Zeit} \cite{Miller:2000aa}. In einer vereinfachten Ausdrucksweise bedeutet dies, dass jedes Individuum oder jede Gemeinschaft, eigene, selbst deklarierte Grenzen zum Veröffentlichen
+der eigenen persönlichen Daten besitzt und diese untereinander auch variieren können. \newline
+Auf diese Definition und Eingrenzung der Privatsphäre wird in den folgenden Kapiteln dieser Analyse Bezug genommen.
+
+\section{Persönliche Daten am Arbeitsplatz} \label{personaldata}
+In Hinblick auf aktuelle Arbeitsumgebungen in Softwareentwicklungsunternehmen ist bereits seit mehreren Jahren bekannt, dass eine Auswertung der persönlichen Daten, beispielsweise in DevOps-Tools, in den alltäglichen Arbeitsablauf herangewachsen ist. Grund hierfür ist schlichtweg die Natur dieser Arbeit in einem Softwareentwicklungsunternehmen:
+Vorgesetzte haben schließlich das Recht sicherzustellen, dass ihre Angestellten ihrer Arbeit bis zu einem bestimmten Grad zufriedenstellend nachgehen \cite{Miller:2000aa} - aber auch in Bezug auf die Allgemeinheit ist dieser Aspekt nicht irrelevant, da Angestellte nicht härter arbeiten möchten als erforderlich, um die Arbeit von inkompetenten
+Kollegen ausgleichen zu müssen \cite{Miller:2000aa}. Trotzdem muss das Recht auf Privatsphäre jedes Individuums berücksichtigt bzw. respektiert werden und kann nicht durch ein Vorgesetzter-Angestellten-Verhältnis relativiert werden. \newline 
+Diese Gründe verdeutlichen das Dilemma, welches sich in Bezug auf die Privatsphäre, und damit verbunden die persönlichen Daten, am Arbeitsplatz herauskristallisiert: Wie weit kann bzw. muss das Unternehmen (also die Führungsebene, aber auch die Kollegen), um einen grundlegenden und annehmbaren Arbeitsfluss zu gewährleisten, und wie weit können die
+einzelnen Individuen, welche zu diesem Unternehmen beitragen, von ihren eigenen persönlichen Daten für dieses Vorhaben preisgeben? \newline
+Aktuelle Arbeiten zu dem Aspekt der Privatsphäre und der Überwachung persönlicher Daten sind zu dem Entschluss gekommen, dass \enquote{Mitarbeiter [insbesondere im DevOps-Bereich] einem besonderen Risiko der datengetriebenen Überwachung ausgesetzt [sind]} \cite{Federrath:2020aa}, da schlichtweg die Unterstützung von diversen Tools zu diesem Thema heutzutage
+existiert und eine empirisch nachgewiesene Bereitschaft zur Erfassung und Auswertung von (persönlichen) Daten gewährleistet ist \cite{Federrath:2020aa}: Durch einer von Bitkom Research durchgeführten Studie wurde 2015 erwiesen, dass beispielsweise in den Personalabteilungen von jedem zweiten Unternehmen (hier: in der Softwareentwicklung) Bewerber (ohne eigene Kenntnisnahme)
+über soziale Netzwerke überprüft werden oder \enquote{Big Data}-Analysen zunehmend für Kernaufgaben zum Einsatz kommen \cite{Research:2015aa}.
 
 \section{Stakeholder}
 Der Begriff \enquote{Stakeholder} lässt sich neben der Informatik auch in der Betriebswirtschaftslehre vorfinden - das Bindeglied der beiden Bereiche in diesem Aspekt stellen Unternehmen im Allgemeinen selbst dar.
@@ -65,7 +79,7 @@ Durch die Zusammenarbeit im Team an einem gemeinsamen Projekt werden Softwareent
 Wie können verschiedene Versionen eines Programms einheitlich und übersichtlich verwaltet werden? Und wie verfährt man möglichst effizient mit Code, welcher von unterschiedlichen Autoren geschrieben wurde und fügt diese zusammen? Zur Lösung dieser Konflikte 
 ist die Versionsverwaltung heutzutage in Softwareentwicklungsunternehmen essentiell. Diese \enquote{ist ein System, welches die Änderungen an einer oder einer Reihe von Dateien über die Zeit hinweg protokolliert, sodass man später auf eine bestimmte Version 
 zurückgreifen kann.} \cite{Scott-Chacon:2020aa}. Laut der Webseite Open Hub, welche zur Katalogisierung von Open-Source-Software verwendet wird und wie hier, den Anteil von Versionsverwaltungs-Tools anhand der registrierten Daten indexiert, stellen Git (71\%) 
-und Subversion (24\%) die Spitze dar (s. Abbildung \ref{fig:ohloh}) \cite{Inc.:2020aa}, weswegen diese in den folgenden Unterkapiteln näher betrachtet werden.
+und Subversion (24\%) die Spitze dar (s. Abbildung \ref{fig:ohloh}) \cite{Inc.:2020aa}, weswegen diese in den folgenden Unterkapiteln kurz erläutert werden.
 
 \subsubsection{Git} \label{git}
 Git ist eine freie Software zur Versionsverwaltung \cite{Git:2020aa}. Die grundlegende Funktion unterscheidet hierbei zwischen der lokalen, zentralen und verteilten Versionsverwaltung: Die lokale Versionsverwaltung befasst sich dabei mit der \enquote{[Verwaltung] aller Änderungen relevanter Dateien in einer Datenbank} \cite{Scott-Chacon:2020aa}, wohingegen die
@@ -76,7 +90,7 @@ von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Cha
     \caption{\label{fig:git}Beispielhafte Historie einer Versionsverwaltung (hier: Git; Verschiedene Profilbilder repräsentieren einzelne Commit-Autoren, Abzweigungen repräsentieren neue Branches))}
 \end{marginfigure}
 
-
 \subsubsection{Subversion} \label{svn}
 Apache Subversion (kurz: SVN) ist ebenfalls eine freie Software zur Versionsverwaltung von Dateien sowie Verzeichnissen, wodurch alte Versionen von Daten und eine Historie der verschiedenen Änderungen und Versionen an diesen betrachtet werden können \cite{Collins-Sussman:2004aa}.
 Unter Subversion wird das Verzeichnis der \enquote{Hauptlinie} als \enquote{Trunk} definiert und seine Subverzeichnisse, wie auch schon unter Git (s. Kapitel \ref{git}), als \enquote{Branches}.
+

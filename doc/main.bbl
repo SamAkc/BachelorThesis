@@ -19,6 +19,20 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Research:2015aa}{}{}
+      \field{labelalpha}{15}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extraalpha}{1}
+      \field{journaltitle}{Bitkom Research}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+      \verb{url}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+    \endentry
     \entry{HJL:2018aa}{online}{}
       \name{author}{2}{}{%
         {{hash=89f8d55cf3a6a869f6cb70a3970656d1}{%
@@ -410,6 +424,28 @@
       \field{year}{2014}
       \keyw{forschung}
     \endentry
+    \entry{Federrath:2020aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b2f80d7ef07c503b6deb9dbaed7672cc}{%
+           family={Federrath},
+           familyi={F\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{fullhash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{bibnamehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{authorbibnamehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{authornamehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{authorfullhash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \field{labelalpha}{Fed20}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EMPRI-DEVOPS. Employee Privacy in Software Development and Operations}
+      \field{year}{2020}
+    \endentry
     \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
         {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
@@ -612,6 +648,37 @@
       \endverb
       \keyw{malware}
     \endentry
+    \entry{Miller:2000aa}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c8db51d5ff415f77a05e82af9866eb7e}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Seumas},
+           giveni={S\bibinitperiod}}}%
+        {{hash=60328ef8e9c6958df34d7a3937f7a330}{%
+           family={Weckert},
+           familyi={W\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{fullhash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{bibnamehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{authorbibnamehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{authornamehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{authorfullhash}{ac2954d35b2944b417b74878491c0a8e}
+      \field{labelalpha}{MW00}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Ethics}
+      \field{title}{Privacy, the Workplace and the Internet}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{pages}{255\bibrangedash 275}
+      \range{pages}{21}
+    \endentry
     \entry{Payback:2019aa}{online}{}
       \name{author}{1}{}{%
         {{hash=e393294b8b89800fa79f03923e9272c8}{%
@@ -650,6 +717,7 @@
       \field{labelalpha}{15}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extraalpha}{2}
       \field{labeltitlesource}{title}
       \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
       \field{year}{2015}
@@ -850,6 +918,20 @@
     \endentry
   \enddatalist
   \datalist[entry]{anyt/global//global/global}
+    \entry{Research:2015aa}{}{}
+      \field{labelalpha}{15}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extraalpha}{1}
+      \field{journaltitle}{Bitkom Research}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+      \verb{url}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+    \endentry
     \entry{IfH:2015aa}{proceedings}{}
       \list{publisher}{1}{%
         {Institut f{ü}r Handelsforschung}%
@@ -857,6 +939,7 @@
       \field{labelalpha}{15}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extraalpha}{2}
       \field{labeltitlesource}{title}
       \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
       \field{year}{2015}
@@ -1292,6 +1375,28 @@
       \endverb
       \keyw{ci}
     \endentry
+    \entry{Federrath:2020aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b2f80d7ef07c503b6deb9dbaed7672cc}{%
+           family={Federrath},
+           familyi={F\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{fullhash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{bibnamehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{authorbibnamehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{authornamehash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \strng{authorfullhash}{b2f80d7ef07c503b6deb9dbaed7672cc}
+      \field{labelalpha}{Fed20}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EMPRI-DEVOPS. Employee Privacy in Software Development and Operations}
+      \field{year}{2020}
+    \endentry
     \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
         {{hash=a03f386daccff0044a013ab5b1ddfa63}{%
@@ -1448,6 +1553,37 @@
       \verb https://www.openhub.net/repositories/compare
       \endverb
       \keyw{scm}
+    \endentry
+    \entry{Miller:2000aa}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c8db51d5ff415f77a05e82af9866eb7e}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Seumas},
+           giveni={S\bibinitperiod}}}%
+        {{hash=60328ef8e9c6958df34d7a3937f7a330}{%
+           family={Weckert},
+           familyi={W\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{fullhash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{bibnamehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{authorbibnamehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{authornamehash}{ac2954d35b2944b417b74878491c0a8e}
+      \strng{authorfullhash}{ac2954d35b2944b417b74878491c0a8e}
+      \field{labelalpha}{MW00}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Ethics}
+      \field{title}{Privacy, the Workplace and the Internet}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{pages}{255\bibrangedash 275}
+      \range{pages}{21}
     \endentry
     \entry{HJL:2018aa}{online}{}
       \name{author}{2}{}{%
