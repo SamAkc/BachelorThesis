@@ -21,7 +21,7 @@
 \contentsline {chapter}{\numberline {4}Ergebnisse}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Kategorien mit einstimmigen Ergebnissen}{13}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Kategorien mit einer Pr\"aferenz f\"ur die Benutzerfreundlichkeit und Einfachheit}{13}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Kategorien mit einer Pr\"aferenz f\"ur die Privatsph\"are}{17}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Kategorien mit einer Pr\"aferenz f\"ur die Privatsph\"are}{18}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Kategorien mit abweichenden Ergebnissen}{18}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Vorgeschlagene Alternativen}{19}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Diskussion der Ergebnisse}{21}{chapter.5}%
@@ -35,5 +35,5 @@
 \contentsline {section}{\numberline {A.2}Datenschutzerkl\"arung}{27}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Online-Formular zum Ausf\"ullen \"uber Microsoft Forms}{28}{section.A.3}%
 \contentsline {chapter}{\numberline {B}Interviewleitfaden}{31}{appendix.B}%
-\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.8}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.9}%
+\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.9}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.10}%

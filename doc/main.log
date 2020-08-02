@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  2 AUG 2020 15:07
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  2 AUG 2020 17:00
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -2039,7 +2039,7 @@ Overfull \hbox (56.22177pt too wide) in paragraph at lines 65--66
  []
 
 Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line 67.
-Package marginnote Info: xpos seems to be 526.90833pt on input line 67.
+Package marginnote Info: xpos seems to be 415.75705pt on input line 67.
 [6<./figures/pipeline.png>]
 <./figures/ohloh.png, id=339, 996.72375pt x 943.525pt>
 File: ./figures/ohloh.png Graphic file (type png)
@@ -2067,7 +2067,7 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
  []
 
 [7<./figures/ohloh.png>]
-<./figures/git.png, id=361, 294.09875pt x 427.5975pt>
+<./figures/git.png, id=364, 294.09875pt x 427.5975pt>
 File: ./figures/git.png Graphic file (type png)
 <use ./figures/git.png>
 Package luatex.def Info: ./figures/git.png  used on input line 98.
@@ -2090,7 +2090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--26
+Underfull \hbox (badness 10000) in paragraph at lines 16--27
 
  []
 
@@ -2103,27 +2103,27 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 
 
 ]
-Overfull \hbox (14.29152pt too wide) in paragraph at lines 27--27
+Overfull \hbox (14.29152pt too wide) in paragraph at lines 28--28
 |[][]\TU/Cochineal(1)/b/n/12 Durch-füh-rung und Tran-skrip-ti-on der Ex-per-ten-in-ter-views[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--42
+Underfull \hbox (badness 10000) in paragraph at lines 29--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--42
+Underfull \hbox (badness 10000) in paragraph at lines 29--43
 
  []
 
 [10]
-Overfull \hbox (78.06448pt too wide) in paragraph at lines 50--59
+Overfull \hbox (78.06448pt too wide) in paragraph at lines 51--60
  [][] 
  []
 
 
-LaTeX Warning: Reference `tab:coding' on page 11 undefined on input line 63.
+LaTeX Warning: Reference `tab:coding' on page 11 undefined on input line 64.
 
 ) (./chapters/results.tex
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
@@ -2141,59 +2141,63 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
  []
 
 
-LaTeX Warning: Reference `results' on page 13 undefined on input line 5.
-
-
-Overfull \hbox (6.10355pt too wide) in paragraph at lines 14--14
+Overfull \hbox (6.10355pt too wide) in paragraph at lines 13--13
 |[][]\TU/Cochineal(1)/b/n/12 Ka-te-go-rien mit ei-ner Prä-fe-renz für die Be-nut-zer-freund-
  []
 
+<./figures/auswertung.png, id=410, 828.09375pt x 511.9125pt>
+File: ./figures/auswertung.png Graphic file (type png)
+<use ./figures/auswertung.png>
+Package luatex.def Info: ./figures/auswertung.png  used on input line 32.
+(luatex.def)             Requested size: 421.66978pt x 260.67355pt.
+
+Overfull \hbox (281.11319pt too wide) in paragraph at lines 32--33
+[][] 
+ []
+
+Package marginnote Info: Margin note 19.1 is on absolute page 20 on input line 34.
+Package marginnote Info: xpos seems to be 222.50056pt on input line 34.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.2'
 
 warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.3'
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
 
-Overfull \hbox (1.27196pt too wide) in paragraph at lines 15--66
-\TU/Cochineal(0)/b/n/10.95 Interesse an Be-nut-zer-na-men und Zeits-tem-peln in edi-tier-ten Issue-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--66
+Underfull \hbox (badness 10000) in paragraph at lines 14--69
 
  []
 
@@ -2202,23 +2206,13 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
 
-[13] [14]
+[13] [14<./figures/auswertung.png>]
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
 
 [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 68--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--78
+Underfull \hbox (badness 10000) in paragraph at lines 71--81
 
  []
 
@@ -2228,12 +2222,22 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 80--88
+Underfull \hbox (badness 10000) in paragraph at lines 83--91
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--91
+
+ []
+
+
+Overfull \hbox (3.43626pt too wide) in paragraph at lines 83--91
+\TU/Cochineal(0)/m/n/10.95 Als letz-ten Aspekt wur-de die Aus-sa-ge ge-trof-fen, dass die Commit-Frequenz
+ []
+
 [18]) (./chapters/discussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 90--2
+Underfull \hbox (badness 10000) in paragraph at lines 93--2
 
  []
 
@@ -2242,10 +2246,7 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
 
-[19] [20
-
-
-]
+[19] [20]
 Kapitel 5.
 
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
@@ -2259,7 +2260,10 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
 
-[21] [22]) (./chapters/conclusion.tex
+[21
+
+
+] [22]) (./chapters/conclusion.tex
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
@@ -2405,12 +2409,7 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 
 
 
-]
-
-Package biblatex Warning: No driver for entry type ''.
-(biblatex)                Using fallback driver on input line 127.
-
-[33] [34] [35
+] [33] [34] [35
 
 
 ]
@@ -2420,13 +2419,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2C1C87803594EB950A3B9D0421A0325D;6778.
+(rerunfilecheck)             Checksum: 5D71A57DB90005A3D966245302BF4D0F;6779.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please rerun LaTeX.
@@ -2438,19 +2434,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51171 strings out of 480992
- 195592,1977958 words of node,token memory allocated
- 10000 words of node memory still in use:
-   76 hlist, 22 vlist, 22 rule, 86 disc, 13 local_par, 8 math, 161 glue, 46 kern, 55 penalty, 15 margin_kern, 639 glyph, 267 attribute, 101 glue_spec, 159 attribute_list, 8 write, 16 pdf_literal, 2 pdf_start_link, 2 pdf_end_link, 2 pdf_dest, 23 pdf_action, 24 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:14,2:2377,3:1706,4:165,5:1883,6:75,7:18492,8:167,9:377,10:52,11:2070
- 66372 multiletter control sequences out of 65536+600000
+ 51229 strings out of 480992
+ 195594,1977958 words of node,token memory allocated
+ 10562 words of node memory still in use:
+   83 hlist, 22 vlist, 22 rule, 74 disc, 13 local_par, 12 math, 226 glue, 38 kern, 84 penalty, 13 margin_kern, 628 glyph, 311 attribute, 101 glue_spec, 181 attribute_list, 9 write, 16 pdf_literal, 5 pdf_start_link, 5 pdf_end_link, 2 pdf_dest, 26 pdf_action, 24 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 1:11,2:2627,3:3055,4:294,5:1920,6:113,7:18184,8:180,9:492,10:52,11:2096
+ 66419 multiletter control sequences out of 65536+600000
  435 fonts using 44760227 bytes
  76i,18n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/Roboto-Regular.otf><./fonts/Roboto-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main.pdf (41 pages, 1103333 bytes).
+Output written on main.pdf (41 pages, 1288906 bytes).
 
-PDF statistics: 648 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 140 named destinations out of 1000 (max. 131072)
+PDF statistics: 700 PDF objects out of 1000 (max. 8388607)
+ 603 compressed objects within 7 object streams
+ 143 named destinations out of 1000 (max. 131072)
  432 words of extra memory for PDF output out of 10000 (max. 100000000)
 

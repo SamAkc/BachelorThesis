@@ -19,20 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{Research:2015aa}{}{}
-      \field{labelalpha}{15}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extraalpha}{1}
-      \field{journaltitle}{Bitkom Research}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://www.bitkom-research.de/de/presse?page=73
-      \endverb
-      \verb{url}
-      \verb https://www.bitkom-research.de/de/presse?page=73
-      \endverb
-    \endentry
     \entry{HJL:2018aa}{online}{}
       \name{author}{2}{}{%
         {{hash=89f8d55cf3a6a869f6cb70a3970656d1}{%
@@ -72,22 +58,6 @@
       \endverb
       \keyw{ci}
     \endentry
-    \entry{Git:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extraalpha}{1}
-      \field{labeltitlesource}{title}
-      \field{title}{About}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://git-scm.com
-      \endverb
-      \verb{url}
-      \verb https://git-scm.com
-      \endverb
-      \keyw{git}
-    \endentry
     \entry{Apple:2020aa}{online}{}
       \name{author}{1}{}{%
         {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
@@ -118,23 +88,6 @@
       \verb https://www.youtube.com/watch?v=GEZhD3J89ZE
       \endverb
       \keyw{privacy}
-    \endentry
-    \entry{GD:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extraalpha}{2}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{G Data}
-      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \keyw{auszeichnungen}
     \endentry
     \entry{Bansal:2016aa}{article}{}
       \name{author}{3}{}{%
@@ -171,6 +124,7 @@
       \field{year}{2016}
       \field{pages}{1\bibrangedash 21}
       \range{pages}{21}
+      \keyw{privacy}
     \endentry
     \entry{Barnes:2006aa}{article}{}
       \name{author}{1}{}{%
@@ -228,6 +182,31 @@
       \verb https://www.bitkom.org/Presse/Anhaenge-an-PIs/2018/180227-Bitkom-PK-Charts-Social-Media-Trends.pdf
       \endverb
       \keyw{stat}
+    \endentry
+    \entry{Research:2015aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8dda6a3fdef03f266a3409bc87daa586}{%
+           family={{Bitkom Research}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{fullhash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{bibnamehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{authorbibnamehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{authornamehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{authorfullhash}{8dda6a3fdef03f266a3409bc87daa586}
+      \field{labelalpha}{Bit15}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+      \verb{url}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+      \keyw{bitkom}
     \endentry
     \entry{Bundeskriminalamt:2018aa}{book}{}
       \name{author}{1}{}{%
@@ -320,45 +299,6 @@
       \field{year}{2004}
       \keyw{svn}
     \endentry
-    \entry{Bundesamt:2019aa}{online}{}
-      \field{labelalpha}{19}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Statistisches Bundesamt}
-      \field{title}{Computer- und Internetnutzung im ersten Quartal des jeweiligen Jahres von Personen ab 10 Jahren}
-      \field{urlday}{5}
-      \field{urlmonth}{9}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
-      \endverb
-      \verb{url}
-      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
-      \endverb
-      \keyw{internet usage}
-    \endentry
-    \entry{GfK:2016aa}{online}{}
-      \field{labelalpha}{16}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GfK Compact}
-      \field{title}{Consumer Study 2012, 2014, 2016}
-      \field{urlmonth}{6}
-      \field{urlyear}{2016}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
-      \endverb
-      \verb{url}
-      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
-      \endverb
-      \keyw{gfk}
-    \endentry
     \entry{Dirk:2018aa}{online}{}
       \name{author}{1}{}{%
         {{hash=52fd38790bdbf01d6f7dcd3100cfacc5}{%
@@ -445,6 +385,7 @@
       \field{labeltitlesource}{title}
       \field{title}{EMPRI-DEVOPS. Employee Privacy in Software Development and Operations}
       \field{year}{2020}
+      \keyw{devops}
     \endentry
     \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
@@ -479,6 +420,163 @@
       \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
       \endverb
       \keyw{stakeholder}
+    \endentry
+    \entry{GDB:17}{online}{}
+      \name{author}{1}{}{%
+        {{hash=636b725e61fba69e3314fdeea0dca2a2}{%
+           family={{G Data}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{fullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{bibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorbibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authornamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorfullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \field{extraname}{1}
+      \field{labelalpha}{G D18}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G Data Blog}
+      \field{title}{Malware-Zahlen 2017}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GDB:18}{online}{}
+      \name{author}{1}{}{%
+        {{hash=636b725e61fba69e3314fdeea0dca2a2}{%
+           family={{G Data}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {G Data Blog}%
+      }
+      \strng{namehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{fullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{bibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorbibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authornamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorfullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \field{extraname}{2}
+      \field{labelalpha}{G D18}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G Data Blog}
+      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/08/31027-malwarezahlen-erste-halbjahr-2018-die-gefahr-lauert-im-web
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/08/31027-malwarezahlen-erste-halbjahr-2018-die-gefahr-lauert-im-web
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GD:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=636b725e61fba69e3314fdeea0dca2a2}{%
+           family={{G Data}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{fullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{bibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorbibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authornamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorfullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \field{extraname}{3}
+      \field{labelalpha}{G D20}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \keyw{auszeichnungen}
+    \endentry
+    \entry{GfK:2016aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=609690e45a34a0cf446f1f2fd417e823}{%
+           family={{GfK}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{fullhash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{bibnamehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{authorbibnamehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{authornamehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{authorfullhash}{609690e45a34a0cf446f1f2fd417e823}
+      \field{labelalpha}{GfK16}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GfK Compact}
+      \field{title}{Consumer Study 2012, 2014, 2016}
+      \field{urlmonth}{6}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
+      \endverb
+      \verb{url}
+      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
+      \endverb
+      \keyw{gfk}
+    \endentry
+    \entry{Git:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0bcc70105ad279503e31fe7b3f47b665}{%
+           family={{Git}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{fullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{bibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorbibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authornamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorfullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \field{labelalpha}{Git20}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://git-scm.com
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com
+      \endverb
+      \keyw{git}
     \endentry
     \entry{Hasselbring:2015aa}{article}{}
       \name{author}{1}{}{%
@@ -540,7 +638,7 @@
     \entry{Ilanrr:2017aa}{online}{}
       \name{author}{2}{}{%
         {{hash=7b6bd33504951f128ad47a8be7017ee9}{%
-           family={Ilan\_r\_r},
+           family={{Ilan\_r\_r}},
            familyi={I\bibinitperiod}}}%
         {{hash=b6d43ba4f262081aa3ba7e923d5db4c2}{%
            family={Augsten},
@@ -574,79 +672,53 @@
       \endverb
       \keyw{cd}
     \endentry
-    \entry{Inc.:2020aa}{online}{}
+    \entry{IfH:2015aa}{article}{}
       \name{author}{1}{}{%
-        {{hash=94118d80e46d4a50ba83ab8a2ca1919f}{%
-           family={Inc.},
-           familyi={I\bibinitperiod},
-           given={Synopsis},
-           giveni={S\bibinitperiod}}}%
+        {{hash=53a7caa41aefadec0c83357988f457c4}{%
+           family={{Institut f{ü}r Handelsforschung}},
+           familyi={I\bibinitperiod}}}%
       }
-      \strng{namehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{fullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{bibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{authorbibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{authornamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{authorfullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \field{labelalpha}{Inc20}
+      \strng{namehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{fullhash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{bibnamehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{authorbibnamehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{authornamehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{authorfullhash}{53a7caa41aefadec0c83357988f457c4}
+      \field{labelalpha}{Ins15}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Compare Repositories}
+      \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
+      \field{year}{2015}
+      \keyw{privacy}
+    \endentry
+    \entry{MSAzure:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=be6393db779330b1a4d4255cde1ccf56}{%
+           family={{Microsoft Azure}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{fullhash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{bibnamehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{authorbibnamehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{authornamehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{authorfullhash}{be6393db779330b1a4d4255cde1ccf56}
+      \field{labelalpha}{Mic20}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist DevOps?}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://www.openhub.net/repositories/compare
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
       \verb{url}
-      \verb https://www.openhub.net/repositories/compare
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
-      \keyw{scm}
-    \endentry
-    \entry{GDB:17}{online}{}
-      \field{labelalpha}{18}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extraalpha}{1}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{G Data Blog}
-      \field{title}{Malware-Zahlen 2017}
-      \field{urlday}{26}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \keyw{malware}
-    \endentry
-    \entry{GDB:18}{report}{}
-      \list{institution}{1}{%
-        {G Data Blog}%
-      }
-      \field{labelalpha}{18}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extraalpha}{2}
-      \field{labeltitlesource}{title}
-      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
-      \field{type}{techreport}
-      \field{urlday}{30}
-      \field{urlmonth}{8}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \verb{url}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \keyw{malware}
+      \keyw{devops}
     \endentry
     \entry{Miller:2000aa}{article}{}
       \name{author}{2}{}{%
@@ -678,6 +750,36 @@
       \field{year}{2000}
       \field{pages}{255\bibrangedash 275}
       \range{pages}{21}
+      \keyw{privacy}
+    \endentry
+    \entry{Hub:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e293c9b2a582c56fd35b55e70f2abdc2}{%
+           family={{Open Hub}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{fullhash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{bibnamehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{authorbibnamehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{authornamehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{authorfullhash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \field{labelalpha}{Ope20}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \verb{url}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \keyw{git}
     \endentry
     \entry{Payback:2019aa}{online}{}
       \name{author}{1}{}{%
@@ -709,18 +811,6 @@
       \verb https://de.statista.com/statistik/daten/studie/1088022/umfrage/umsatz-der-payback-gmbh/
       \endverb
       \keyw{payback}
-    \endentry
-    \entry{IfH:2015aa}{proceedings}{}
-      \list{publisher}{1}{%
-        {Institut f{ü}r Handelsforschung}%
-      }
-      \field{labelalpha}{15}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{extraalpha}{2}
-      \field{labeltitlesource}{title}
-      \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
-      \field{year}{2015}
     \endentry
     \entry{Peters:2015aa}{online}{}
       \name{author}{1}{}{%
@@ -824,6 +914,33 @@
       \endverb
       \keyw{privacy}
     \endentry
+    \entry{RedHat:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a82007c47b25723539a00ff94e8b3d27}{%
+           family={{RedHat}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{fullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{bibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorbibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authornamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorfullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \field{labelalpha}{Red20}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was versteht man unter CI/CD?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \verb{url}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \keyw{redhat}
+    \endentry
     \entry{Seyfriedt:2018aa}{online}{}
       \name{author}{1}{}{%
         {{hash=1e25afd8da7936e0be8b28b2214d797f}{%
@@ -882,219 +999,90 @@
       \field{year}{2013}
       \keyw{cctv}
     \endentry
-    \entry{MSAzure:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{W}
-      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{extraalpha}{3}
+    \entry{Bundesamt:2019aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c67d4b4a4397f84a4fe4580e6f9aa63d}{%
+           family={{Statistisches Bundesamt}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{bibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorbibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authornamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \field{labelalpha}{Sta19}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Microsoft Azure}
-      \field{title}{Was ist DevOps?}
-      \field{year}{2020}
+      \field{title}{Computer- und Internetnutzung im ersten Quartal des jeweiligen Jahres von Personen ab 10 Jahren}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
+      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
       \endverb
       \verb{url}
-      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
+      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
       \endverb
-      \keyw{devops}
+      \keyw{internet usage}
     \endentry
-    \entry{RedHat:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{W}
-      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{extraalpha}{4}
+    \entry{Inc.:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0ec10afdc75fa96016bf6192b44ee6d4}{%
+           family={{Synopsis Inc.}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{fullhash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{bibnamehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{authorbibnamehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{authornamehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{authorfullhash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \field{labelalpha}{Syn20}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{RedHat}
-      \field{title}{Was versteht man unter CI/CD?}
+      \field{title}{Compare Repositories}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \verb https://www.openhub.net/repositories/compare
       \endverb
       \verb{url}
-      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \verb https://www.openhub.net/repositories/compare
       \endverb
-      \keyw{redhat}
+      \keyw{scm}
+    \endentry
+    \entry{Voigt:2015aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f87f28016daeeeaa478a3cb75f8667d0}{%
+           family={Voigt},
+           familyi={V\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{fullhash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{bibnamehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{authorbibnamehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{authornamehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{authorfullhash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \field{labelalpha}{Voi15}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SprintDoc}
+      \field{title}{Agile Softwareprojekte: Informationssuche \& Dokumentation}
+      \field{year}{2015}
+      \keyw{diagram}
     \endentry
   \enddatalist
   \datalist[entry]{anyt/global//global/global}
-    \entry{Research:2015aa}{}{}
-      \field{labelalpha}{15}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{extraalpha}{1}
-      \field{journaltitle}{Bitkom Research}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://www.bitkom-research.de/de/presse?page=73
-      \endverb
-      \verb{url}
-      \verb https://www.bitkom-research.de/de/presse?page=73
-      \endverb
-    \endentry
-    \entry{IfH:2015aa}{proceedings}{}
-      \list{publisher}{1}{%
-        {Institut f{ü}r Handelsforschung}%
-      }
-      \field{labelalpha}{15}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{extraalpha}{2}
-      \field{labeltitlesource}{title}
-      \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
-      \field{year}{2015}
-    \endentry
-    \entry{GfK:2016aa}{online}{}
-      \field{labelalpha}{16}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GfK Compact}
-      \field{title}{Consumer Study 2012, 2014, 2016}
-      \field{urlmonth}{6}
-      \field{urlyear}{2016}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
-      \endverb
-      \verb{url}
-      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
-      \endverb
-      \keyw{gfk}
-    \endentry
-    \entry{GDB:17}{online}{}
-      \field{labelalpha}{18}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{extraalpha}{1}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{G Data Blog}
-      \field{title}{Malware-Zahlen 2017}
-      \field{urlday}{26}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
-      \endverb
-      \keyw{malware}
-    \endentry
-    \entry{GDB:18}{report}{}
-      \list{institution}{1}{%
-        {G Data Blog}%
-      }
-      \field{labelalpha}{18}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{extraalpha}{2}
-      \field{labeltitlesource}{title}
-      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
-      \field{type}{techreport}
-      \field{urlday}{30}
-      \field{urlmonth}{8}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \verb{url}
-      \verb /Users/samet/git/BachelorThesis/doc
-      \endverb
-      \keyw{malware}
-    \endentry
-    \entry{Bundesamt:2019aa}{online}{}
-      \field{labelalpha}{19}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Statistisches Bundesamt}
-      \field{title}{Computer- und Internetnutzung im ersten Quartal des jeweiligen Jahres von Personen ab 10 Jahren}
-      \field{urlday}{5}
-      \field{urlmonth}{9}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
-      \endverb
-      \verb{url}
-      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
-      \endverb
-      \keyw{internet usage}
-    \endentry
-    \entry{Git:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extraalpha}{1}
-      \field{labeltitlesource}{title}
-      \field{title}{About}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://git-scm.com
-      \endverb
-      \verb{url}
-      \verb https://git-scm.com
-      \endverb
-      \keyw{git}
-    \endentry
-    \entry{GD:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extraalpha}{2}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{G Data}
-      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \verb{url}
-      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
-      \endverb
-      \keyw{auszeichnungen}
-    \endentry
-    \entry{MSAzure:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extraalpha}{3}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Microsoft Azure}
-      \field{title}{Was ist DevOps?}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
-      \endverb
-      \verb{url}
-      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
-      \endverb
-      \keyw{devops}
-    \endentry
-    \entry{RedHat:2020aa}{online}{}
-      \field{labelalpha}{20}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extraalpha}{4}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{RedHat}
-      \field{title}{Was versteht man unter CI/CD?}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
-      \endverb
-      \verb{url}
-      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
-      \endverb
-      \keyw{redhat}
-    \endentry
     \entry{Apple:2020aa}{online}{}
       \name{author}{1}{}{%
         {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
@@ -1151,6 +1139,31 @@
       \field{volume}{11}
       \field{year}{2006}
       \keyw{paradox}
+    \endentry
+    \entry{Research:2015aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8dda6a3fdef03f266a3409bc87daa586}{%
+           family={{Bitkom Research}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{fullhash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{bibnamehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{authorbibnamehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{authornamehash}{8dda6a3fdef03f266a3409bc87daa586}
+      \strng{authorfullhash}{8dda6a3fdef03f266a3409bc87daa586}
+      \field{labelalpha}{Bit15}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+      \verb{url}
+      \verb https://www.bitkom-research.de/de/presse?page=73
+      \endverb
+      \keyw{bitkom}
     \endentry
     \entry{Bitkom:2018aa}{article}{}
       \name{author}{1}{}{%
@@ -1242,6 +1255,7 @@
       \field{year}{2016}
       \field{pages}{1\bibrangedash 21}
       \range{pages}{21}
+      \keyw{privacy}
     \endentry
     \entry{Collins-Sussman:2004aa}{book}{}
       \name{author}{3}{}{%
@@ -1396,6 +1410,7 @@
       \field{labeltitlesource}{title}
       \field{title}{EMPRI-DEVOPS. Employee Privacy in Software Development and Operations}
       \field{year}{2020}
+      \keyw{devops}
     \endentry
     \entry{Fleig:2016aa}{online}{}
       \name{author}{1}{}{%
@@ -1430,6 +1445,163 @@
       \verb https://www.business-wissen.de/hb/was-sind-stakeholder-und-was-bedeutet-der-stakeholder-ansatz/
       \endverb
       \keyw{stakeholder}
+    \endentry
+    \entry{GDB:17}{online}{}
+      \name{author}{1}{}{%
+        {{hash=636b725e61fba69e3314fdeea0dca2a2}{%
+           family={{G Data}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{fullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{bibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorbibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authornamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorfullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \field{extraname}{1}
+      \field{labelalpha}{G D18}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G Data Blog}
+      \field{title}{Malware-Zahlen 2017}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/03/30607-malware-zahlen-2017
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GDB:18}{online}{}
+      \name{author}{1}{}{%
+        {{hash=636b725e61fba69e3314fdeea0dca2a2}{%
+           family={{G Data}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {G Data Blog}%
+      }
+      \strng{namehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{fullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{bibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorbibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authornamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorfullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \field{extraname}{2}
+      \field{labelalpha}{G D18}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G Data Blog}
+      \field{title}{Malwarezahlen erstes Halbjahr 2018: Die Gefahr lauert im Web}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdata.de/blog/2018/08/31027-malwarezahlen-erste-halbjahr-2018-die-gefahr-lauert-im-web
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/blog/2018/08/31027-malwarezahlen-erste-halbjahr-2018-die-gefahr-lauert-im-web
+      \endverb
+      \keyw{malware}
+    \endentry
+    \entry{GD:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=636b725e61fba69e3314fdeea0dca2a2}{%
+           family={{G Data}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{fullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{bibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorbibnamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authornamehash}{636b725e61fba69e3314fdeea0dca2a2}
+      \strng{authorfullhash}{636b725e61fba69e3314fdeea0dca2a2}
+      \field{extraname}{3}
+      \field{labelalpha}{G D20}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Auszeichnungen \& Pr{ü}fsiegel}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \verb{url}
+      \verb https://www.gdata.de/ueber-g-data/auszeichnungen
+      \endverb
+      \keyw{auszeichnungen}
+    \endentry
+    \entry{GfK:2016aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=609690e45a34a0cf446f1f2fd417e823}{%
+           family={{GfK}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{fullhash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{bibnamehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{authorbibnamehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{authornamehash}{609690e45a34a0cf446f1f2fd417e823}
+      \strng{authorfullhash}{609690e45a34a0cf446f1f2fd417e823}
+      \field{labelalpha}{GfK16}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GfK Compact}
+      \field{title}{Consumer Study 2012, 2014, 2016}
+      \field{urlmonth}{6}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
+      \endverb
+      \verb{url}
+      \verb https://www.nim.org/compact/fokusthemen/nicht-ohne-mein-handy-auch-jenseits-der-50/
+      \endverb
+      \keyw{gfk}
+    \endentry
+    \entry{Git:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0bcc70105ad279503e31fe7b3f47b665}{%
+           family={{Git}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{fullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{bibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorbibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authornamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorfullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \field{labelalpha}{Git20}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://git-scm.com
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com
+      \endverb
+      \keyw{git}
     \endentry
     \entry{Hasselbring:2015aa}{article}{}
       \name{author}{1}{}{%
@@ -1491,7 +1663,7 @@
     \entry{Ilanrr:2017aa}{online}{}
       \name{author}{2}{}{%
         {{hash=7b6bd33504951f128ad47a8be7017ee9}{%
-           family={Ilan\_r\_r},
+           family={{Ilan\_r\_r}},
            familyi={I\bibinitperiod}}}%
         {{hash=b6d43ba4f262081aa3ba7e923d5db4c2}{%
            family={Augsten},
@@ -1525,34 +1697,53 @@
       \endverb
       \keyw{cd}
     \endentry
-    \entry{Inc.:2020aa}{online}{}
+    \entry{IfH:2015aa}{article}{}
       \name{author}{1}{}{%
-        {{hash=94118d80e46d4a50ba83ab8a2ca1919f}{%
-           family={Inc.},
-           familyi={I\bibinitperiod},
-           given={Synopsis},
-           giveni={S\bibinitperiod}}}%
+        {{hash=53a7caa41aefadec0c83357988f457c4}{%
+           family={{Institut f{ü}r Handelsforschung}},
+           familyi={I\bibinitperiod}}}%
       }
-      \strng{namehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{fullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{bibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{authorbibnamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{authornamehash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \strng{authorfullhash}{94118d80e46d4a50ba83ab8a2ca1919f}
-      \field{labelalpha}{Inc20}
+      \strng{namehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{fullhash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{bibnamehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{authorbibnamehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{authornamehash}{53a7caa41aefadec0c83357988f457c4}
+      \strng{authorfullhash}{53a7caa41aefadec0c83357988f457c4}
+      \field{labelalpha}{Ins15}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Compare Repositories}
+      \field{title}{Perspektiven f{ü}r den Datenschutz in Europa aus der Sicht der Verbraucher und des (elektronischen) Handels}
+      \field{year}{2015}
+      \keyw{privacy}
+    \endentry
+    \entry{MSAzure:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=be6393db779330b1a4d4255cde1ccf56}{%
+           family={{Microsoft Azure}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{fullhash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{bibnamehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{authorbibnamehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{authornamehash}{be6393db779330b1a4d4255cde1ccf56}
+      \strng{authorfullhash}{be6393db779330b1a4d4255cde1ccf56}
+      \field{labelalpha}{Mic20}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist DevOps?}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://www.openhub.net/repositories/compare
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
       \verb{url}
-      \verb https://www.openhub.net/repositories/compare
+      \verb https://azure.microsoft.com/de-de/overview/what-is-devops/#culture
       \endverb
-      \keyw{scm}
+      \keyw{devops}
     \endentry
     \entry{Miller:2000aa}{article}{}
       \name{author}{2}{}{%
@@ -1584,6 +1775,36 @@
       \field{year}{2000}
       \field{pages}{255\bibrangedash 275}
       \range{pages}{21}
+      \keyw{privacy}
+    \endentry
+    \entry{Hub:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e293c9b2a582c56fd35b55e70f2abdc2}{%
+           family={{Open Hub}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{fullhash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{bibnamehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{authorbibnamehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{authornamehash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \strng{authorfullhash}{e293c9b2a582c56fd35b55e70f2abdc2}
+      \field{labelalpha}{Ope20}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \verb{url}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \keyw{git}
     \endentry
     \entry{HJL:2018aa}{online}{}
       \name{author}{2}{}{%
@@ -1757,6 +1978,33 @@
       \endverb
       \keyw{privacy}
     \endentry
+    \entry{RedHat:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a82007c47b25723539a00ff94e8b3d27}{%
+           family={{RedHat}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{fullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{bibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorbibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authornamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorfullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \field{labelalpha}{Red20}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was versteht man unter CI/CD?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \verb{url}
+      \verb https://www.redhat.com/de/topics/devops/what-is-ci-cd
+      \endverb
+      \keyw{redhat}
+    \endentry
     \entry{Seyfriedt:2018aa}{online}{}
       \name{author}{1}{}{%
         {{hash=1e25afd8da7936e0be8b28b2214d797f}{%
@@ -1814,6 +2062,88 @@
       \field{title}{Game to destroy CCTV cameras: vandalism or valid protest?}
       \field{year}{2013}
       \keyw{cctv}
+    \endentry
+    \entry{Bundesamt:2019aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c67d4b4a4397f84a4fe4580e6f9aa63d}{%
+           family={{Statistisches Bundesamt}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{fullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{bibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorbibnamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authornamehash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \strng{authorfullhash}{c67d4b4a4397f84a4fe4580e6f9aa63d}
+      \field{labelalpha}{Sta19}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computer- und Internetnutzung im ersten Quartal des jeweiligen Jahres von Personen ab 10 Jahren}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
+      \endverb
+      \verb{url}
+      \verb https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/IT-Nutzung/Tabellen/zeitvergleich-computernutzung-ikt.html
+      \endverb
+      \keyw{internet usage}
+    \endentry
+    \entry{Inc.:2020aa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0ec10afdc75fa96016bf6192b44ee6d4}{%
+           family={{Synopsis Inc.}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{fullhash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{bibnamehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{authorbibnamehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{authornamehash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \strng{authorfullhash}{0ec10afdc75fa96016bf6192b44ee6d4}
+      \field{labelalpha}{Syn20}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compare Repositories}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \verb{url}
+      \verb https://www.openhub.net/repositories/compare
+      \endverb
+      \keyw{scm}
+    \endentry
+    \entry{Voigt:2015aa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f87f28016daeeeaa478a3cb75f8667d0}{%
+           family={Voigt},
+           familyi={V\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{fullhash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{bibnamehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{authorbibnamehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{authornamehash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \strng{authorfullhash}{f87f28016daeeeaa478a3cb75f8667d0}
+      \field{labelalpha}{Voi15}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SprintDoc}
+      \field{title}{Agile Softwareprojekte: Informationssuche \& Dokumentation}
+      \field{year}{2015}
+      \keyw{diagram}
     \endentry
   \enddatalist
 \endrefsection
