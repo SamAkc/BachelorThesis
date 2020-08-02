@@ -33,10 +33,7 @@ existiert und eine empirisch nachgewiesene Bereitschaft zur Erfassung und Auswer
 über soziale Netzwerke überprüft werden oder \enquote{Big Data}-Analysen zunehmend für Kernaufgaben zum Einsatz kommen \cite{Research:2015aa}.
 
 \section{Stakeholder}
-\begin{marginfigure}[1\baselineskip]
-    \includegraphics[width=1.4\marginparwidth]{stakeholder.png}
-    \caption{Beispielhafte Stakeholder-Mindmap.}
-\end{marginfigure}
+\marginimage[3]{stakeholder.png}{Beispielhafte Stakeholder-Mindmap.}{stakeholderpic}
 Der Begriff \enquote{Stakeholder} lässt sich neben der Informatik auch in der Betriebswirtschaftslehre vorfinden - das Bindeglied der beiden Bereiche in diesem Aspekt repräsentieren Unternehmen im Allgemeinen.
 Da diverse Institutionen, Personen und Personengruppen Erwartungen an Unternehmen haben und eigene Interessen vertreten, stellen Stakeholder jene \enquote{[...] [dar], die von den Aktivitäten eines Unternehmens 
 direkt oder indirekt betroffen sind oder [...] ein Interesse an diesen [...] haben} \cite{Fleig:2016aa}. Als Beispiele können diese in Form von Kunden und Lieferanten bis zu eigenen Mitarbeitern und Eigentümern (von 
@@ -52,6 +49,7 @@ andauernd hochwertige Produkte anbieten zu können \cite{MSAzure:2020aa}. \newli
 \cite{MSAzure:2020aa} und repräsentiert dabei die \enquote{Zusammenarbeit von Entwicklung und Betrieb} \cite{Hasselbring:2015aa}. Dies erfolgt durch die Einführung von DevOps-Methoden und -Tools (welche nachfolgend erläutert werden), sodass den zuvor getrennten Bereichen (z.B. der Qualitätssicherung, Sicherheit etc.) die Möglichkeit zur Koordination und Zusammenarbeit geboten wird \cite{MSAzure:2020aa}. \newline Im Folgenden werden beispielhaft repräsentative DevOps-Methoden und -Tools definiert und aufgelistet.
 
 \subsection{Continuous Integration}
+\marginimage[-1]{pipeline.png}{\label{fig:pipeline}Die CI-/CD-Pipeline \cite{RedHat:2020aa}.}{redhatpic}
 In der Softwareprogrammierung ist es mit zunehmender Komplexität und Umfang des Programms üblich, mehrere einzelne Module in dieses einzubinden, weswegen sich die gängige Vorgehensweise in der Softwareentwicklung insofern gestaltet, dass das Gesamtprojekt,
 welches aus diesen einzelnen Modulen besteht, durch mehrere Teams parallel vorangetrieben wird \cite{HJL:2018aa}. \newline Statt auf eine täglich erfolgende Kompilierung auf einem extra angelegten \enquote{Build}-Server warten zu müssen, kommen heutzutage in modernen
 Unternehmen die sogenannte \enquote{Continuous Integration} (dt. \textit{Kontinuierliche Integration}, kurz: CI) zum Einsatz \cite{HJL:2018aa}: Diese bezeichnet \enquote{eine Technik der agilen Softwareentwicklung [...], [welche die] in kleinen Schritten vorgenommenen Änderungen [...] 
@@ -61,10 +59,6 @@ in das gemeinsame Projekt bzw. den gemeinsamen Code \cite{HJL:2018aa}. \newline 
 Teilbereiche mit in den Gesamtcode des Projekts aufgenommen werden, sondern nach eigenem Bedarf, sogar mehrmals am Tag \cite{Dirk:2018aa}. Dadurch kann der Code für die beteiligten Programmierer schon viel früher offengelegt werden, sodass Tests und damit verbunde Fehlerbehebungen früher 
 und effizienter, durch Einsparung von Zeit und Ressourcen, durchgeführt werden können. \newline Trotzdem ist zunächst eine Umorientierung erforderlich ist, da ein bereits gängiger Prozess neu aufgelegt und zusätzliche Prozesse sowie Server neu eingebunden werden müssen \cite{HJL:2018aa, Dirk:2018aa}. 
 Dieser gesamte Prozess funktioniert durch das Einspeisen der zusammengefügten Änderungen des Codes in ein Repository, womit im Anschluss eine Versionskontrolle durch die Übernahme von einer aktuellen Version des Codes durch einen automatisierten Build-Prozess \cite{HJL:2018aa} erfolgt.
-\begin{marginfigure}[1\baselineskip] % move figure up by 1 line
-    \includegraphics[width=1.4\marginparwidth]{pipeline.png}
-    \caption{\label{fig:pipeline}Die CI-/CD-Pipeline \cite{RedHat:2020aa}.}
-\end{marginfigure}
 
 \subsection{Continuous Delivery}
 Der Begriff \enquote{Continuous Delivery} (dt. \textit{Kontinuierliche Auslieferung}, kurz: CD) führt die CI einen Schritt weiter aus: Eine Sammlung, welche \enquote{kurze Entwicklungszyklen und [eine] schnelle Auslieferung von Software-Updates [durch Techniken, Prozesse und Werkzeuge]} \cite{Ilanrr:2017aa}
@@ -75,17 +69,14 @@ in jedem Entwicklungsstand nach Bedarf vom Kunden bezogen werden - in der Regel 
 Das Continuous Deployment (kurz: CD) stellt den Abschluss der CI-/CD-Pipeline (s. Abbildung \ref{fig:pipeline}) dar und erweitert die Continuous Delivery. Hierbei werden die zur Auslieferung fertigen Builds einer Applikation in der Produktionsphase automatisch freigegeben \cite{RedHat:2020aa}. Dies bedeutet in der Praxis,
 dass nach Fertigstellen der Codeänderungen und nach erfolgreichem Bestehen der definierten Tests, die Applikation automatisiert (bspw. an die Kunden zum Einholen von Feedback) ausgeliefert werden kann \cite{RedHat:2020aa}.
 
-\begin{marginfigure}
-    \includegraphics[width=1.1\marginparwidth]{ohloh.png}
-    \caption{\label{fig:ohloh}Versionsverwaltungs-Tools im Ranking (nach Anzahl der Repositories) - Stand: 2020 \cite{Hub:2020aa}.}
-\end{marginfigure}
+\marginimage[-1]{ohloh.png}{\label{fig:ohloh}Versionsverwaltungs-Tools im Ranking (nach Anzahl der Repositories) - Stand: 2020 \cite{Hub:2020aa}.}{ohlohpic}
 \subsection{Versionsverwaltung}
 Durch die Zusammenarbeit im Team an einem gemeinsamen Projekt werden Softwareentwickler häufig vor das Problem der Versionsverwaltung gestellt: Wie können mehrere Personen an einem gemeinsamen Projekt und z.T. sogar am selben Programm gleichzeitig arbeiten?
 Wie können verschiedene Versionen eines Programms einheitlich und übersichtlich verwaltet werden? Und wie verfährt man möglichst effizient mit Code, welcher von unterschiedlichen Autoren geschrieben wurde und fügt diese zusammen? \newline Zur Lösung dieser Problemstellungen 
 ist die Versionsverwaltung heutzutage in Softwareentwicklungsunternehmen kaum wegzudenken. Diese \enquote{ist ein System, welches die Änderungen an einer oder einer Reihe von Dateien über die Zeit hinweg, protokolliert, sodass man später auf eine bestimmte Version 
 zurückgreifen kann} \cite{Scott-Chacon:2020aa}. \newline \newline Laut der Webseite Open Hub, welche zur Katalogisierung von Open-Source-Software verwendet wird und wie hier, den Anteil von Tools zur Versionsverwaltungs anhand der registrierten Daten indexiert, stellen Git (71\%) 
 und Subversion (24\%) die populärsten, welche heutzutage eingesetzt werden, dar (s. Abbildung \ref{fig:ohloh}) \cite{Inc.:2020aa}, weswegen diese in den folgenden Unterkapiteln kurz angesprochen werden.
-\pagebreak
+
 \subsubsection{Git} \label{git}
 Git\sidenote{\url{https://git-scm.com}} ist eine freie Software zur Versionsverwaltung \cite{Git:2020aa}. Die grundlegende Funktion unterscheidet hierbei zwischen der lokalen, zentralen und verteilten Versionsverwaltung: Die lokale Versionsverwaltung befasst sich dabei mit der \enquote{[Verwaltung] aller Änderungen relevanter Dateien in einer Datenbank} \cite{Scott-Chacon:2020aa}, wohingegen die
 zentrale mit dem Problem der Kooperation mit anderen Entwicklern an gemeinsamer Software beschäftigt ist \cite{Scott-Chacon:2020aa}. Der letzte Punkt der verteilten Verwaltung behandelt das vollständige Kopieren eines sogenannten \enquote{Repositories} (dt. \textit{Quelle bzw. Lager von Software})
@@ -94,8 +85,4 @@ von einem Server anstatt lediglich den letzten Stand zu beziehen \cite{Scott-Cha
 \subsubsection{Subversion} \label{svn}
 Apache Subversion\sidenote{\url{https://subversion.apache.org}} (kurz: SVN) ist ebenfalls eine freie Software zur Versionsverwaltung von Dateien sowie Verzeichnissen, wodurch alte Versionen von Daten und eine Historie der verschiedenen Änderungen und Versionen an diesen betrachtet werden können \cite{Collins-Sussman:2004aa}.
 Unter Subversion wird das Verzeichnis der \enquote{Hauptlinie} als \enquote{Trunk} definiert und seine Subverzeichnisse, wie auch schon unter Git, als \enquote{Branches}.
-\begin{marginfigure}
-    \includegraphics[width=1.1\marginparwidth]{git.png}
-    \caption{\label{fig:git}Beispielhafte Historie einer Versionsverwaltung (hier: Git; Verschiedene Profilbilder repräsentieren einzelne Commit-Autoren, Abzweigungen repräsentieren Branches))}
-\end{marginfigure}
-
+\marginimage[-3]{git.png}{\label{fig:git}Beispielhafte Historie einer Versionsverwaltung (hier am Beispiel Git: Verschiedene Profilbilder repräsentieren einzelne Commit-Autoren, Abzweigungen repräsentieren Branches)}{gitpic}
