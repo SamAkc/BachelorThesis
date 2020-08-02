@@ -30,10 +30,10 @@
 \contentsline {section}{\numberline {5.3}Limitation der Arbeit}{23}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Fazit und Ausblick}{25}{chapter.6}%
 \def \chaptername {Appendix}
-\contentsline {chapter}{\numberline {A}Verbundene Arbeiten}{27}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Related Work}{27}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Stellenausschreibung zur Befragung von Softwareentwicklern bzw. -administratoren}{27}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Datenschutzerkl\"arung}{27}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Online-Formular zum Ausf\"ullen \"uber Microsoft Forms}{28}{section.A.3}%
 \contentsline {chapter}{\numberline {B}Interviewleitfaden}{31}{appendix.B}%
-\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.10}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.11}%
+\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.11}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.12}%

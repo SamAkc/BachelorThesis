@@ -2245,6 +2245,8 @@
     <bcf:citekey order="60">Voigt:2015aa</bcf:citekey>
     <bcf:citekey order="61">IfH:2015aa</bcf:citekey>
     <bcf:citekey order="62">Bansal:2016aa</bcf:citekey>
+    <bcf:citekey order="63">Helfferich:2011aa</bcf:citekey>
+    <bcf:citekey order="64">Helfferich:2011aa</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

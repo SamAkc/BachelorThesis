@@ -2,37 +2,36 @@
 
 \chapter{Interviewleitfaden} \label{interview}
 
-% \begin{table*}[t]
-%     \caption{Verwendeter Leitfaden für die Befragung zu den Sichtweisen auf die Privatsphäre in Softwareentwicklungsunternehmen (angelehnt an \cite{Helfferich:2011aa})}
-%     \label{tab:leitfaden}
-%     \centering
-%     \small % use smaller fontsize in the table
-%     {\renewcommand{\arraystretch}{2} % increase vertical space between rows
-%     \begin{tabularx}{\linewidth}{@{}llllX@{}} % @{} omits outer horizontal margins, the "X" column uses up all remaining available space 
-%       \toprule
-%       Leitfrage & Check & Konkrete Fragen & Aufrechterhaltungs-/Steuerungsfragen \\
-%       \midrule
-%         \enquote{Welche Daten verarbeiten Sie?}                                                                             & Desinteresse                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Was schauen Sie sich konkret an?}                                                                          & Nutzeraktivität               & Persönliche Daten in Administrationstools     \\
-%         \enquote{In welcher Auflösung brauchen Sie den Zeitstempel?}                                                        & Desinteresse                  & Nutzung von Tools zur Administration          \\
-%         \enquote{Gibt es etwas anderes, was Sie sich ansehen?}                                                              & Desinteresse                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Schauen Sie sich auch an, wer spezifisch was gebaut hat?}                                                  & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Was schauen Sie sich beim Review-Tool an?}                                                                 & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Wie lange ist es für Sie wichtig, dass diese Daten aufbewahrt werden?}                                     & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Wie lange werden diese tatsächlich aufbewahrt?}                                                            & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Was für Daten schauen Sie sich in Issues an?}                                                              & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Schauen Sie sich auch an, von wem ein Kommentar editiert wurde?}                                           & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Welche Interessen verfolgen Sie generell bei Zeitstempeln in DevOps-Tools?}                                & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Welche Auswertungen, die sie selbst nicht machen, können sie sich sonst mit diesen Daten vorstellen?}      & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Schauen Sie sich auch Logs an?}                                                                            & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Welche Auswertungen, die sie selbst nicht machen, können sie sich sonst mit diesen Daten vorstellen?}      & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Ist es für Sie auch wichtig, wer wann was gemacht hat?}                                                    & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Wissen Sie, wie lange diese Log-Dateien aufbewahrt werden?}                                                & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Welche Tools verwenden Sie zur Administration?}                                                            & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Haben Sie da die Möglichkeit einzusehen, wer wann was gemacht hat?}                                        & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Warum ist das \enquote{wer} für Sie relevant?}                                                             & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%         \enquote{Können Sie sich andere Verarbeitungsinteressen vorstellen?}                                                & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
-%       \bottomrule
-%     \end{tabularx}
-%     }
-%   \end{table*}
+\begin{table*}
+    \caption{Verwendeter Leitfaden für die Befragung zu den Sichtweisen auf die Privatsphäre in Softwareentwicklungsunternehmen (in Anlehnung an\cite{Helfferich:2011aa})}
+    \label{tab:leitfaden}
+    \centering
+    \small % use smaller fontsize in the table
+    {\renewcommand{\arraystretch}{1} % increase vertical space between rows
+    \begin{tabularx}{\linewidth}{XXXX} % @{} omits outer horizontal margins, the "X" column uses up all remaining available space 
+      \toprule
+      Leitfrage & Check & Konkrete Fragen & Steuerungsfragen \\
+      \midrule
+        \enquote{Welche Daten verarbeiten Sie?}                                                                             & Persönliche Daten?                                                                    & Verarbeiten Sie persönliche Daten?                                                                                            &                                                                                               \\
+        \enquote{Was schauen Sie sich konkret an?}                                                                          &                                                                                       & Auf welche Daten legen Sie besonders Wert?                                                                                    &                                                                                               \\
+        \enquote{In welcher Auflösung brauchen Sie den Zeitstempel?}                                                        & Benutzername, Zeitstempel wichtig?                                                    & Wie wichtig sind Ihnen Details in Zeitstempeln?                                                                               & Erwischen Sie sich selbst oft dabei, wie Sie auf den Zeitstempel sehen?                       \\
+        \enquote{Gibt es etwas anderes, was Sie sich ansehen?}                                                              & Ja: Was genau?                                                                        & Verarbeiten Sie häufig persönliche Daten?                                                                                     &                                                                                               \\
+        \enquote{Schauen Sie sich auch an, wer spezifisch was gebaut hat?}                                                  & Benutzername und Zeitstempel in DevOps-Tools wichtig?                                 & Sind Ihnen persönliche DAten in DevOps-Tools wichtig?                                                                         &                                                                                               \\
+        \enquote{Was schauen Sie sich beim Review-Tool an?}                                                                 & Persönliche Daten? Wenn ja, welche?                                                   & Legen Sie Wert auf persönliche Daten beim Review-Tool?                                                                        &                                                                                               \\
+        \enquote{Wie lange ist es für Sie wichtig, dass diese Daten aufbewahrt werden?}                                     &                                                                                       & Wären Sie mit einer temporären Aufbewahrungsdauer zufrieden?                                                                  &                                                                                               \\
+        \enquote{Wie lange werden diese tatsächlich aufbewahrt?}                                                            & Konkrete Zeitangabe: Warum?                                                           & Haben Sie Kenntnis über die tatsächliche Aufbewahrungsdauer von Log-Dateien?                                                  & Wie alt ist das älteste Review im Tool?                                                       \\
+        \enquote{Was für Daten schauen Sie sich in Issues an?}                                                              & Persönliche Daten relevant?                                                           & Sind Ihnen persönliche Daten in Issues wichtig?                                                                               & Zum Beispiel in Kommentaren, in der Beschreibung etc.                                         \\
+        \enquote{Schauen Sie sich auch an, von wem ein Kommentar editiert wurde?}                                           & Ja: Was genau? Konkrete Gründe                                                        & Ist Ihnen wichtig die Historie von editierten Beiträgen einsehen zu können?                                                   &                                                                                               \\
+        \enquote{Welche Interessen verfolgen Sie generell bei Zeitstempeln in DevOps-Tools?}                                &                                                                                       & Welche Auswertungen führen Sie durch Zeitstempel in DevOps-Tools durch?                                                       & Kommt bei Ihnen Qualitätssicherung, Leistungsbeurteilung etc. durch Zeitstempel zum Einsatz?  \\
+        \enquote{Welche Auswertungen, die sie selbst nicht machen, können sie sich sonst mit diesen Daten vorstellen?}      & Warum können Sie sich diese vorstellen?                                               & Wie und welche Daten werten Ihre Kollegen aus?                                                                                &                                                                                               \\
+        \enquote{Schauen Sie sich auch Log-Dateien an?}                                                                     & Ja: Was genau? Nein: Alternativen?                                                    & Sind Ihnen persönliche Daten in Log-Dateien wichtig?                                                                          &                                                                                               \\
+        \enquote{Ist es für Sie auch wichtig, wer wann was gemacht hat?}                                                    & Ja: Was genau? Warum?                                                                 & Sind Ihnen Zeitstempel und Benutzernamen in Log-Dateien wichtig?                                                              &                                                                                               \\
+        \enquote{Wissen Sie, wie lange diese Log-Dateien aufbewahrt werden?}                                                & Ja: Wie lange? Warum genau so lange? Nein: Warum nicht? Was stellen Sie sich vor?     &                                                                                                                               & Wie alt war die älteste Log-Datei, die Sie gesehen haben?                                     \\
+        \enquote{Welche Tools verwenden Sie zur Administration?}                                                            & Persönliche Daten relevant in diesen?                                                 &                                                                                                                               &                                                                                               \\
+        \enquote{Haben Sie da die Möglichkeit einzusehen, wer wann was gemacht hat?}                                        & Benutzername? Zeitstempel?                                                            & Haben Sie Einsicht in persönliche Daten in diesen Administrationstools?                                                       &                                                                                               \\
+        \enquote{Warum ist das \enquote{wer} für Sie relevant?}                                                             & Konkrete Gründe                                                                       & Wieso ist Ihnen die Existenz des Benutzernamens wichtig?                                                                      &                                                                                               \\
+        \enquote{Können Sie sich andere Verarbeitungsinteressen vorstellen?}                                                &                                                                                       & Wie schätzen Sie Softwareentwicklungsunternehmen im Allgemeinen in Bezug auf die Datenauswertung und -verarbeitung ein?       &                                                                                               \\
+      \bottomrule
+    \end{tabularx}
+    }
+  \end{table*} 
