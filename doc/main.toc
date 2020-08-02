@@ -35,5 +35,5 @@
 \contentsline {section}{\numberline {A.2}Datenschutzerkl\"arung}{27}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Online-Formular zum Ausf\"ullen \"uber Microsoft Forms}{28}{section.A.3}%
 \contentsline {chapter}{\numberline {B}Interviewleitfaden}{31}{appendix.B}%
-\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.9}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.10}%
+\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.10}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.11}%

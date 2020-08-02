@@ -2239,10 +2239,12 @@
     <bcf:citekey order="54">Doring:2014aa</bcf:citekey>
     <bcf:citekey order="55">Doring:2014aa</bcf:citekey>
     <bcf:citekey order="56">Doring:2014aa</bcf:citekey>
-    <bcf:citekey order="57">Voigt:2015aa</bcf:citekey>
-    <bcf:citekey order="58">Voigt:2015aa</bcf:citekey>
-    <bcf:citekey order="59">IfH:2015aa</bcf:citekey>
-    <bcf:citekey order="60">Bansal:2016aa</bcf:citekey>
+    <bcf:citekey order="57">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="58">Doring:2014aa</bcf:citekey>
+    <bcf:citekey order="59">Voigt:2015aa</bcf:citekey>
+    <bcf:citekey order="60">Voigt:2015aa</bcf:citekey>
+    <bcf:citekey order="61">IfH:2015aa</bcf:citekey>
+    <bcf:citekey order="62">Bansal:2016aa</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

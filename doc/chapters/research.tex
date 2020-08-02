@@ -10,7 +10,7 @@ Besonders wichtig hierbei war es, soweit möglich, unterschiedliche Experten aus
 weswegen diese weiterverwendet und codiert werden konnten. Zwei der insgesamt sieben Interviews wurden während der Analyse durchgeführt, wovon eine persönlich und durch Audio-Aufzeichnung unterstützt und die 
 andere durch ein zu ausfüllendes Online-Formular stattgefunden hat. Ein persönliches Gespräch war aufgrund der COVID-19 Pandemie nicht möglich. Einen Einfluss auf die Ergebnisse sollten diese Unterschiede 
 in der Demographie und die Art der Durchführung jedoch nicht haben. \newline Der Leitfaden wurde vorab vom PSI-Lehrstuhl zur Verfügung gestellt und für diese Analyse weiterverwendet. Dieser ist im Anhang einsehbar 
-(s. Anhang \ref{interview}).
+(vgl. Tabelle \ref{tab:leitfaden}).
 
 \section{Vorbereitung}
 Bevor die Experteninterviews durchgeführt wurden, mussten Vorarbeiten geleistet werden. Zunächst war es wichtig, eine Datenschutzerklärung zu erstellen, welche die zu interviewenden Personen über den Umgang mit
@@ -39,8 +39,7 @@ hierbei war, die Experten indirekt zu fragen, ob diese zunächst Einsicht in per
 \newline \newline
 Die Befragungen fanden im Zeitraum zwischen März und Juli 2020 statt, wobei als spätmöglichster Tag zur Durchführung einer Befragung als der 15. Juli 2020 festgelegt wurde. Diese dauerten im Durchschnitt zehn Minuten. 
 Im Anschluss erfolgte eine Transkription der Interviews. Dieses Prinzip wird auch die \enquote{fallbezogene Auswertung} \cite{Doring:2014aa} genannt - hierbei wird das qualitative Datenmaterial sequenziell, also von Anfang bis
-Ende, nach Fällen ausgewertet und im Anschluss kodiert \cite{Doring:2014aa}.
-
+Ende, nach Fällen ausgewertet und im Anschluss kodiert \cite{Doring:2014aa}. \newline \newline
 Hierzu wurden die Aufnahmen wiederholt und die Fragestellungen mit den entsprechenden Antworten mittels einer Markdown-Datei festgehalten. Dieses Vorgehen wurde bei der Befragung in Form einer Umfrage redundant, da dieses als 
 PDF-Dokument exportiert und weiterverwendet werden konnte. Zur fristgerechten Fertigstellung der Analyse und der gleichzeitigen Behinderung durch die COVID-19 Pandemie wurde sich nach Absprache mit der Leitung des PSI-Lehrstuhls darauf geeinigt, 
 die Anzahl der Befragungen auf sieben zu limitieren.
@@ -62,5 +61,24 @@ die Anzahl der Befragungen auf sieben zu limitieren.
 \section{Kodierung der Ergebnisse}
 Zur Kodierung der Transkriptionen aus den Befragungen wurden die Methoden nach Döring und Bortz gewählt: Den Textstellen (entspricht einem Teil des qualitativen Datenmaterials) aus den Ergebnissen wurden hierbei 
 Codes zugewiesen, welcher eine Zusammenfassung bzw. eine Erklärung dieser darstellt \cite{Doring:2014aa} (vgl. Tabelle \ref{tab:coding}) - dieses Vorgehen stellt die Vorgehensweise der deskriptiven Kodierung dar, mit
-dessen Hilfe ähnliche Aussagen zusammengefasst werden können. Zum Schluss werden diese Codes noch ihren entsprechen, zugehörigen Kategorien, welche im weiteren Verlauf dieser Analyse die jeweiligen Sichtweisen der einzelnen
+dessen Hilfe ähnliche Aussagen zusammengefasst werden können. \newline Zum Schluss werden diese Codes noch ihren entsprechen, zugehörigen Kategorien, welche im weiteren Verlauf dieser Analyse die jeweiligen Sichtweisen der einzelnen
 Stakeholder auf die Privatsphäre darstellen, zugeteilt, um eine allgemeine Abgrenzung zwischen diesen gewährleisten zu können.
+\begin{table*}[t]
+    \caption{Repräsentatives Codierungs- und Kategorisierungsbeispiel der erhobenen Daten (in Anlehnung an Döring und Bortz \cite{Doring:2014aa})}
+    \label{tab:coding}
+    \centering
+    \small % use smaller fontsize in the table
+    {\renewcommand{\arraystretch}{1.3} % increase vertical space between rows
+    \begin{tabularx}{\linewidth}{@{}lcXlcc@{}} % @{} omits outer horizontal margins, the "X" column uses up all remaining available space 
+      \toprule
+      Textstelle & Code & Kategorie \\
+      \midrule
+        \enquote{Mich interessiert nicht, wer den Build zerstört hat.}                  & Desinteresse                  & Persönliche Daten in DevOps-Tools             \\
+        \enquote{Mir ist es wichtig, dass mein Team nicht nur im Chat rumhängt.}        & Nutzeraktivität               & Persönliche Daten in Administrationstools     \\
+        \enquote{Ich nutze Slack nur wegen seiner Emojis.}                              & Desinteresse                  & Nutzung von Tools zur Administration          \\
+        \enquote{Mir ist es eigentlich relativ egal, wann jemand committed hat.}        & Desinteresse                  & Persönliche Daten in DevOps-Tools             \\
+        \enquote{Es steht auch drin, von wem Commits gemacht wurden.}                   & Benutzername                  & Persönliche Daten in DevOps-Tools             \\
+      \bottomrule
+    \end{tabularx}
+    }
+  \end{table*}

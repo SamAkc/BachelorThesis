@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  2 AUG 2020 19:16
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  2 AUG 2020 21:09
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -1725,11 +1725,12 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 35.
 Package biblatex Info: Reference segment=0 on input line 35.
- ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box130
 Package hyperref Info: Link coloring OFF on input line 35.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1962,6 +1963,43 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
  []
 
 
+LaTeX Warning: Citation 'Apple:2020aa' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'Bundeskriminalamt:2018aa' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'GDB:18' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'GDB:17' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'GD:2020aa' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'GDB:17' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'GfK:2016aa' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Bundesamt:2019aa' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Bundesamt:2019aa' on page 1 undefined on input line 11.
+
+
+Overfull \hbox (5.07619pt too wide) in paragraph at lines 5--11
+\TU/Cochineal(0)/m/n/10.95 va-te Haus-hal-te und Per-so-nen ab 󰀎󰀍 Jah-ren bei 󰀔󰀕% lag [[]],
+ []
+
+
+Overfull \hbox (9.40681pt too wide) in paragraph at lines 5--11
+\TU/Cochineal(0)/m/n/10.95 ist die-se In-ter-net-nut-zung 󰀏󰀍󰀎󰀖 bis auf 󰀕󰀕% an-ge-stie-gen [[]].
+ []
+
+
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1969,7 +2007,20 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [1
 
 
-]) (./chapters/background.tex
+]
+
+LaTeX Warning: Citation 'Bitkom:2018aa' on page 2 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Hatke:aa' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'Payback:2019aa' on page 2 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Barnes:2006aa' on page 2 undefined on input line 16.
+
+) (./chapters/background.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--2
 
  []
@@ -1984,6 +2035,18 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
  []
 
 
+LaTeX Warning: Citation 'Stallwood:2013aa' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Picchi:2018aa' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Pettinger:2020aa' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'Miller:2000aa' on page 3 undefined on input line 20.
+
+
 Overfull \hbox (18.78993pt too wide) in paragraph at lines 11--23
 \TU/Cochineal(0)/m/n/10.95 Die Pri-vat-sphä-re lässt sich er-klä-ren als ei-nen ein-ge-grenz-ten, nicht-öffentlichen
  []
@@ -1996,8 +2059,24 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [3
 
 
-] [4]
-<./figures/../figures/stakeholder.png, id=286, 1624.0675pt x 485.815pt>
+]
+
+LaTeX Warning: Citation 'Miller:2000aa' on page 4 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'Miller:2000aa' on page 4 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'Federrath:2020aa' on page 4 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Federrath:2020aa' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'Research:2015aa' on page 4 undefined on input line 33.
+
+[4]
+<./figures/../figures/stakeholder.png, id=244, 1624.0675pt x 485.815pt>
 File: ./figures/../figures/stakeholder.png Graphic file (type png)
 <use ./figures/../figures/stakeholder.png>
 Package luatex.def Info: ./figures/../figures/stakeholder.png  used on input line 36.
@@ -2018,24 +2097,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 36.
 Package marginnote Info: xpos seems to be 70.56284pt on input line 36.
 
+LaTeX Warning: Citation 'Fleig:2016aa' on page 5 undefined on input line 39.
+
+
+LaTeX Warning: Citation 'Fleig:2016aa' on page 5 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Seyfriedt:2018aa' on page 5 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'Seyfriedt:2018aa' on page 5 undefined on input line 41.
+
+
+Overfull \hbox (12.52283pt too wide) in paragraph at lines 37--44
+\TU/Cochineal(0)/m/n/10.95 ti-on un-ter Zu-sam-men-schluss ver-schie-de-ner Sta-ke-hol-der [[]].
+ []
+
+
+LaTeX Warning: Citation 'MSAzure:2020aa' on page 5 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'MSAzure:2020aa' on page 5 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'Hasselbring:2015aa' on page 5 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'MSAzure:2020aa' on page 5 undefined on input line 49.
+
+
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
 
 [5<./figures/../figures/stakeholder.png>]
-<./figures/../figures/pipeline.png, id=310, 795.97375pt x 162.6075pt>
+<./figures/../figures/pipeline.png, id=254, 795.97375pt x 162.6075pt>
 File: ./figures/../figures/pipeline.png Graphic file (type png)
 <use ./figures/../figures/pipeline.png>
 Package luatex.def Info: ./figures/../figures/pipeline.png  used on input line 52.
 (luatex.def)             Requested size: 140.5566pt x 28.7123pt.
+
+
+LaTeX Warning: Citation 'RedHat:2020aa' on page 6 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'RedHat:2020aa' on page 6 undefined on input line 52.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\TU/Roboto-Regular.otf(0)/b/n/8 Ab-bil-dung 2.2: |[][][][]\TU/Roboto-Regular.otf(0)/m/n/8 Die CI-/CD-Pipeline
+ []
+
 Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line 52.
 Package marginnote Info: xpos seems to be 222.50056pt on input line 52.
- [6<./figures/../figures/pipeline.png>]
-<./figures/../figures/ohloh.png, id=339, 996.72375pt x 943.525pt>
+
+LaTeX Warning: Citation 'HJL:2018aa' on page 6 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'HJL:2018aa' on page 6 undefined on input line 55.
+
+
+LaTeX Warning: Citation 'Dirk:2018aa' on page 6 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'HJL:2018aa' on page 6 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'Peters:2015aa' on page 6 undefined on input line 58.
+
+
+LaTeX Warning: Citation 'Dirk:2018aa' on page 6 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'HJL:2018aa' on page 6 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'Dirk:2018aa' on page 6 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'HJL:2018aa' on page 6 undefined on input line 61.
+
+
+LaTeX Warning: Citation 'Ilanrr:2017aa' on page 6 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Ilanrr:2017aa' on page 6 undefined on input line 66.
+
+[6<./figures/../figures/pipeline.png>]
+
+LaTeX Warning: Citation 'RedHat:2020aa' on page 7 undefined on input line 69.
+
+
+LaTeX Warning: Citation 'RedHat:2020aa' on page 7 undefined on input line 70.
+
+<./figures/../figures/ohloh.png, id=262, 996.72375pt x 943.525pt>
 File: ./figures/../figures/ohloh.png Graphic file (type png)
 <use ./figures/../figures/ohloh.png>
 Package luatex.def Info: ./figures/../figures/ohloh.png  used on input line 72.
 (luatex.def)             Requested size: 140.5566pt x 133.0428pt.
+
+LaTeX Warning: Citation 'Hub:2020aa' on page 7 undefined on input line 72.
+
+
+LaTeX Warning: Citation 'Hub:2020aa' on page 7 undefined on input line 72.
+
 
 Underfull \hbox (badness 2119) in paragraph at lines 72--72
 []\TU/Roboto-Regular.otf(0)/b/n/8 Ab-bil-dung 2.3: |[][][][]\TU/Roboto-Regular.otf(0)/m/n/8 Versionsverwaltungs-Tools im
@@ -2044,9 +2209,27 @@ Underfull \hbox (badness 2119) in paragraph at lines 72--72
 Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 72.
 Package marginnote Info: xpos seems to be 70.56284pt on input line 72.
 
+LaTeX Warning: Citation 'Scott-Chacon:2020aa' on page 7 undefined on input line 77.
+
+
+LaTeX Warning: Citation 'Inc.:2020aa' on page 7 undefined on input line 78.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 74--79
 
  []
+
+
+LaTeX Warning: Citation 'Git:2020aa' on page 7 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'Scott-Chacon:2020aa' on page 7 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'Scott-Chacon:2020aa' on page 7 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'Scott-Chacon:2020aa' on page 7 undefined on input line 83.
 
 
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
@@ -2054,7 +2237,10 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
  []
 
 [7<./figures/../figures/ohloh.png>]
-<./figures/../figures/git.png, id=364, 294.09875pt x 427.5975pt>
+
+LaTeX Warning: Citation 'Collins-Sussman:2004aa' on page 8 undefined on input line 86.
+
+<./figures/../figures/git.png, id=274, 294.09875pt x 427.5975pt>
 File: ./figures/../figures/git.png Graphic file (type png)
 <use ./figures/../figures/git.png>
 Package luatex.def Info: ./figures/../figures/git.png  used on input line 88.
@@ -2070,13 +2256,16 @@ Underfull \hbox (badness 2111) in paragraph at lines 88--88
  []
 
 Package marginnote Info: Margin note 14.1 is on absolute page 14 on input line 88.
-Package marginnote Info: xpos seems to be 503.57605pt on input line 88.
+Package marginnote Info: xpos seems to be 222.50056pt on input line 88.
 ) (./chapters/research.tex [8<./figures/../figures/git.png>]
 Kapitel 3.
 
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
  []
+
+
+LaTeX Warning: Reference `tab:leitfaden' on page 9 undefined on input line 13.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--14
@@ -2102,32 +2291,47 @@ Overfull \hbox (14.29152pt too wide) in paragraph at lines 28--28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--43
-
- []
+LaTeX Warning: Citation 'Doring:2014aa' on page 10 undefined on input line 41.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--43
+LaTeX Warning: Citation 'Doring:2014aa' on page 10 undefined on input line 42.
 
- []
 
-[10]
-Overfull \hbox (78.06448pt too wide) in paragraph at lines 51--60
+Overfull \hbox (78.06448pt too wide) in paragraph at lines 50--59
  [][] 
  []
 
 
-LaTeX Warning: Reference `tab:coding' on page 11 undefined on input line 64.
+Underfull \hbox (badness 10000) in paragraph at lines 29--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--60
+
+ []
+
+[10]
+
+LaTeX Warning: Citation 'Doring:2014aa' on page 11 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'Doring:2014aa' on page 11 undefined on input line 67.
+
+
+LaTeX Warning: Citation 'Doring:2014aa' on page 11 undefined on input line 67.
 
 ) (./chapters/results.tex
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
 
-[11] [12
-
-
-]
+[11] [12]
 Kapitel 4.
 
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
@@ -2139,11 +2343,27 @@ Overfull \hbox (6.10355pt too wide) in paragraph at lines 13--13
 |[][]\TU/Cochineal(1)/b/n/12 Ka-te-go-rien mit ei-ner Prä-fe-renz für die Be-nut-zer-freund-
  []
 
-<./figures/../figures/auswertung.png, id=409, 336.25626pt x 462.72874pt>
+<./figures/../figures/auswertung.png, id=315, 336.25626pt x 462.72874pt>
 File: ./figures/../figures/auswertung.png Graphic file (type png)
 <use ./figures/../figures/auswertung.png>
 Package luatex.def Info: ./figures/../figures/auswertung.png  used on input line 26.
 (luatex.def)             Requested size: 140.5566pt x 193.4198pt.
+
+LaTeX Warning: Citation 'Voigt:2015aa' on page 13 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'Voigt:2015aa' on page 13 undefined on input line 26.
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 26--26
+[]\TU/Roboto-Regular.otf(0)/b/n/8 Ab-bil-dung 4.1: |[][][][]\TU/Roboto-Regular.otf(0)/m/n/8 Bei-spiel-haf-te Aus-wer-tung von
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 26--26
+\TU/Roboto-Regular.otf(0)/m/n/8 Tä-tig-kei-ten in ei-nem agi-len Soft-ware-pro-jekt
+ []
+
 Package marginnote Info: Margin note 19.1 is on absolute page 20 on input line 26.
 Package marginnote Info: xpos seems to be 222.50056pt on input line 26.
 
@@ -2195,7 +2415,10 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
 
-[13] [14<./figures/../figures/auswertung.png>]
+[13
+
+
+] [14<./figures/../figures/auswertung.png>]
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
@@ -2244,6 +2467,12 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.2'
+
+LaTeX Warning: Citation 'IfH:2015aa' on page 21 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Bansal:2016aa' on page 21 undefined on input line 18.
+
 
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
@@ -2398,20 +2627,35 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 
 
 
-] [33] [34] [35
-
-
 ]
+
+LaTeX Warning: Empty bibliography on input line 127.
+
+[33] [34
+
+
+] [35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./main.aux (./misc/titlepage.aux) (./main.tex.aux) (./appendices/appendixA.aux) (./appendices/appendixB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D71A57DB90005A3D966245302BF4D0F;6779.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 9C19C4034AFA3DBC818DDFCE7B62344C;6780
+(rerunfilecheck)             After:  445CDCB9C8E93F740AB78FBF1D39B21F;6780.
 
 LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 
@@ -2419,19 +2663,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51247 strings out of 480992
+ 51027 strings out of 480992
  195592,1977958 words of node,token memory allocated
- 6155 words of node memory still in use:
-   48 hlist, 14 vlist, 10 rule, 31 disc, 5 local_par, 8 math, 151 glue, 14 kern, 59 penalty, 7 margin_kern, 321 glyph, 189 attribute, 101 glue_spec, 120 attribute_list, 2 write, 16 pdf_literal, 4 pdf_start_link, 4 pdf_end_link, 25 pdf_action, 16 pdf_colorstack nodes
-   avail lists: 1:11,2:2627,3:3064,4:302,5:1917,6:122,7:18174,8:181,9:496,10:52,11:2093
- 66432 multiletter control sequences out of 65536+600000
- 435 fonts using 44760227 bytes
+ 5910 words of node memory still in use:
+   48 hlist, 14 vlist, 10 rule, 31 disc, 5 local_par, 8 math, 151 glue, 14 kern, 59 penalty, 7 margin_kern, 321 glyph, 149 attribute, 100 glue_spec, 100 attribute_list, 2 write, 16 pdf_literal, 4 pdf_start_link, 4 pdf_end_link, 5 pdf_action, 16 pdf_colorstack nodes
+   avail lists: 1:12,2:1007,3:289,4:164,5:1916,6:75,7:18166,8:48,9:425,10:17,11:2093
+ 66250 multiletter control sequences out of 65536+600000
+ 438 fonts using 45512571 bytes
  76i,18n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
-<./fonts/Roboto-Regular.otf><./fonts/Roboto-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main.pdf (41 pages, 1355697 bytes).
 
-PDF statistics: 701 PDF objects out of 1000 (max. 8388607)
- 604 compressed objects within 7 object streams
- 143 named destinations out of 1000 (max. 131072)
+warning  (pdf backend): unreferenced destination with name 'appendix*.12'
+<./fonts/Roboto-Regular.otf><./fonts/Roboto-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
+Output written on main.pdf (41 pages, 1335577 bytes).
+
+PDF statistics: 500 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 131072)
  432 words of extra memory for PDF output out of 10000 (max. 100000000)
 
