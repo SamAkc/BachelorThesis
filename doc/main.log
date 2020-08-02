@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  1 AUG 2020 00:44
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.7.5)  2 AUG 2020 15:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/samet/git/BachelorThesis/doc/main
@@ -1890,7 +1890,7 @@ Package fontspec Info: Font family 'Cochineal(2)' created for font 'Cochineal'
 (fontspec)             <->"Cochineal/BI:mode=node;script=latn;language=dflt;+tlig;+swsh;+tnum;+lnum;+smcp;"
 
 LaTeX Font Info:    Font shape `TU/Cochineal(0)/m/sl' in size <10.95> not available
-(Font)              Font shape `TU/Cochineal(0)/m/it' tried instead on input line 54.
+(Font)              Font shape `TU/Cochineal(0)/m/it' tried instead on input line 57.
 
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
@@ -1961,11 +1961,6 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
  []
 
-) (./chapters/background.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--2
-
- []
-
 
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
@@ -1974,11 +1969,23 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [1
 
 
-] [2]
+]) (./chapters/background.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--2
+
+ []
+
+[2
+
+]
 Kapitel 2.
 
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
 |[][]| 
+ []
+
+
+Overfull \hbox (18.78993pt too wide) in paragraph at lines 11--23
+\TU/Cochineal(0)/m/n/10.95 Die Pri-vat-sphä-re lässt sich er-klä-ren als ei-nen ein-ge-grenz-ten, nicht-öffentlichen
  []
 
 
@@ -1990,71 +1997,87 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 
 
 ] [4]
-<./figures/pipeline.png, id=304, 795.97375pt x 162.6075pt>
-File: ./figures/pipeline.png Graphic file (type png)
-<use ./figures/pipeline.png>
-Package luatex.def Info: ./figures/pipeline.png  used on input line 60.
-(luatex.def)             Requested size: 196.77837pt x 40.19771pt.
+<./figures/stakeholder.png, id=286, 1624.0675pt x 485.815pt>
+File: ./figures/stakeholder.png Graphic file (type png)
+<use ./figures/stakeholder.png>
+Package luatex.def Info: ./figures/stakeholder.png  used on input line 37.
+(luatex.def)             Requested size: 196.77837pt x 58.85866pt.
 
-Overfull \hbox (56.22177pt too wide) in paragraph at lines 60--61
+Overfull \hbox (56.22177pt too wide) in paragraph at lines 37--38
 [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/Roboto-Regular.otf(0)/m/n' will be
-(Font)              scaled to size 6.64001pt on input line 61.
+(Font)              scaled to size 6.64001pt on input line 38.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-Regular.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/Roboto-Regular.otf(0)/b/n' will be
-(Font)              scaled to size 6.64001pt on input line 61.
-Package marginnote Info: Margin note 11.1 is on absolute page 12 on input line 62.
-Package marginnote Info: xpos seems to be 467.6491pt on input line 62.
+(Font)              scaled to size 6.64001pt on input line 38.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\TU/Roboto-Regular.otf(0)/b/n/8 Ab-bil-dung 2.1: |\TU/Roboto-Regular.otf(0)/m/n/8 Bei-spiel-haf-te Stakeholder-
+ []
+
+Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 39.
+Package marginnote Info: xpos seems to be 70.56284pt on input line 39.
 
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
 
-[5]
-Overfull \hbox (3.47896pt too wide) in paragraph at lines 65--68
-\TU/Cochineal(0)/m/n/10.95 lungs-zy-klen und [ei-ne] schnel-le Aus-lie-fe-rung von Software-Updates [durch
+[5<./figures/stakeholder.png>]
+<./figures/pipeline.png, id=319, 795.97375pt x 162.6075pt>
+File: ./figures/pipeline.png Graphic file (type png)
+<use ./figures/pipeline.png>
+Package luatex.def Info: ./figures/pipeline.png  used on input line 65.
+(luatex.def)             Requested size: 196.77837pt x 40.19771pt.
+
+Overfull \hbox (56.22177pt too wide) in paragraph at lines 65--66
+[][] 
  []
 
+Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line 67.
+Package marginnote Info: xpos seems to be 526.90833pt on input line 67.
 [6<./figures/pipeline.png>]
-<./figures/ohloh.png, id=334, 996.72375pt x 943.525pt>
+<./figures/ohloh.png, id=339, 996.72375pt x 943.525pt>
 File: ./figures/ohloh.png Graphic file (type png)
 <use ./figures/ohloh.png>
-Package luatex.def Info: ./figures/ohloh.png  used on input line 74.
+Package luatex.def Info: ./figures/ohloh.png  used on input line 79.
 (luatex.def)             Requested size: 154.6131pt x 146.36003pt.
 
-Overfull \hbox (14.0565pt too wide) in paragraph at lines 74--75
+Overfull \hbox (14.0565pt too wide) in paragraph at lines 79--80
 [][] 
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 75--75
-[]\TU/Roboto-Regular.otf(0)/b/n/8 Ab-bil-dung 2.2: |[][]\TU/Roboto-Regular.otf(0)/m/n/8 Versionsverwaltungs-Tools im
+Underfull \hbox (badness 2119) in paragraph at lines 80--80
+[]\TU/Roboto-Regular.otf(0)/b/n/8 Ab-bil-dung 2.3: |[][]\TU/Roboto-Regular.otf(0)/m/n/8 Versionsverwaltungs-Tools im
  []
 
-<./figures/git.png, id=344, 294.09875pt x 427.5975pt>
-File: ./figures/git.png Graphic file (type png)
-<use ./figures/git.png>
-Package luatex.def Info: ./figures/git.png  used on input line 89.
-(luatex.def)             Requested size: 154.6131pt x 224.7987pt.
 
-Overfull \hbox (14.0565pt too wide) in paragraph at lines 89--90
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 83--89
+
  []
 
-) (./chapters/research.tex
+
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][][] 
  []
 
-[7<./figures/ohloh.png><./figures/git.png>] [8
+[7<./figures/ohloh.png>]
+<./figures/git.png, id=361, 294.09875pt x 427.5975pt>
+File: ./figures/git.png Graphic file (type png)
+<use ./figures/git.png>
+Package luatex.def Info: ./figures/git.png  used on input line 98.
+(luatex.def)             Requested size: 154.6131pt x 224.7987pt.
 
+Overfull \hbox (14.0565pt too wide) in paragraph at lines 98--99
+[][] 
+ []
 
-]
+) (./chapters/research.tex [8<./figures/git.png>]
 Kapitel 3.
 
 Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
@@ -2076,7 +2099,10 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
 
-[9]
+[9
+
+
+]
 Overfull \hbox (14.29152pt too wide) in paragraph at lines 27--27
 |[][]\TU/Cochineal(1)/b/n/12 Durch-füh-rung und Tran-skrip-ti-on der Ex-per-ten-in-ter-views[]| 
  []
@@ -2122,6 +2148,10 @@ Overfull \hbox (6.10355pt too wide) in paragraph at lines 14--14
 |[][]\TU/Cochineal(1)/b/n/12 Ka-te-go-rien mit ei-ner Prä-fe-renz für die Be-nut-zer-freund-
  []
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.2'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.3'
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--66
 
@@ -2245,6 +2275,11 @@ Overfull \hbox (14.55125pt too wide) in paragraph at lines 2--2
  []
 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 5--96
+
+ []
+
+
 Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 [][] 
  []
@@ -2373,22 +2408,29 @@ Overfull \hbox (163.88783pt too wide) has occurred while \output is active
 ]
 
 Package biblatex Warning: No driver for entry type ''.
-(biblatex)                Using fallback driver on input line 124.
+(biblatex)                Using fallback driver on input line 127.
 
 [33] [34] [35
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./main.aux (./misc/titlepage.aux) (./main.tex.aux) (./appendices/appendixA.aux) (./appendices/appendixB.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1909E048F24FF738076F3E2ED7D93158;6778.
+(rerunfilecheck)             Checksum: 2C1C87803594EB950A3B9D0421A0325D;6778.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 
@@ -2396,19 +2438,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51144 strings out of 480992
+ 51171 strings out of 480992
  195592,1977958 words of node,token memory allocated
- 8937 words of node memory still in use:
-   68 hlist, 18 vlist, 22 rule, 86 disc, 11 local_par, 4 math, 110 glue, 46 kern, 32 penalty, 14 margin_kern, 590 glyph, 231 attribute, 101 glue_spec, 141 attribute_list, 8 write, 16 pdf_literal, 2 pdf_dest, 21 pdf_action, 24 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:13,2:2611,3:2298,4:231,5:1875,6:111,7:18483,8:178,9:386,10:52,11:2070
- 66376 multiletter control sequences out of 65536+600000
- 410 fonts using 42783827 bytes
+ 10000 words of node memory still in use:
+   76 hlist, 22 vlist, 22 rule, 86 disc, 13 local_par, 8 math, 161 glue, 46 kern, 55 penalty, 15 margin_kern, 639 glyph, 267 attribute, 101 glue_spec, 159 attribute_list, 8 write, 16 pdf_literal, 2 pdf_start_link, 2 pdf_end_link, 2 pdf_dest, 23 pdf_action, 24 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 1:14,2:2377,3:1706,4:165,5:1883,6:75,7:18492,8:167,9:377,10:52,11:2070
+ 66372 multiletter control sequences out of 65536+600000
+ 435 fonts using 44760227 bytes
  76i,18n,121p,1224b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/Roboto-Regular.otf><./fonts/Roboto-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/cochineal/Cochineal-Roman.otf></usr/local/texlive/2020/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
-Output written on main.pdf (41 pages, 613314 bytes).
+Output written on main.pdf (41 pages, 1103333 bytes).
 
-PDF statistics: 675 PDF objects out of 1000 (max. 8388607)
- 586 compressed objects within 6 object streams
- 139 named destinations out of 1000 (max. 131072)
+PDF statistics: 648 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 140 named destinations out of 1000 (max. 131072)
  432 words of extra memory for PDF output out of 10000 (max. 100000000)
 

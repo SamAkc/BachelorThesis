@@ -8,12 +8,12 @@
 \contentsline {section}{\numberline {2.2}Pers\"onliche Daten am Arbeitsplatz}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Stakeholder}{5}{section.2.3}%
 \contentsline {section}{\numberline {2.4}DevOps}{5}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Continuous Integration}{5}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Continuous Delivery}{6}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Continuous Deployment}{6}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.1}Continuous Integration}{6}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Continuous Delivery}{7}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Continuous Deployment}{7}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Versionsverwaltung}{7}{subsection.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.4.4.1}Git}{7}{subsubsection.2.4.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.4.2}Subversion}{7}{subsubsection.2.4.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.4.1}Git}{8}{subsubsection.2.4.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.4.2}Subversion}{8}{subsubsection.2.4.4.2}%
 \contentsline {chapter}{\numberline {3}Forschungsmethode}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Vorbereitung}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Durchf\"uhrung und Transkription der Experteninterviews}{10}{section.3.2}%
@@ -35,5 +35,5 @@
 \contentsline {section}{\numberline {A.2}Datenschutzerkl\"arung}{27}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Online-Formular zum Ausf\"ullen \"uber Microsoft Forms}{28}{section.A.3}%
 \contentsline {chapter}{\numberline {B}Interviewleitfaden}{31}{appendix.B}%
-\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.7}%
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.8}%
+\contentsline {chapter}{Literaturverzeichnis}{33}{appendix*.8}%
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{35}{appendix*.9}%
